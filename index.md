@@ -14,7 +14,7 @@ The Manhattan project is a chance to look simultaneously at the almost unbelieva
 
 ### Term 4 &mdash; Fundamental Physics and Atomic Technology
 
-I. Physics of Nuclear Fission
+I. The Atom, and Basic Physics for Nuclear Fission
 
 II. Discovery of Radioactivity
 
@@ -24,23 +24,23 @@ IV. Possibility of a Fission Bomb (A-Bomb)
 
 V. The Race to Develop the Atomic Bomb
 
-VI. Assembly of the Manhattan Project Scientists Creation and Refinement of Fissile Isotopes
+VI. Assembly of the Manhattan Project Scientists
+
+VII. Creation and Refinement of Fissile Isotopes
 
 ### Term 5 &mdash; Weapons Design and the Arms Race
 
-VII. Gun and Implosion Designs for Criticality
+VIII. Gun and Implosion Designs for Criticality
 
-VIII. Technology to Deliver a Bomb
+IX. Technology to Deliver a Bomb
 
-IX. Trinity, Little Boy, and Fat Man
+X. The First Three Atomic Bombs: Trinity, Little Boy, and Fat Man
 
-X. The Destruction of Hiroshima and Nagasaki
+XI. The Destruction of Hiroshima and Nagasaki
 
-XI. The Fusion Bomb (H-Bomb)
+XII. The Fusion Bomb (H-Bomb)
 
-XII. The Arms Race
-
-XIII .The Beginning of the Cold War
+XIII. The Arms Race and The Beginning of the Cold War
 
 XIV. Mutually Assured Destruction and Arms Control
 
