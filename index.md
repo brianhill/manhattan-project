@@ -4,7 +4,7 @@ Spring 2023, Deep Springs College, Prof. [Brian Hill](../index.html)
 
 ## Syllabus
 
-* Forthcoming (will essentially be a PDF of the same information as is on these web pages)
+* [Syllabus - Not Finalized](./ManhattanProjectSyllabus-Preliminary.pdf) (a PDF with the same information as is on this web page)
 
 ## Overview
 
