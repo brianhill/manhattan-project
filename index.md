@@ -53,12 +53,13 @@ Detailed daily schedules will be kept retrospectively:
 
 ## Primary Text (required)
 
-* Bruce Cameron Reed: [The History and Science of the Manhattan Project, 2nd Edition, 2019](https://www.amazon.com/dp/3662581744).
+* [The History and Science of the Manhattan Project, 2nd Edition, 2019](https://www.amazon.com/dp/3662581744), by Bruce Cameron Reed
 
-## Other Resources (that we will draw from)
+## Other Resources
 
-* Robert Serber: The Los Alamos Primer. This is the physics of the atomic bomb as it was presented to scientists as they arrived in Los Alamos in the early 1940s.
-* Additional resources forthcoming.
+* Robert Serber: *The Los Alamos Primer* &mdash; The physics of the atomic bomb as it was presented to scientists as they arrived in Los Alamos in the early 1940s &mdash; Advanced (something I look at occasionally)
+* "Eyewitness Accounts of the Bombings of Hiroshima and Nagasaki," by Meilan Solly
+* Christoper Nolan film, *Oppenheimer,* Universal Pictures, not expected until July, 2023
 
 ## Grading
 
@@ -68,11 +69,11 @@ Detailed daily schedules will be kept retrospectively:
 
 ## Miscellaneous Policies
 
-There will be a lot of handouts. Get a three-ring binder to keep all the handouts and problem sets organized. Assignments should be on 8 1/2 x 11 paper (and not torn out from a bound notebook). Multi-page assignments should be stapled. Corrections should be erased (if done in pencil) or recopied (if done in pen).
+There will be a lot of handouts. Get a three-ring binder to keep all the handouts and problem sets organized. Assignments should be on 8 1/2 x 11 paper (and not torn out from a bound notebook). Multi-page assignments should be stapled. Corrections should be erased (if done in pencil) or recopied (if done in pen). To make nice diagrams and graphs, you will often need a ruler.
 
 The College's general policies on absences and late work are applicable. There was an email from the Dean on this September 8, 2022. The
 policies below are consistent with that email:
 
 Whereas missed coursework affects both your classmates and professors by lowering the thinking and understanding you bring to a given class, and interrupts the course schedule that has been set up and is adjusted on an ongoing basis with substantial care. The same is true for absences &mdash; whereas a handful of absences might be &ldquo;normal&rdquo; at colleges with large lectures or less serious academics, at Deep Springs we expect students to miss *no classes* save for legitimate health issues or emergencies requiring also missing labor and governance obligations.
 
-For a student wishing to submit a course assignment past its required deadline, the student may request an extension on the assignment directly from the professor 48 hours in advance. Within 48 hours of the due date, the student must request an extension directly from the Dean. Exceptions will be granted by the Dean only if the student faces unforeseen and unforeseeable circumstances. A student who misses the deadline will be penalized a number of points that is roughly equivalent to a whole letter grade for each 24-hour period the assignment is late. Assignments cannot be turned in after solutions and graded assignments have been passed back, which generally happens 1-2 classes after they were turned in.
+For a student wishing to submit a course assignment past its required deadline, the student may request an extension on the assignment directly from the professor 48 hours in advance. Within 48 hours of the due date, the student must request an extension directly from the Dean. Exceptions will be granted by the Dean only if the student faces unforeseen and unforeseeable circumstances. A student who misses the deadline will be penalized an amount that is roughly equivalent to a letter grade for each day the assignment is late. Assignments cannot be turned in after solutions and graded assignments have been passed back, which generally happens one to two classes after they were turned in.

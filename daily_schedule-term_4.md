@@ -2,16 +2,37 @@
 
 Course [home page](./)
 
-### Week 1 (Jan. 8-14)
+### Week 1
 
-### Week 2 (Jan 15-21)
+* Preparation for Tuesday, Jan. 10 &mdash; Preface and Chapter 1 (Overview) from [The History and Science of the Manhattan Project, 2nd Edition, 2019](https://www.amazon.com/dp/3662581744), by Bruce Cameron Reed
+* Friday, Jan. 13
 
-### Week 3 (Jan. 22-28)
+### Week 2
 
-### Week 4 (Jan 29-Feb. 4)
+* Tuesday, Jan. 17
+* Friday, Jan. 20
 
-### Week 5 (Feb. 5-11)
+### Week 3
 
-### Week 6 (Feb. 12-18)
+* Tuesday, Jan. 24
+* Friday, Jan. 27
 
-### Week 7 (Feb. 19-25)
+### Week 4
+
+* Tuesday, Jan. 31
+* Friday, Feb. 3
+
+### Week 5
+
+* Tuesday, Feb. 7
+* Friday, Feb. 10
+
+### Week 6
+
+* Tuesday, Feb. 14
+* Friday, Feb. 17
+
+### Week 7
+
+* Tuesday, Feb. 21
+* Friday, Feb. 24 &mdash; No class (due to Shakespeare week)
