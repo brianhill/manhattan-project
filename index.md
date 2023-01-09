@@ -51,21 +51,21 @@ Detailed daily schedules will be kept retrospectively:
 * [Daily Schedule Term 4](./daily_schedule-term_4.html)
 * [Daily Schedule Term 5](./daily_schedule-term_5.html)
 
-## Primary Text (required)
+## Primary Text (2nd Edition, 2019, Required)
 
-* [The History and Science of the Manhattan Project, 2nd Edition, 2019](https://www.amazon.com/dp/3662581744), by Bruce Cameron Reed
+* *The History and Science of the Manhattan Project, 2nd Edition,* 2019 by Bruce Cameron Reed on [Amazon](https://www.amazon.com/dp/3662581744) or [AbeBooks](https://www.abebooks.com/9783662581742/History-Science-Manhattan-Project-Undergraduate-3662581744/plp), by Bruce Cameron Reed
 
 ## Other Resources
 
 * Robert Serber: *The Los Alamos Primer* &mdash; The physics of the atomic bomb as it was presented to scientists as they arrived in Los Alamos in the early 1940s &mdash; Advanced (something I look at occasionally)
 * "Eyewitness Accounts of the Bombings of Hiroshima and Nagasaki," by Meilan Solly
-* Christoper Nolan film, *Oppenheimer,* Universal Pictures, not expected until July, 2023
+* By popular request, *Oppenheimer,* Universal Pictures, but not expected until July, 2023! Maybe The Watchmen or Dr. Strangelove instead?
 
 ## Grading
 
 * A one-hour exam covering the science toward the end of each term, worth 20% of the grade (x2 for the two terms). Homework problems on the science, 40%. A paper 1500-1800 words on a topic of your choice at the end of the second term, 10%. Consistent preparation for and participation in class discussion, 10%.
 * Regarding the two exams: since we will cover a very wide variety of scientific topics, and as a result, it may not be clear what you might be expected to do on an exam, a practice exam will be provided. Problems on the actual exam will cover the same topics at approximately the same difficulty level. However, the actual problems will require you to come at some of the concepts from new directions.
-* Regarding the paper: share a draft for peer-editing (post-outlining method). Final draft to be circulated to peers and professor. Read all of the each others' papers as the final reading. During the final week, present paper and respond to questions.
+* Regarding the paper: share a draft for peer-editing (post-outlining method). Final draft to be circulated to peers and professor. Read all of the each others' papers as the final reading and discussion.
 
 ## Miscellaneous Policies
 
