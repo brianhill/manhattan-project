@@ -4,7 +4,7 @@ Course [home page](./)
 
 ### Week 1
 
-* Preparation for Tuesday, Jan. 10 &mdash; Preface and Chapter 1 (Overview) from [The History and Science of the Manhattan Project, 2nd Edition, 2019](https://www.amazon.com/dp/3662581744), by Bruce Cameron Reed
+* Preparation for Tuesday, Jan. 10 &mdash; Preface and Chapter 1 (Overview) from *The History and Science of the Manhattan Project, 2nd Edition,* 2019, by Bruce Cameron Reed
 * Friday, Jan. 13
 
 ### Week 2
