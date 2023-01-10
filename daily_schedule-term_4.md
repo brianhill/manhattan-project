@@ -41,5 +41,5 @@ You are only reading pp 19-36 for Thursday. Ignore Equations 2.1-2.8 on pp. 26-2
 
 ### Week 7
 
-* Tuesday, Feb. 21
+* Tuesday, Feb. 21 &mdash; Midterm Exam
 * Friday, Feb. 24 &mdash; No class (due to Shakespeare week)
