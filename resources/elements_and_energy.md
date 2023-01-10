@@ -40,10 +40,11 @@
    * time, second, abbreviated s
    * energy, Joule, abbreviated J
 
-* Example with 100g tangerine dropped from a height of 1 meter in an (approximately) 10 m/s^2 gravitational field
-  * 0.1 kg * 1 m * 1 m/s^2 = 1 J
+* Example with 100g tangerine dropped from a height of 1 meter in a gravitational field whose acceleration is approximately 10 m/s^2
+  * 0.1 kg * 1 m * 10 m/s^2 = 1 J
 
 * Intuitive meaning of units of acceleration: m/s^2
+  * m/s per second
 
 * Examining units in the equation *E= mc*^2
 
