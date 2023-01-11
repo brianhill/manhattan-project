@@ -22,10 +22,10 @@
 
 * Constituents of matter
    * In the nucleus
-     * proton &mdash; has a positive charge &mdash; +1.6x10^-19 J
+     * proton &mdash; has a positive charge &mdash; +1.6x10^-19 C
      * neutron &mdash; is neutral
    * Surrounding the nucleus
-     * electron &mdash; has a negative charge &mdash; -1.6x10^-19 J
+     * electron &mdash; has a negative charge &mdash; -1.6x10^-19 C
 	 * usually surrounding the nucleus is the same number of electrons as the number of protons, but see ions
 
 * Units of charge and current
