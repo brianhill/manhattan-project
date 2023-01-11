@@ -9,9 +9,6 @@ Course [home page](./)
 * Preparation for Friday, Jan. 13 &mdash; pp. 19-36 of Chapter 2 of *The History and Science of the Manhattan Project, 2nd Edition,* 2019, by Bruce Cameron Reed &mdash; Ignore Equations 2.1-2.8 on pp. 26-27. They are college sophomore math. I will be able to explain them to you. Maybe on Friday.
 * Friday, Jan. 13 &mdash; 
 
-
-You are only reading pp 19-36 for Thursday. Ignore Equations 2.1-2.8 on pp. 26-27. They are college sophomore math. I will be able to explain them to you. Maybe on Friday.
-
 ### Week 2
 
 * Preparation for Tuesday, Jan. 17 &mdash; Email me [Assignment 1 - Essay Draft](./assignments/Assignment01.pdf) before class &mdash; Reading assignment - FORTHCOMING
