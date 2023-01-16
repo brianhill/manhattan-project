@@ -11,9 +11,9 @@ Course [home page](./)
 
 ### Week 2
 
-* Preparation for Tuesday, Jan. 17 &mdash; Email me [Assignment 1 - Essay Draft](./assignments/Assignment01.pdf) before class &mdash; Reading assignment - FORTHCOMING
+* Preparation for Tuesday, Jan. 17 &mdash; Email me [Assignment 1 - Essay Draft](./assignments/Assignment01.pdf) before class &mdash; Continue reading in Chapter 2 to p. 45 &mdash; The author's discussion of major discoveries has often been insufficiently detailed in terms of what the actual experiments were (as opposed to the experiment's results) &mdash; Therefore, let's individually research and prepare as follows: Trey, Crooke's Tube and Cathode rays (the electron); Brandon, Roentgen discovers X-rays; Anna, The Curies isolate polonium and radium; Mac, Aston discovers many isotopes with mass spectrometry; Norah, Rutherford demonstrates that alpha particles are Helium nuclei &mdash; Say as much as you can and think is important in each of these discoveries, especially how the experiments were actually done, in as much as five minutes (feel free to share handouts of materials that you consulted)
 * Tuesday, Jan. 17
-* Preparation for Friday, Jan. 20 &mdash; Assignment 2 - FORTHCOMING &mdash; Reading assignment - FORTHCOMING
+* Preparation for Friday, Jan. 20 &mdash; Turn in Assignment 2 which will be handed out on Tuesday &mdash; Reading assignment - FORTHCOMING - but likely to go to p. 61
 * Friday, Jan. 20
 
 ### Week 3
