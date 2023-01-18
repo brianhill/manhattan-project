@@ -11,10 +11,23 @@ Course [home page](./)
 
 ### Week 2
 
-* Preparation for Tuesday, Jan. 17 &mdash; Email me [Assignment 1 - Essay Draft](./assignments/Assignment01.pdf) before class &mdash; Continue reading in Chapter 2 to p. 45 &mdash; The author's discussion of major discoveries has often been insufficiently detailed in terms of what the actual experiments were (as opposed to the experiment's results) &mdash; Therefore, let's individually research and prepare as follows: Trey, Crooke's Tube and Cathode rays (the electron); Brandon, Roentgen discovers X-rays; Anna, The Curies isolate polonium and radium; Mac, Aston discovers many isotopes with mass spectrometry; Norah, Rutherford demonstrates that alpha particles are Helium nuclei &mdash; Say as much as you can and think is important in each of these discoveries, especially how the experiments were actually done, in as much as five minutes (feel free to share handouts of materials that you consulted)
-* Tuesday, Jan. 17
-* Preparation for Friday, Jan. 20 &mdash; Turn in Assignment 2 which will be handed out on Tuesday &mdash; Reading assignment - FORTHCOMING - but likely to go to p. 61
-* Friday, Jan. 20
+* Preparation for Tuesday, Jan. 17 &mdash; Email me [Assignment 1 - Essay Draft](./assignments/Assignment01.pdf) before class &mdash; Continue reading in Chapter 2 to p. 45 &mdash; The author's discussion of major discoveries has often been insufficiently detailed in terms of what the actual experiments were (as opposed to the experiment's results) &mdash; Therefore, individually research and prepare as follows: Trey, Crooke's Tube and Cathode rays (the electron); Brandon, Roentgen discovers X-rays; Anna, The Curies isolate polonium and radium; Mac, Aston discovers many isotopes with mass spectrometry &mdash; Say as much as you can and think is important in each of these discoveries, especially how the experiments were actually done (feel free to share handouts of materials that you consulted)
+* Tuesday, Jan. 17 &mdash; Start [Assignment 2](./assignments/Assignment02.pdf)
+* Many questions queued up from presentations and reading.
+* From presentations (these I have looked up the answers to):
+  ** Why do electrons come out of the cathode of a cathode ray tube when chemists say that the cathode is the electrode where electrons go into the battery? A: A single piece of wire has two ends. The end in the Crooke’s tube we call the cathode, because it emanates electrons. The other end of this same wire is the anode to the electrochemist because it is taking in electrons from the battery solution.
+  ** Does the cathode ray tube have to have phosphor on the glass to glow? A: No, the glass glows green even without phosphor.
+  ** Where did the Curies get the pitchblende (uraninite) form which they concentrated Polonium? A: From the Joachimasthal mine in Austria. (For more detail, see [A Short History of Polonium and Radium](https://www.degruyter.com/document/doi/10.1515/ci.2011.33.1.20/html) by Jean-Pierre Adloff.)
+  ** Why did the Curies share the prize for the discovery of Polonium in 1898 with Becquerel? A: Because Becquerel discovered radioactivity (of Uranium) in 1896!
+  ** Pierre Curie was killed in Paris in 1906 after falling under a carriage. Marie Curie and Andr&eacute; Debierne isolated 0.1mg of polonium from uranium ores in 1910. How much ore did they Marie Curie and Andr&eacute; Debierne start with before they isolated Polonium? A: Tons! Marie Curie was awarded the Nobel Prize a second time in 1911 (this time alone, and the discoveries of maarie )
+* From reading:
+  ** What is the positron?
+  ** Why do atoms decay? Do all atoms decay? Why do some atoms decay faster than others?
+  ** How can I make a radioisotope?
+  ** What makes something an alpha decay vs. a beta decay?
+  ** What is alpha bombardment?
+* Preparation for Friday, Jan. 20 &mdash; Before class, turn in [Assignment 2](./assignments/Assignment02.pdf) &mdash; Reading assignment - go to end of Section 2.2 (p. 60)
+* Friday, Jan. 20 &mdash; Finish short presentations: Norah, Rutherford demonstrates that alpha particles are Helium nuclei &mdash; Discuss a selection of the questions posed above &mdash; Discuss new questions raised
 
 ### Week 3
 
