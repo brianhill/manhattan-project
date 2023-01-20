@@ -1,0 +1,871 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     29532,        863]
+NotebookOptionsPosition[     27515,        818]
+NotebookOutlinePosition[     27967,        836]
+CellTagsIndexPosition[     27924,        833]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Manhattan Project \[LongDash] Assignment 3 \
+\[LongDash] Half Lives and Decays",
+ FontSize->24]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
+77e0e173d37d"],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s recap the equations on p. 26 before doing any problems.\
+\>", "Text",
+ CellChangeTimes->{{3.88318164933598*^9, 3.883182345828487*^9}, {
+  3.883182376369095*^9, 
+  3.883182934573916*^9}},ExpressionUUID->"77e205e3-1951-41d2-9262-\
+56a04fcc1eee"],
+
+Cell[CellGroupData[{
+
+Cell["Decay Rate Derivation", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.883182947140794*^9, 3.883182949851335*^9}, {3.883183282808099*^9, 
+  3.883183287511682*^9}},ExpressionUUID->"c5eae587-95fd-4914-b3ab-\
+a5022bb7cc2c"],
+
+Cell[TextData[{
+ "I derived the equation for decay rate without using any calculus. I had to \
+use some properties of the exponential though. One of the properties was this \
+one that  you may or may not be familiar with:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     SuperscriptBox["e", "x"],
+     FontSize->16], "=", 
+    RowBox[{
+     RowBox[{"1", "+", "x", "+", 
+      FractionBox[
+       SuperscriptBox["x", "2"], "2"], "+", 
+      FractionBox[
+       SuperscriptBox["x", "3"], "6"], "+"}], " ", "..."}]}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "33c28600-213e-4827-986e-7d41a70ff6f1"],
+ "\n\nIf you are curious and know factorials, the denominators are 0!=1, \
+1!=1, 2!=2, 3!=6, etc. I will use the above formula to make an approximation \
+below. Another property of the exponential that I used is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["e", 
+     RowBox[{"x", "+", "y"}]], "=", 
+    RowBox[{
+     SuperscriptBox["e", "x"], 
+     SuperscriptBox["e", "y"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,
+  FontSize->16,ExpressionUUID->"9ec6e822-3e08-4ba9-afd3-fb381b73ccd2"],
+ "\n\nThat\[CloseCurlyQuote]s actually true whatever base is being \
+exponentiated. For example:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", 
+     RowBox[{"x", "+", "y"}]], "=", 
+    RowBox[{
+     SuperscriptBox["10", "x"], "\[CenterDot]", 
+     SuperscriptBox["10", "y"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,
+  FontSize->16,ExpressionUUID->"6362dbdb-f912-4310-9235-da552f1174fd"],
+ "\n\nFinally, I used ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox[
+     SuperscriptBox["e", "0"],
+     FontSize->16], "=", "1"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a2fc5775-175d-4c77-bcb5-9046587ece8e"],
+ ". At least I'm not using any calculus!\n\nSo we start with the claim that \n\
+\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"N", "(", "t", ")"}], "=", 
+    RowBox[{
+     SubscriptBox["N", "0"], 
+     StyleBox[
+      SuperscriptBox["e", 
+       RowBox[{
+        RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "t"}]],
+      FontSize->18]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0b3cbb6c-9864-4806-9aad-446faec68f9e"],
+ "\n\ndescribes radioactive decay. If you have ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "0"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "91b7a184-fe9d-4a88-abd4-3087e24761a4"],
+ " atoms at time ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dea4e109-83c3-446e-9050-0ce9f6664c2e"],
+ ", this formula is the one that tells you how much you have at any later \
+time.So it certainly tells you how much you have at both time ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "68ce366b-f73b-4f7b-adbd-77dbea5b2a4f"],
+ " and time ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "+", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], TraditionalForm]],
+  
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a9cc9d4f-5f41-4a5a-88e1-cf18c338e7f1"],
+ " where ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "104d36b9-555d-427e-8b96-916fef53b220"],
+ " is a small amount of time. We have:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"N", "(", 
+     RowBox[{"t", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["N", "0"], 
+      StyleBox[
+       SuperscriptBox["e", 
+        RowBox[{"-", 
+         RowBox[{"\[Lambda]", "(", 
+          RowBox[{"t", "+", 
+           RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], ")"}]}]],
+       FontSize->18]}], 
+     StyleBox["=",
+      FontSize->16], 
+     RowBox[{
+      RowBox[{
+       SubscriptBox[
+        StyleBox["N",
+         FontSize->16], "0"], 
+       StyleBox[
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "t"}]],
+        FontSize->16], 
+       StyleBox[
+        SuperscriptBox["e", 
+         RowBox[{
+          RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "\[CapitalDelta]", 
+          "\[VeryThinSpace]", "t"}]],
+        FontSize->16]}], "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"N", "(", "t", ")"}], 
+        StyleBox[
+         SuperscriptBox["e", 
+          RowBox[{
+           RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "\[CapitalDelta]", 
+           "\[VeryThinSpace]", "t"}]],
+         FontSize->16]}], 
+       StyleBox["=",
+        FontSize->16], 
+       RowBox[{
+        StyleBox[
+         RowBox[{"N", "(", "t", ")"}],
+         FontSize->16], 
+        StyleBox["[",
+         FontSize->16], 
+        RowBox[{
+         RowBox[{
+          StyleBox["1",
+           FontSize->16], 
+          StyleBox["-",
+           FontSize->16], 
+          StyleBox[
+           RowBox[{
+           "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", 
+            "\[VeryThinSpace]", "t"}],
+           FontSize->16], 
+          StyleBox["+",
+           FontSize->16], 
+          StyleBox[
+           FractionBox[
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{
+              "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", 
+               "\[VeryThinSpace]", "t"}], ")"}], "2"], "2"],
+           FontSize->18], 
+          StyleBox["-",
+           FontSize->18], 
+          StyleBox[
+           FractionBox[
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{
+              "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", 
+               "\[VeryThinSpace]", "t"}], ")"}], "3"], "6"],
+           FontSize->18], 
+          StyleBox["+",
+           FontSize->18]}], 
+         StyleBox["...",
+          FontSize->18]}], 
+        StyleBox["]",
+         FontSize->16]}]}]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4fe0e3f4-6ed9-45c6-939d-3b563ccbc046"],
+ "\n\nHere comes the tricky part! If ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+   "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
+    "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d4d2949b-23a4-4ab8-b447-7fe471ea9266"],
+ " is small (think of something like 0.01), then every term in the infinite \
+series is 0.01 times as small as the previous one. Let's neglect all but the \
+first two!\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"N", "(", 
+     RowBox[{"t", "+", 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], ")"}], "=", 
+    StyleBox[
+     RowBox[{
+      RowBox[{
+       RowBox[{"N", "(", "t", ")"}], "[", 
+       RowBox[{"1", "-", 
+        RowBox[{
+        "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", 
+         "\[VeryThinSpace]", "t"}]}], "]"}], "=", 
+      RowBox[{
+       RowBox[{"N", "(", "t", ")"}], "-", 
+       RowBox[{
+       "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]",
+         "t", "\[VeryThinSpace]", 
+        RowBox[{"N", "(", "t", ")"}]}]}]}],
+     FontSize->16]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c238a838-747a-472a-872d-d516edfbcd7c"],
+ "\n\nRearrange:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"N", "(", 
+      RowBox[{"t", "+", 
+       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], ")"}], "-", 
+     StyleBox[
+      RowBox[{"N", "(", "t", ")"}],
+      FontSize->16]}], 
+    StyleBox["=",
+     FontSize->16], 
+    StyleBox[
+     RowBox[{
+      RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "\[CapitalDelta]", 
+      "\[VeryThinSpace]", "t", "\[VeryThinSpace]", 
+      RowBox[{"N", "(", "t", ")"}]}],
+     FontSize->16]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "74c39927-3278-4481-b3a7-1c9fe6206e08"],
+ "\n\nRearrange more:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      StyleBox[
+       RowBox[{"N", "(", 
+        RowBox[{"t", "+", 
+         RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], ")"}],
+       FontSize->14], "-", 
+      StyleBox[
+       RowBox[{"N", "(", "t", ")"}],
+       FontSize->16]}], 
+     StyleBox[
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}],
+      FontSize->14]], 
+    StyleBox["=",
+     FontSize->16], 
+    StyleBox[
+     RowBox[{
+      RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]\[VeryThinSpace]", 
+      RowBox[{"N", "(", "t", ")"}]}],
+     FontSize->16]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ee3f2f16-a15d-488b-b240-8ed7c0522c25"],
+ "\n\nWhat we have on the left side is what Reed calls ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "(", "t", ")"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3bc15286-b2e4-4b1d-8441-107f147c7ba7"],
+ " in equation 2.3. It is the rate that the number of particles is changing. \
+The right-hand-side of the equation has a minus sign because the number of \
+particles is decreasing. Let's summarize before we move on:\n\n",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{"R", "(", "t", ")"}], "=", 
+     RowBox[{
+      RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]\[VeryThinSpace]", 
+      RowBox[{"N", "(", "t", ")"}]}]}],
+    FontSize->16], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "82e8de2b-e243-4736-9a12-2aeb0110fb03"]
+}], "Text",
+ CellChangeTimes->{{3.88318164933598*^9, 3.883182345828487*^9}, {
+  3.883182376369095*^9, 3.883182913796627*^9}, {3.883182952554453*^9, 
+  3.8831831787321243`*^9}, {3.88318656833764*^9, 3.883186568504847*^9}, {
+  3.883186619699685*^9, 
+  3.8831866319878397`*^9}},ExpressionUUID->"c8f9b534-b52a-4cf1-9ba3-\
+2bbaebee2e72"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Relationship Between \[Lambda] and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"1", "/", "2"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4338e192-1e63-404a-b91a-b9e7638f244d"]
+}], "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.883182947140794*^9, 3.883182949851335*^9}, {3.883183184758864*^9, 
+  3.883183184783733*^9}, {3.8831832925065327`*^9, 
+  3.883183307120573*^9}},ExpressionUUID->"874c8a3c-bf7e-4456-b661-\
+7bd4336e7c5f"],
+
+Cell[TextData[{
+ "There is another thing we derived in class that I want to re-derive here: \
+the relationship between \[Lambda] and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"1", "/", "2"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5970e2dc-bdd5-478d-b830-ea6aa24ff049"],
+ ".\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"1", "/", "2"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d843b116-0523-4b18-b275-364182d0a4de"],
+ " is the time at which you have half as many particles. So on the left-hand \
+side of,\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"N", "(", "t", ")"}], "=", 
+    RowBox[{
+     SubscriptBox["N", "0"], 
+     StyleBox[
+      SuperscriptBox["e", 
+       RowBox[{
+        RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "t"}]],
+      FontSize->18]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a74a11c7-e5c4-4f94-874c-5df2dfbdd55e"],
+ "\n\nwe put ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["N", "0"], "/", "2"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b2c10b3f-6f6f-4f19-b71f-33eb1257d82b"],
+ " and for ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1e3c3e3b-655f-4bf4-9d03-ba4ce1fdafc2"],
+ " on the right-hand side, we put ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"1", "/", "2"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "094cebbd-90bf-481f-bb6d-5b8320b00166"],
+ ",\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["N", "0"], "/", "2"}], "=", 
+    RowBox[{
+     SubscriptBox["N", "0"], 
+     StyleBox[
+      SuperscriptBox["e", 
+       RowBox[{
+        RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", 
+        SubscriptBox["t", 
+         RowBox[{"1", "/", "2"}]]}]],
+      FontSize->18]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ae500be5-b90a-4411-a021-6aced0f8bf3e"],
+ "\n\nThe ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "0"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5869f138-7c8a-4823-8574-0c441c017b55"],
+ " on each side cancels, leaving:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"1", "/", "2"}], "=", 
+    SuperscriptBox["e", 
+     RowBox[{
+      RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", 
+      SubscriptBox["t", 
+       RowBox[{"1", "/", "2"}]]}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1de10c32-685f-4a4e-a1d7-460a20fbecce"],
+ "\n\nNow take the reciprocal of each side of the equation:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", "=", 
+    SuperscriptBox["e", 
+     RowBox[{"\[Lambda]", "\[VeryThinSpace]", 
+      SubscriptBox["t", 
+       RowBox[{"1", "/", "2"}]]}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c133af1b-6a6e-449b-b2b6-c48fcbcc4ada"],
+ "\n\nFinally take the natural log of each side. The natural log is by \
+definition the function that undoes the exponential:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"ln2", " ", "=", " ", 
+    RowBox[{"\[Lambda]", "\[VeryThinSpace]", 
+     SubscriptBox["t", 
+      RowBox[{"1", "/", "2"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "38a1d10c-833b-43df-b945-64ab5189b62c"],
+ "\n\nWe have Reed\[CloseCurlyQuote]s equation 2.2:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Lambda]", "=", 
+    StyleBox[
+     FractionBox["ln2", 
+      SubscriptBox["t", 
+       RowBox[{"1", "/", "2"}]]],
+     FontSize->16]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cc4fdb17-eac6-4269-b96d-61776b25e3ed"]
+}], "Text",
+ CellChangeTimes->{{3.88318164933598*^9, 3.883182345828487*^9}, {
+  3.883182376369095*^9, 3.883182913796627*^9}, {3.883182952554453*^9, 
+  3.883183168751849*^9}, {3.883183313724464*^9, 3.8831836128073597`*^9}, {
+  3.883186581722763*^9, 
+  3.883186598080678*^9}},ExpressionUUID->"df208c74-e66a-4adb-8e41-\
+eb6ddcc58008"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "1. Using ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{"R", "(", "t", ")"}], "=", 
+     RowBox[{
+      RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]\[VeryThinSpace]", 
+      RowBox[{"N", "(", "t", ")"}]}]}],
+    FontSize->18], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0fd5ba72-4d0b-4b8e-98b5-cbf04250cb05"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Lambda]", "=", 
+    StyleBox[
+     FractionBox["ln2", 
+      SubscriptBox["t", 
+       RowBox[{"1", "/", "2"}]]],
+     FontSize->18]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a640bbc5-15e7-421d-9222-2e8ff500a2cb"]
+}], "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 
+  3.8831837965915813`*^9}},ExpressionUUID->"cb18b75f-b7de-4570-bdb9-\
+3d013725e9e2"],
+
+Cell[TextData[{
+ "(a) Convert 138 days to seconds.\n\n(b) If you start off with an Avogadro\
+\[CloseCurlyQuote]s number of Polonium-210 atoms ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{
+     SubscriptBox["N", "A"], "\[TildeTilde]", 
+     RowBox[{"6.02", "\[CenterDot]", 
+      SuperscriptBox["10", "23"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9a4e9fc0-d408-4039-bf40-73a2c08236bb"],
+ ") and the half life of Polonium-210 is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", 
+     RowBox[{"1", "/", "2"}]], "=", 
+    RowBox[{"138", "days", " "}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9f089e60-30c1-4707-9ca7-a754257940f0"],
+ ", what number of atoms will be decaying per second.\n\n(c) A Curie \
+(abbreviated Ci) is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3.7", "\[CenterDot]", 
+    SuperscriptBox["10", "10"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0ee7b5d2-b9c1-4150-bbdb-ec9acbec954b"],
+ " decays / second. Convert your answer in (b) to Ci."
+}], "Text",
+ CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
+  3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+  3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
+  3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
+  3.8831843041995583`*^9}, {3.883184342888789*^9, 
+  3.883184351146276*^9}},ExpressionUUID->"acd3fa3a-7f4d-474c-88df-\
+1fc04bc6b640"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Alpha Decay", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.883184905350834*^9, 
+  3.8831849081855516`*^9}},ExpressionUUID->"7cb40b47-921b-4c2b-928e-\
+95d7de018a07"],
+
+Cell[TextData[{
+ "Polonium-210 alpha decays. The reaction is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubsuperscriptBox["", "84", "210"], "Po"}], "->", " ", 
+    RowBox[{
+     RowBox[{
+      SubsuperscriptBox["", "2", "4"], "He"}], " ", 
+     SubsuperscriptBox[
+      RowBox[{"+", " "}], 
+      StyleBox["Z",
+       FontSize->10], 
+      StyleBox["A",
+       FontSize->10]], 
+     StyleBox["X",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "02c0d7d3-b6ae-401b-862e-02a5cb3dec42"],
+ "\n\n(a) What must ",
+ StyleBox["A",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["Z",
+  FontSlant->"Italic"],
+ " be?\n\n(b) Use the Table of Isotopic Masses and Natural Abundances you \
+have. What element has the ",
+ StyleBox["Z",
+  FontSlant->"Italic"],
+ " you found in (a)?"
+}], "Text",
+ CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
+  3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+  3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
+  3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
+  3.8831843041995583`*^9}, {3.883184342888789*^9, 3.883184351146276*^9}, {
+  3.88318441658897*^9, 3.883184450725494*^9}, {3.883184534945476*^9, 
+  3.8831847397388973`*^9}},ExpressionUUID->"bcfa4a90-a55a-4898-979e-\
+be263e64bc49"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "3. ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Beta]", "-"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "83988e17-e17d-4247-a50c-5139afb04723"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Beta]", "+"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b4a8a72f-fc30-42dd-9f77-59e341b21108"],
+ " Decay"
+}], "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.883184913832761*^9, 
+  3.8831849338471403`*^9}},ExpressionUUID->"901ec2af-bfc5-4dc8-a6f4-\
+0bfe9746fa5c"],
+
+Cell[TextData[{
+ "(a) Suppose Polonium-210 did a ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Beta]", "-"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "13890187-455a-4543-aa43-61b150095f51"],
+ " decay. Consult Fig. 2.12 to find out what the ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0cbc664f-b8df-4aea-b4f7-9138e51e602e"],
+ " and ",
+ Cell[BoxData[
+  FormBox["Z", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2e49bf4b-c6de-44b8-ab55-3e6d4de3731f"],
+ " value of the resulting nucleus would be. (",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2652330e-8bce-4246-ad11-53f16bfe414c"],
+ " is the number of neutrons and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"N", "=", 
+    RowBox[{"A", "-", "Z"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "72ea3d7d-c795-4cc2-bbc8-73b6ed272778"],
+ ".)\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubsuperscriptBox["", "84", "210"], "Po"}], "->", " ", 
+    RowBox[{
+     SuperscriptBox["e", "-"], 
+     SubsuperscriptBox[
+      RowBox[{"+", " "}], 
+      StyleBox["Z",
+       FontSize->10], 
+      StyleBox["A",
+       FontSize->10]], 
+     StyleBox["X",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dacbf5e8-1e9c-41a7-90eb-32defb39736b"],
+ "\n\nIn addition to reporting ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2d43de9d-7e14-402e-94d8-5f0d11e17bf4"],
+ " and ",
+ Cell[BoxData[
+  FormBox["Z", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a3b16171-9331-4dc7-8148-1e856dcecefa"],
+ " of the new nucleus, what is the ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2a762aef-77a5-4b96-906a-7fe0d83bf9b2"],
+ " value of the new nucleus?\n\n(b) Suppose Polonium-210 did a ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Beta]", "+"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b95fdf11-a236-4c38-adaa-4fd39afebb41"],
+ " decay. Consult Fig. 2.12 to find out what the ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "241678df-b005-4e22-87de-31f934867bf5"],
+ " and ",
+ Cell[BoxData[
+  FormBox["Z", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1f2c4c31-cc40-4704-b9ea-9a7cbb1caaa8"],
+ " value of the resulting nucleus would be.\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubsuperscriptBox["", "84", "210"], "Po"}], "->", " ", 
+    RowBox[{
+     SuperscriptBox["e", "+"], 
+     SubsuperscriptBox[
+      RowBox[{"+", " "}], 
+      StyleBox["Z",
+       FontSize->10], 
+      StyleBox["A",
+       FontSize->10]], 
+     StyleBox["X",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dbd99bb3-933e-4949-8ebb-4c333fec1fc2"],
+ "\n\nIn addition to reporting ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "94007c30-3677-49cc-b4e3-cc4b80302325"],
+ " and ",
+ Cell[BoxData[
+  FormBox["Z", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b1918801-ff15-49d0-865f-4959e81fa4e1"],
+ " of the new nucleus, what is the ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "67b1989e-303f-4713-a1c8-86deb4bdaf79"],
+ " value of the new nucleus?"
+}], "Text",
+ CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
+  3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+  3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
+  3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
+  3.8831843041995583`*^9}, {3.883184342888789*^9, 3.883184351146276*^9}, {
+  3.88318441658897*^9, 3.883184450725494*^9}, {3.883184534945476*^9, 
+  3.8831847397388973`*^9}, {3.883184946244472*^9, 
+  3.883185377999518*^9}},ExpressionUUID->"ae3ee66d-2c87-4ffe-a576-\
+aeb2d59cbf62"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"91cac970-45b8-414b-9347-834b736c700e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Energy Released in Fission", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.8831853995415077`*^9, 
+  3.883185425933666*^9}},ExpressionUUID->"dfb167ca-492c-4085-8318-\
+430e94372054"],
+
+Cell[TextData[{
+ "Returning to the actual Polonium-210 alpha decay that you found in Problem \
+2:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubsuperscriptBox["", "84", "210"], "Po"}], "->", " ", 
+    RowBox[{
+     RowBox[{
+      SubsuperscriptBox["", "2", "4"], "He"}], " ", 
+     SubsuperscriptBox[
+      RowBox[{"+", " "}], 
+      StyleBox["Z",
+       FontSize->10], 
+      StyleBox["A",
+       FontSize->10]], 
+     StyleBox["X",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e84ca8a6-af80-40b1-b6a0-3fad3de12047"],
+ "\n\nLook up the mass of each atom involved in your the Table of Isotopic \
+Masses and Natural Abundances. Actually, Polonium-210 isn\[CloseCurlyQuote]t \
+stable enough to be in our table, so I\[CloseCurlyQuote]ll just tell you that \
+it has mass 209.98286u.\n\n(a) What is the total mass on the left-hand side, \
+what is the total mass on the right-hand side, and what is the difference? \
+Keep all six decimal places.\n\n(b) Convert the difference (this is the \
+energy released) to MeV using the handy-dandy conversion factor between mass \
+units and MeV in the middle of p. 34 of Reed."
+}], "Text",
+ CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
+  3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+  3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
+  3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
+  3.8831843041995583`*^9}, {3.883184342888789*^9, 3.883184351146276*^9}, {
+  3.88318441658897*^9, 3.883184450725494*^9}, {3.883184534945476*^9, 
+  3.8831847397388973`*^9}, {3.883185431895658*^9, 3.883185580532702*^9}, {
+  3.883185891640935*^9, 3.88318590340845*^9}, {3.883186097116153*^9, 
+  3.883186196982749*^9}, {3.883186282494115*^9, 3.883186302103067*^9}, {
+  3.8831864408048058`*^9, 
+  3.883186498281303*^9}},ExpressionUUID->"52a2a1af-f209-4817-98ac-\
+63c80859078e"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{110, Automatic}, {Automatic, 74}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 357, 6, 62, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[940, 30, 276, 6, 35, "Text",ExpressionUUID->"77e205e3-1951-41d2-9262-56a04fcc1eee"],
+Cell[CellGroupData[{
+Cell[1241, 40, 266, 4, 54, "Subsection",ExpressionUUID->"c5eae587-95fd-4914-b3ab-a5022bb7cc2c"],
+Cell[1510, 46, 9845, 298, 1055, "Text",ExpressionUUID->"c8f9b534-b52a-4cf1-9ba3-2bbaebee2e72"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11392, 349, 533, 13, 54, "Subsection",ExpressionUUID->"874c8a3c-bf7e-4456-b661-7bd4336e7c5f"],
+Cell[11928, 364, 4028, 122, 600, "Text",ExpressionUUID->"df208c74-e66a-4adb-8e41-eb6ddcc58008"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15993, 491, 868, 28, 61, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
+Cell[16864, 521, 1514, 37, 152, "Text",ExpressionUUID->"acd3fa3a-7f4d-474c-88df-1fc04bc6b640"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18415, 563, 314, 5, 54, "Subsection",ExpressionUUID->"7cb40b47-921b-4c2b-928e-95d7de018a07"],
+Cell[18732, 570, 1370, 39, 192, "Text",ExpressionUUID->"bcfa4a90-a55a-4898-979e-be263e64bc49"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20139, 614, 730, 20, 54, "Subsection",ExpressionUUID->"901ec2af-bfc5-4dc8-a6f4-0bfe9746fa5c"],
+Cell[20872, 636, 4130, 121, 303, "Text",ExpressionUUID->"ae3ee66d-2c87-4ffe-a576-aeb2d59cbf62"],
+Cell[25005, 759, 99, 1, 4, "PageBreak",ExpressionUUID->"91cac970-45b8-414b-9347-834b736c700e",
+ PageBreakBelow->True]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25141, 765, 380, 6, 54, "Subsection",ExpressionUUID->"dfb167ca-492c-4085-8318-430e94372054"],
+Cell[25524, 773, 1963, 41, 284, "Text",ExpressionUUID->"52a2a1af-f209-4817-98ac-63c80859078e"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

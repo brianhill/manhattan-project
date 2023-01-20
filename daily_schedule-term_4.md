@@ -19,7 +19,7 @@ Course [home page](./)
   * Does the cathode ray tube have to have phosphor on the glass to glow? A: No, the glass glows green even without phosphor.
   * Where did the Curies get the pitchblende (uraninite) form which they concentrated Polonium? A: From the Joachimasthal mine in Austria. (For more detail, see [A Short History of Polonium and Radium](./resources/PoloniumAndRadium.pdf) by Jean-Pierre Adloff.)
   * Why did the Curies share the prize for the discovery of Polonium in 1898 with Becquerel? A: Because Becquerel discovered radioactivity (of Uranium) in 1896!
-  * Pierre Curie was killed in Paris in 1906 after falling under a carriage. Marie Curie and Andr&eacute; Debierne isolated 0.1mg of polonium from uranium ores in 1910. How much ore did they Marie Curie and Andr&eacute; Debierne start with before they isolated Polonium? A: Tons! Marie Curie was awarded the Nobel Prize a second time in 1911 (this time alone, and the citation was "in recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element"
+  * Pierre Curie was killed in Paris in 1906 after falling under a carriage. Marie Curie and Andr&eacute; Debierne isolated 0.1mg of polonium from uranium ores in 1910. How much ore did they Marie Curie and Andr&eacute; Debierne start with before they isolated Polonium? A: Tons! Marie Curie was awarded the Nobel Prize a second time in 1911 (this time alone, and the citation was "in recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element").
 * From Tuesday's reading:
   * What is the positron?
   * Why do atoms decay? Do all atoms decay? Why do some atoms decay faster than others?
@@ -31,6 +31,7 @@ Course [home page](./)
 
 ### Week 3
 
+* Preparation for Tuesday, Jan. 24 &mdash; Before class, turn in [Assignment 3](./assignments/Assignment03.pdf)
 * Tuesday, Jan. 24
 * Friday, Jan. 27
 
