@@ -17,22 +17,21 @@ Course [home page](./)
 * From presentations (these I have looked up the answers to):
   * Why do electrons come out of the cathode of a cathode ray tube when chemists say that the cathode is the electrode where electrons go into the battery? A: A single piece of wire has two ends. The end in the Crooke’s tube we call the cathode, because it emanates electrons. The other end of this same wire is the anode to the electrochemist because it is taking in electrons from the battery solution.
   * Does the cathode ray tube have to have phosphor on the glass to glow? A: No, the glass glows green even without phosphor.
-  * Where did the Curies get the pitchblende (uraninite) form which they concentrated Polonium? A: From the Joachimasthal mine in Austria. (For more detail, see [A Short History of Polonium and Radium](./resources/PoloniumAndRadium.pdf) by Jean-Pierre Adloff.)
-  * Why did the Curies share the prize for the discovery of Polonium in 1898 with Becquerel? A: Because Becquerel discovered radioactivity (of Uranium) in 1896!
+  * Where did the Curies get the pitchblende (uraninite) form which they concentrated Polonium? A: From the Joachimasthal mine in Austria. (For more detail, [A Short History of Polonium and Radium](./resources/PoloniumAndRadium.pdf) by Jean-Pierre Adloff is wonderful.)
   * Pierre Curie was killed in Paris in 1906 after falling under a carriage. Marie Curie and Andr&eacute; Debierne isolated 0.1mg of polonium from uranium ores in 1910. How much ore did they Marie Curie and Andr&eacute; Debierne start with before they isolated Polonium? A: Tons! Marie Curie was awarded the Nobel Prize a second time in 1911 (this time alone, and the citation was "in recognition of her services to the advancement of chemistry by the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element").
 * From Tuesday's reading:
-  * What is the positron?
-  * Why do atoms decay? Do all atoms decay? Why do some atoms decay faster than others?
-  * How can I make a radioisotope?
-  * What makes something an alpha decay vs. a beta decay?
-  * What is alpha bombardment?
-* Preparation for Friday, Jan. 20 &mdash; At the beginning of class, turn in [Assignment 2](./assignments/Assignment02.pdf) &mdash; Reading assignment - go to end of Section 2.2 (p. 60)
-* Friday, Jan. 20 &mdash; Finish short presentations: we have done four, so that leaves Norah left to present Rutherford's demonstration that alpha particles are Helium nuclei &mdash; Discuss a selection of the questions posed above &mdash; Discuss new questions raised by the reading through Section 2.2 &mdash; Get started on the assignment that will be due Tuesday, Jan. 24
+  * What is the positron? A: We did an extensive discussion of anti-particles and the observed fact that the universe is electrically neutral and has a preponderance of protons, neutrons, and electrons.
+  * Why do atoms decay? Do all atoms decay? Why do some atoms decay faster than others? A: We went all the way down to the Glashow-Weinberg-Salam theory of the weak interactions (which I incorrectly said dates to 1973 - it dates to 1967 - it was 1973 that Gross, Wilczek and Politzer discovered asymptotic freedom, which explains why we have quarks but have never seen them except in groups of two, such as pions, or three, such as the neutron and the proton)
+  * How can I make a radioisotope? What is alpha bombardment? A: We discussed the Joliot-Curie experiment where alpha particles from Polonium bombarded Beryllium?
+  * What makes something choose to alpha decay vs. a beta decay? A: We discussed the Binding Energy or [Mass Defect Plot](./resources/MassDefecctPlot.pdf) and the [Isotope Plot](./resources/IsotopePlot.pdf), and that Iron-56, Iron-58, and Nickel-62 are all very close to the sweet spot with the least mass per nucleon. Decays tend to move an isotope toward the sweet spot. We looked carefully at Fig. 2.12.
+  * The answer to the question above leaves the answer to the following question vague: Which of Iron or Nickel is actually the most tightly bound? A: Read this [StackExchange](./resources/IronOrNickel.png) answer or section 2.5 of Reed carefully (it is sufficiently advanced most people should skip it)
+* Preparation for Friday, Jan. 20 &mdash; At the beginning of class, turn in [Assignment 2](./assignments/Assignment02.pdf) &mdash; Reading assignment - go to end of Section 2.2 (p. 60) but skip over the equations on p. 50 &mdash; 
+* Friday, Jan. 20 &mdash; Finish short presentations: we have done four, so that leaves Norah left to present Rutherford's demonstration that alpha particles are Helium nuclei &mdash; Worked through all the old and new questions queued up above &mdash; Finally, from today's reading we started into why the neutron is so effective as a particle for bombardment (Reed pp. 59-60)
 
 ### Week 3
 
-* Preparation for Tuesday, Jan. 24 &mdash; At the beginning of class, turn in [Assignment 3](./assignments/Assignment03.pdf) &mdash; Reading assignment - FORTHCOMING
-* Tuesday, Jan. 24
+* Preparation for Tuesday, Jan. 24 &mdash; At the beginning of class, turn in [Assignment 3](./assignments/Assignment03.pdf) &mdash; Reading assignment - Finish Chapter 2 - Except skip the final section (Section 2.5) that Reed has marked as optional
+* Tuesday, Jan. 24 &mdash; We should do a quantitative discussion of equation 2.34 (Brian and Brandon will together prepare this), which is the equation used to rule out the photon as the neutral particle emitted in the reaction alpha particle+Beryllium&rarr;Carbon+neutral particle &mdash; We should also do a quantitative discussion of Coulomb repulsion (p. 50 of Reed, which I would you skip). We still have Norah's presentation to get to!
 * Friday, Jan. 27
 
 ### Week 4
