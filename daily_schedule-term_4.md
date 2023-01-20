@@ -27,7 +27,7 @@ Course [home page](./)
   * What makes something an alpha decay vs. a beta decay?
   * What is alpha bombardment?
 * Preparation for Friday, Jan. 20 &mdash; Before class, turn in [Assignment 2](./assignments/Assignment02.pdf) &mdash; Reading assignment - go to end of Section 2.2 (p. 60)
-* Friday, Jan. 20 &mdash; Finish short presentations: that's just Norah that is left to present Rutherford's demonstration that alpha particles are Helium nuclei &mdash; Discuss a selection of the questions posed above &mdash; Discuss new questions raised by the reading through Section 2.2 &mdash; Get started on the assignment that will be due Tuesday, Jan. 24
+* Friday, Jan. 20 &mdash; Finish short presentations: we have done four, so that leaves Norah left to present Rutherford's demonstration that alpha particles are Helium nuclei &mdash; Discuss a selection of the questions posed above &mdash; Discuss new questions raised by the reading through Section 2.2 &mdash; Get started on the assignment that will be due Tuesday, Jan. 24
 
 ### Week 3
 
