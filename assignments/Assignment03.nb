@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     29532,        863]
-NotebookOptionsPosition[     27515,        818]
-NotebookOutlinePosition[     27967,        836]
-CellTagsIndexPosition[     27924,        833]
+NotebookDataLength[     32324,        939]
+NotebookOptionsPosition[     30306,        894]
+NotebookOutlinePosition[     30758,        912]
+CellTagsIndexPosition[     30715,        909]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -60,9 +60,7 @@ one that  you may or may not be familiar with:\n\n",
        SuperscriptBox["x", "2"], "2"], "+", 
       FractionBox[
        SuperscriptBox["x", "3"], "6"], "+"}], " ", "..."}]}], 
-   TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "33c28600-213e-4827-986e-7d41a70ff6f1"],
+   TraditionalForm]],ExpressionUUID->"33c28600-213e-4827-986e-7d41a70ff6f1"],
  "\n\nIf you are curious and know factorials, the denominators are 0!=1, \
 1!=1, 2!=2, 3!=6, etc. I will use the above formula to make an approximation \
 below. Another property of the exponential that I used is:\n\n",
@@ -74,7 +72,6 @@ below. Another property of the exponential that I used is:\n\n",
     RowBox[{
      SuperscriptBox["e", "x"], 
      SuperscriptBox["e", "y"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSize->16,ExpressionUUID->"9ec6e822-3e08-4ba9-afd3-fb381b73ccd2"],
  "\n\nThat\[CloseCurlyQuote]s actually true whatever base is being \
 exponentiated. For example:\n\n",
@@ -86,7 +83,6 @@ exponentiated. For example:\n\n",
     RowBox[{
      SuperscriptBox["10", "x"], "\[CenterDot]", 
      SuperscriptBox["10", "y"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,
   FontSize->16,ExpressionUUID->"6362dbdb-f912-4310-9235-da552f1174fd"],
  "\n\nFinally, I used ",
  Cell[BoxData[
@@ -94,8 +90,7 @@ exponentiated. For example:\n\n",
    RowBox[{
     StyleBox[
      SuperscriptBox["e", "0"],
-     FontSize->16], "=", "1"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     FontSize->16], "=", "1"}], TraditionalForm]],ExpressionUUID->
   "a2fc5775-175d-4c77-bcb5-9046587ece8e"],
  ". At least I'm not using any calculus!\n\nSo we start with the claim that \n\
 \n",
@@ -109,41 +104,34 @@ exponentiated. For example:\n\n",
       SuperscriptBox["e", 
        RowBox[{
         RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "t"}]],
-      FontSize->18]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSize->18]}]}], TraditionalForm]],ExpressionUUID->
   "0b3cbb6c-9864-4806-9aad-446faec68f9e"],
  "\n\ndescribes radioactive decay. If you have ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["N", "0"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["N", "0"], TraditionalForm]],ExpressionUUID->
   "91b7a184-fe9d-4a88-abd4-3087e24761a4"],
  " atoms at time ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"t", "=", "0"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"t", "=", "0"}], TraditionalForm]],ExpressionUUID->
   "dea4e109-83c3-446e-9050-0ce9f6664c2e"],
  ", this formula is the one that tells you how much you have at any later \
 time.So it certainly tells you how much you have at both time ",
  Cell[BoxData[
-  FormBox["t", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["t", TraditionalForm]],ExpressionUUID->
   "68ce366b-f73b-4f7b-adbd-77dbea5b2a4f"],
  " and time ",
  Cell[BoxData[
   FormBox[
    RowBox[{"t", "+", 
     RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], TraditionalForm]],
-  
-  FormatType->TraditionalForm,ExpressionUUID->
-  "a9cc9d4f-5f41-4a5a-88e1-cf18c338e7f1"],
+  ExpressionUUID->"a9cc9d4f-5f41-4a5a-88e1-cf18c338e7f1"],
  " where ",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "104d36b9-555d-427e-8b96-916fef53b220"],
+  ExpressionUUID->"104d36b9-555d-427e-8b96-916fef53b220"],
  " is a small amount of time. We have:\n\n",
  Cell[BoxData[
   FormBox[
@@ -232,16 +220,14 @@ time.So it certainly tells you how much you have at both time ",
          StyleBox["...",
           FontSize->18]}], 
         StyleBox["]",
-         FontSize->16]}]}]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+         FontSize->16]}]}]}]}]}], TraditionalForm]],ExpressionUUID->
   "4fe0e3f4-6ed9-45c6-939d-3b563ccbc046"],
  "\n\nHere comes the tricky part! If ",
  Cell[BoxData[
   FormBox[
    RowBox[{
    "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", 
-    "t"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    "t"}], TraditionalForm]],ExpressionUUID->
   "d4d2949b-23a4-4ab8-b447-7fe471ea9266"],
  " is small (think of something like 0.01), then every term in the infinite \
 series is 0.01 times as small as the previous one. Let's neglect all but the \
@@ -266,8 +252,7 @@ first two!\n\n",
        "\[Lambda]", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]",
          "t", "\[VeryThinSpace]", 
         RowBox[{"N", "(", "t", ")"}]}]}]}],
-     FontSize->16]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
   "c238a838-747a-472a-872d-d516edfbcd7c"],
  "\n\nRearrange:\n\n",
  Cell[BoxData[
@@ -287,8 +272,7 @@ first two!\n\n",
       RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]", "\[CapitalDelta]", 
       "\[VeryThinSpace]", "t", "\[VeryThinSpace]", 
       RowBox[{"N", "(", "t", ")"}]}],
-     FontSize->16]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
   "74c39927-3278-4481-b3a7-1c9fe6206e08"],
  "\n\nRearrange more:\n\n",
  Cell[BoxData[
@@ -303,7 +287,7 @@ first two!\n\n",
        FontSize->14], "-", 
       StyleBox[
        RowBox[{"N", "(", "t", ")"}],
-       FontSize->16]}], 
+       FontSize->14]}], 
      StyleBox[
       RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}],
       FontSize->14]], 
@@ -313,14 +297,12 @@ first two!\n\n",
      RowBox[{
       RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]\[VeryThinSpace]", 
       RowBox[{"N", "(", "t", ")"}]}],
-     FontSize->16]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
   "ee3f2f16-a15d-488b-b240-8ed7c0522c25"],
  "\n\nWhat we have on the left side is what Reed calls ",
  Cell[BoxData[
   FormBox[
-   RowBox[{"R", "(", "t", ")"}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   RowBox[{"R", "(", "t", ")"}], TraditionalForm]],ExpressionUUID->
   "3bc15286-b2e4-4b1d-8441-107f147c7ba7"],
  " in equation 2.3. It is the rate that the number of particles is changing. \
 The right-hand-side of the equation has a minus sign because the number of \
@@ -333,15 +315,14 @@ particles is decreasing. Let's summarize before we move on:\n\n",
      RowBox[{
       RowBox[{"-", "\[Lambda]"}], "\[VeryThinSpace]\[VeryThinSpace]", 
       RowBox[{"N", "(", "t", ")"}]}]}],
-    FontSize->16], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    FontSize->16], TraditionalForm]],ExpressionUUID->
   "82e8de2b-e243-4736-9a12-2aeb0110fb03"]
 }], "Text",
  CellChangeTimes->{{3.88318164933598*^9, 3.883182345828487*^9}, {
   3.883182376369095*^9, 3.883182913796627*^9}, {3.883182952554453*^9, 
   3.8831831787321243`*^9}, {3.88318656833764*^9, 3.883186568504847*^9}, {
-  3.883186619699685*^9, 
-  3.8831866319878397`*^9}},ExpressionUUID->"c8f9b534-b52a-4cf1-9ba3-\
+  3.883186619699685*^9, 3.8831866319878397`*^9}, {3.883228720917201*^9, 
+  3.883228721399304*^9}},ExpressionUUID->"c8f9b534-b52a-4cf1-9ba3-\
 2bbaebee2e72"]
 }, Open  ]],
 
@@ -789,35 +770,130 @@ Cell[TextData[{
       StyleBox["A",
        FontSize->10]], 
      StyleBox["X",
-      FontSlant->"Plain"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
   "e84ca8a6-af80-40b1-b6a0-3fad3de12047"],
  "\n\nLook up the mass of each atom involved in your the Table of Isotopic \
 Masses and Natural Abundances. Actually, Polonium-210 isn\[CloseCurlyQuote]t \
 stable enough to be in our table, so I\[CloseCurlyQuote]ll just tell you that \
-it has mass 209.98286u.\n\n(a) What is the total mass on the left-hand side, \
-what is the total mass on the right-hand side, and what is the difference? \
-Keep all six decimal places.\n\n(b) Convert the difference (this is the \
-energy released) to MeV using the handy-dandy conversion factor between mass \
-units and MeV in the middle of p. 34 of Reed."
+it has mass 209.982874u.\n\n(a) What is the total mass on the left-hand side. \
+This is super-easy! There is only one reactant on the left-hand side.\n\n(b) \
+What is the total mass on the right-hand side. Keep all six decimal places.\n\
+\n(c) What is the difference?\n\nDISCUSSION: Notice that when you compute the \
+difference, you are down to four significant figures even though started with \
+seven significant figures for Helium-4 and nine significant figures for the \
+other nuclei.\nI give a bunch of exact values below. If you want to round the \
+result of any step to four significant figures, you can.\n\n(d) Using 1amu \
+(or 1u) = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1.66054", 
+    SuperscriptBox["x10", 
+     RowBox[{"-", "27"}]]}], TraditionalForm]],ExpressionUUID->
+  "58d035b7-8153-4eb1-a4dc-04ff018e55a8"],
+ "kg  and multiply by ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["c", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8bfee863-bc73-40e4-b05d-8585b978a28c"],
+ " to convert what you got in (a) to Joules. For some additional accuracy, \
+let\[CloseCurlyQuote]s use ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", "=", " ", 
+    RowBox[{
+     RowBox[{"2.99792458", "\[CenterDot]", 
+      SuperscriptBox["10", "8"]}], " ", 
+     RowBox[{
+      StyleBox["m",
+       FontSlant->"Plain"], "/", 
+      StyleBox["s",
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cf46105c-69fe-472b-8893-89fbde2f251c"],
+ " instead of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", "=", " ", 
+    RowBox[{
+     RowBox[{"3", "\[CenterDot]", 
+      SuperscriptBox["10", "8"]}], " ", 
+     RowBox[{
+      StyleBox["m",
+       FontSlant->"Plain"], "/", "s"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5957ffd9-c789-477b-9bc4-b6d15e00c4d9"],
+ ".\n\n(e) Using 1eV = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1.602176634", "\[CenterDot]", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "19"}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0a5a2082-f6bb-447a-9d1d-3162fd60b405"],
+ "J, convert what you got in (d) to eV.\n\nDISCUSSION: Almost comically, \
+since 1993 that value of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", "=", " ", 
+    RowBox[{
+     RowBox[{"2.99792458", "\[CenterDot]", 
+      SuperscriptBox["10", "8"]}], " ", 
+     RowBox[{
+      StyleBox["m",
+       FontSlant->"Plain"], "/", 
+      StyleBox["s",
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "99f28f65-543a-4f51-877f-1555581bc268"],
+ " is exact, just like since 2019 the value of  ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "A"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a02fc878-55d0-4232-8db0-0ddb7ee5dbe6"],
+ "= ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"6.02214076", "\[CenterDot]", 
+    SuperscriptBox["10", "23"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "53186347-bf15-41b9-b262-2306fbbd5baa"],
+ " and the value of 1eV = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1.602176634", "\[CenterDot]", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "19"}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c2057445-71f2-4ded-9ab1-c65d59abf387"],
+ " are both exact. It would be a fun detour to discuss why all these values \
+are now exact values. \n\n(f) Using 1MeV is ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "6"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fcd9d3e9-e42b-45d7-a70e-35c48ed5c823"],
+ "eV, convert what you got in (e) to MeV.\n\n(g) Steps (d), (e), and (f), are \
+just conversions that always involve the same steps, and it gets tiring doing \
+them over and over again. At the middle of p. 34, Reed quotes the conversion \
+factor for atomic mass units to MeV. Use that conversion factor to go \
+straight from (c) to (f) in a single step. You should get something very \
+close.\n"
 }], "Text",
- CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
-  3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
-  3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
-  3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
-  3.8831843041995583`*^9}, {3.883184342888789*^9, 3.883184351146276*^9}, {
-  3.88318441658897*^9, 3.883184450725494*^9}, {3.883184534945476*^9, 
-  3.8831847397388973`*^9}, {3.883185431895658*^9, 3.883185580532702*^9}, {
-  3.883185891640935*^9, 3.88318590340845*^9}, {3.883186097116153*^9, 
-  3.883186196982749*^9}, {3.883186282494115*^9, 3.883186302103067*^9}, {
-  3.8831864408048058`*^9, 
-  3.883186498281303*^9}},ExpressionUUID->"52a2a1af-f209-4817-98ac-\
-63c80859078e"]
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQAWIQnZrwplPt3RvH9W9ZZ4DoIzftD4Poc09vvgPRLxhl
+P4Noo6N+P0D0XDmxm1OB9KsvnW9BtPpGzV8geubj+H8gWu1uMfM0IH0iiU0M
+RH8ruCMFor3XPZEG0TduCKmAaHvzcA0QHe54zwhE8ywt9wHR1iv/LALRT7kn
+bgXRXU0ld0A0m9DbuyC6bbvyNxC9rmg+03Qgfeq8Py+IDvY5zA+ifxyQVATR
++QyeGiC6a+MJwWVAelspkyaInmPo4wmic1NiwHSm28wMEC2Vc6UfRCv9b9kC
+oo3K3XaB6J8vjfeBaJEtiQLLgXRTmfX21UCaSd5pF4gGAOTwuWk=
+  "],ExpressionUUID->"52a2a1af-f209-4817-98ac-63c80859078e"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 911},
-WindowMargins->{{110, Automatic}, {Automatic, 74}},
+WindowMargins->{{Automatic, 820}, {Automatic, 68}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
@@ -840,29 +916,29 @@ Cell[580, 22, 357, 6, 62, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e
 Cell[940, 30, 276, 6, 35, "Text",ExpressionUUID->"77e205e3-1951-41d2-9262-56a04fcc1eee"],
 Cell[CellGroupData[{
 Cell[1241, 40, 266, 4, 54, "Subsection",ExpressionUUID->"c5eae587-95fd-4914-b3ab-a5022bb7cc2c"],
-Cell[1510, 46, 9845, 298, 1055, "Text",ExpressionUUID->"c8f9b534-b52a-4cf1-9ba3-2bbaebee2e72"]
+Cell[1510, 46, 9358, 279, 1031, "Text",ExpressionUUID->"c8f9b534-b52a-4cf1-9ba3-2bbaebee2e72"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11392, 349, 533, 13, 54, "Subsection",ExpressionUUID->"874c8a3c-bf7e-4456-b661-7bd4336e7c5f"],
-Cell[11928, 364, 4028, 122, 600, "Text",ExpressionUUID->"df208c74-e66a-4adb-8e41-eb6ddcc58008"]
+Cell[10905, 330, 533, 13, 54, "Subsection",ExpressionUUID->"874c8a3c-bf7e-4456-b661-7bd4336e7c5f"],
+Cell[11441, 345, 4028, 122, 600, "Text",ExpressionUUID->"df208c74-e66a-4adb-8e41-eb6ddcc58008"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15993, 491, 868, 28, 61, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
-Cell[16864, 521, 1514, 37, 152, "Text",ExpressionUUID->"acd3fa3a-7f4d-474c-88df-1fc04bc6b640"]
+Cell[15506, 472, 868, 28, 61, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
+Cell[16377, 502, 1514, 37, 152, "Text",ExpressionUUID->"acd3fa3a-7f4d-474c-88df-1fc04bc6b640"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18415, 563, 314, 5, 54, "Subsection",ExpressionUUID->"7cb40b47-921b-4c2b-928e-95d7de018a07"],
-Cell[18732, 570, 1370, 39, 192, "Text",ExpressionUUID->"bcfa4a90-a55a-4898-979e-be263e64bc49"]
+Cell[17928, 544, 314, 5, 54, "Subsection",ExpressionUUID->"7cb40b47-921b-4c2b-928e-95d7de018a07"],
+Cell[18245, 551, 1370, 39, 192, "Text",ExpressionUUID->"bcfa4a90-a55a-4898-979e-be263e64bc49"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[20139, 614, 730, 20, 54, "Subsection",ExpressionUUID->"901ec2af-bfc5-4dc8-a6f4-0bfe9746fa5c"],
-Cell[20872, 636, 4130, 121, 303, "Text",ExpressionUUID->"ae3ee66d-2c87-4ffe-a576-aeb2d59cbf62"],
-Cell[25005, 759, 99, 1, 4, "PageBreak",ExpressionUUID->"91cac970-45b8-414b-9347-834b736c700e",
+Cell[19652, 595, 730, 20, 54, "Subsection",ExpressionUUID->"901ec2af-bfc5-4dc8-a6f4-0bfe9746fa5c"],
+Cell[20385, 617, 4130, 121, 303, "Text",ExpressionUUID->"ae3ee66d-2c87-4ffe-a576-aeb2d59cbf62"],
+Cell[24518, 740, 99, 1, 4, "PageBreak",ExpressionUUID->"91cac970-45b8-414b-9347-834b736c700e",
  PageBreakBelow->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25141, 765, 380, 6, 54, "Subsection",ExpressionUUID->"dfb167ca-492c-4085-8318-430e94372054"],
-Cell[25524, 773, 1963, 41, 284, "Text",ExpressionUUID->"52a2a1af-f209-4817-98ac-63c80859078e"]
+Cell[24654, 746, 380, 6, 54, "Subsection",ExpressionUUID->"dfb167ca-492c-4085-8318-430e94372054"],
+Cell[25037, 754, 5241, 136, 790, "Text",ExpressionUUID->"52a2a1af-f209-4817-98ac-63c80859078e"]
 }, Open  ]]
 }, Open  ]]
 }
