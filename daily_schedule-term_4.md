@@ -31,8 +31,9 @@ Course [home page](./)
 ### Week 3
 
 * Preparation for Tuesday, Jan. 24 &mdash; At the beginning of class, turn in [Assignment 3](./assignments/Assignment03.pdf) &mdash; Reading assignment - Finish Chapter 2 - Except skip the final section (Section 2.5) that Reed has marked as optional
-* Tuesday, Jan. 24 &mdash; We should do a quantitative discussion of equation 2.34 (Brian and Brandon will together prepare this), which is the equation used to rule out the photon as the neutral particle emitted in the reaction alpha particle+Beryllium&rarr;Carbon+neutral particle &mdash; We should also do a quantitative discussion of Coulomb repulsion (p. 50 of Reed, which I would you skip). We still have Norah's presentation to get to!
-* Friday, Jan. 27
+* Tuesday, Jan. 24 &mdash; Norah did a detailed job of describing both: (a) The apparatus used by Rutherford to discover that the positive charge in a nucleus is concentrated at the center, and (2) The apparatus that Rutherford's associates used to discover that the alpha particle was the same as a Helium nucleus &mdash; We delved into spectroscopy enough to understand how spectroscopy was used to identify Helium (it is very hard to identify using chemical reacations, because noble gases, He, Ne, Kr, Ar, Xe, and Rn don't react &mdash; that's why they are called noble gases) &mdash; We went deep into understanding [The Coulomb Barrier](./resources/TheCoulombBarrier.pdf) &mdash; We finished with Rutherford's declaration that making a chain reaction with protons is "talking moonshine" and Szilard's response that "pronouncements of experts that something cannot be done have always irritated me." &mdash; In 1934 Szilard even patents the idea that power and explosives can be created using chain reactions of neutrons (and because of the military potential, the patent is not published until 1949)
+* Preparation for Friday, Jan. 27 &mdash; I delayed the due date for Problem Set 3 and re-wrote the last problem &mdash; Turn the revised Problem Set 3 in at the beginning of class (you just have to re-do the last problem if you are already done) &mdash; Read through Section 3.1 of Reed
+* Friday, Jan. 27 &mdash; I still want to do a fine job of explaining Equation 2.34, but I will try to make that quick so that we have discussion time for the reading
 
 ### Week 4
 

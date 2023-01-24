@@ -1,0 +1,948 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     35590,        940]
+NotebookOptionsPosition[     33256,        891]
+NotebookOutlinePosition[     33742,        910]
+CellTagsIndexPosition[     33699,        907]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["The Coulomb Barrier", "Section",
+ CellChangeTimes->{{3.883560808062106*^9, 3.8835608181202717`*^9}, 
+   3.883561233740507*^9},ExpressionUUID->"b636154d-42f9-4e96-bf0d-\
+3b946db76ba8"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+This is a more understandable discussion of what is on p. 50 of Reed\
+\>", "Subtitle",
+ CellChangeTimes->{{3.8835609847211447`*^9, 3.883560994317103*^9}},
+ FontSize->18,ExpressionUUID->"9a0dcd7b-0aa1-4a1d-bf51-d5f9006fcdbc"],
+
+Cell[CellGroupData[{
+
+Cell["Coulomb\[CloseCurlyQuote]s Law", "Subsection",
+ CellChangeTimes->{{3.883561049847179*^9, 
+  3.883561052625903*^9}},ExpressionUUID->"bbe7765a-83ee-4fb1-9308-\
+2ab76417c1b7"],
+
+Cell[TextData[{
+ "Coulomb\[CloseCurlyQuote]s Law says the strength of the force between two \
+charges is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"F", "=", 
+    RowBox[{
+     FractionBox["1", 
+      RowBox[{"4", "  ", "\[Pi]", " ", 
+       SubscriptBox["\[Epsilon]", "o"]}]], 
+     FractionBox[
+      RowBox[{
+       RowBox[{"\[LeftBracketingBar]", 
+        SubscriptBox["q", "1"], "\[RightBracketingBar]"}], 
+       RowBox[{"\[LeftBracketingBar]", 
+        SubscriptBox["q", "2"], "\[RightBracketingBar]"}]}], 
+      SuperscriptBox["r", "2"]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "48f98cdf-689e-43c8-8777-b7635e63efb4"],
+ "\n\nThere are so many things to say about this simple formula!\n\n1. It \
+looks a lot like Newton\[CloseCurlyQuote]s Universal Theory of Gravitation, \
+except it involves charges instead of masses. Newton\[CloseCurlyQuote]s \
+Universal Theory of Gravitation says:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"F", "=", 
+    RowBox[{"G", 
+     FractionBox[
+      RowBox[{
+       SubscriptBox["m", "1"], 
+       SubscriptBox["m", "2"]}], 
+      SuperscriptBox["r", "2"]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "13c2b50e-66a9-448c-9208-937b99a0595c"],
+ "\n\n2. Gravity always causes masses to attract. But Coulomb\
+\[CloseCurlyQuote]s Law is different. Charges can be positive or negative. If \
+both are positive, they repel. If both are negative, they repel. If one is \
+positive, and one is negative, only then do they attract. That\
+\[CloseCurlyQuote]s why there are absolute value signs around ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["q", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c22d6d8d-ade0-4f50-889c-761c5f2b020f"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["q", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "48c4dec9-6c71-4053-b02a-c30272b7729b"],
+ " in Coulomb\[CloseCurlyQuote]s Law, and you have to remember that \
+\[OpenCurlyDoubleQuote]opposites attract\[CloseCurlyDoubleQuote] to get the \
+direction of force right. \n\n3. Because of 2, you can see that the negative \
+electron is attracted to the positive proton, and you can see why there might \
+be stable orbits of the electron around the proton, and indeed, that is the \
+picture we have of Hydrogen and all atoms.\n\n4. Both Coulomb\
+\[CloseCurlyQuote]s Law and Newton\[CloseCurlyQuote]s Law have a ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f3f9bbf7-59ba-42f8-b35e-54de51dd0843"],
+ " factor in them. If you imagine charges as being little spheres, like \
+teensy planets, ",
+ "then",
+ StyleBox[" the ",
+  FontSlant->"Italic"],
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,
+  FontSlant->"Italic",ExpressionUUID->
+  "d35e1eae-8e90-484d-a7a2-3376e58fcbfd"],
+ StyleBox[" in ",
+  FontSlant->"Italic"],
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,
+  FontSlant->"Italic",ExpressionUUID->
+  "6b88e3d9-c4fb-4601-85db-da0439cd4ec5"],
+ StyleBox[" refers to the distance between the centers of the spheres.",
+  FontSlant->"Italic"],
+ "\n\n5. The ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8d33fc82-1175-4e2c-9cea-836249c55e44"],
+ " factor means the force gets stronger and stronger as the charges get \
+closer together.\n\n6. Because of 5, you can see that there might be a great \
+barrier in getting a proton near a nucleus, or a nucleus near a nucleus. \
+After all, nuclei are positively charged, and the proton is positively \
+charged, and so these objects repel each other, and the repulsion gets larger \
+and larger as they get closer and closer.\n"
+}], "Text",
+ CellChangeTimes->{{3.883561075935766*^9, 3.88356117654496*^9}, {
+  3.883561245598117*^9, 3.883561278258752*^9}, {3.883561331216522*^9, 
+  3.883561926859487*^9}, {3.88356196156534*^9, 
+  3.883561985370523*^9}},ExpressionUUID->"0b20b59c-53ed-4c13-b36e-\
+6a7d72f0c6ec"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Coulomb Potential", "Subsection",
+ CellChangeTimes->{{3.883561049847179*^9, 3.883561052625903*^9}, {
+  3.883562034633428*^9, 
+  3.8835620376712112`*^9}},ExpressionUUID->"1a51ecb6-ad1b-4798-b7e6-\
+0509edd1ae85"],
+
+Cell[TextData[{
+ "In order to be quantitative about the barrier discussed in 6, we need to \
+introduce the the Coulomb potential. What was described on the previous page \
+was the Coulomb force. It measures how hard the Coulomb force pushes. The \
+Coulomb potential measures how much energy it takes to get two charges near \
+each other.\n\nWe aren\[CloseCurlyQuote]t using calculus in this class. With \
+calculus, it is easy to get that the potential corresponding to a ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "337cbb63-176f-4787-a428-c397fecbdb97"],
+ " force goes as ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "r"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1cae95d7-23f7-4c0d-b09e-c7c6b1a8d551"],
+ ". E.g., the Coulomb potential is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"E", "=", 
+    RowBox[{
+     FractionBox["1", 
+      RowBox[{"4", "  ", "\[Pi]", " ", 
+       SubscriptBox["\[Epsilon]", "o"]}]], 
+     FractionBox[
+      RowBox[{
+       SubscriptBox["q", "1"], 
+       SubscriptBox["q", "2"]}], "r"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "85cfa46d-fbb1-466e-ab93-ffa3148548dc"],
+ "\n\nNotice the absolute value signs around the charges are gone. This says \
+there is positive energy required to bring charges together if they are like \
+charges, and energy is released bringing charges together if they are \
+opposite.\n\nI haven\[CloseCurlyQuote]t said anything about the ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"4", "  ", "\[Pi]", " ", 
+     SubscriptBox["\[Epsilon]", "o"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9bb61faa-f0b7-476c-a2f7-4ef5bafcdecd"],
+ " out front. Don\[CloseCurlyQuote]t be intimidated. ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Epsilon]", "0"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b2e8892f-e766-4d53-9bd2-c0d340374065"],
+ " is just a constant of nature whose value is about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Epsilon]", "0"], "=", 
+    RowBox[{"8.85", "\[Times]", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "12"}]], " ", 
+     RowBox[{
+      SuperscriptBox[
+       StyleBox["C",
+        FontSlant->"Plain"], "2"], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        StyleBox["J",
+         FontSlant->"Plain"], 
+        StyleBox["\[VeryThinSpace]",
+         FontSlant->"Italic"], 
+        StyleBox["m",
+         FontSlant->"Plain"]}], ")"}]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bd28ea5b-0b50-433a-bcb8-d8811f626e9a"],
+ ". Because it always shows up in the combination ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"4", "\[VeryThinSpace]", "\[Pi]", " ", 
+     SubscriptBox["\[Epsilon]", "0"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9f0c1f5a-89e1-4a09-bbe2-3af13cd370b5"],
+ "we usually just write:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"4", "\[VeryThinSpace]", "\[Pi]", " ", 
+      SubscriptBox["\[Epsilon]", "0"]}]], "=", 
+    RowBox[{"8.99", " ", 
+     SuperscriptBox["10", "9"]}]}], TraditionalForm]],ExpressionUUID->
+  "348102bb-8619-4473-80e7-04d2e352e4f1"],
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{
+     StyleBox["J",
+      FontSlant->"Plain"], 
+     StyleBox[" ",
+      FontSlant->"Italic"], 
+     StyleBox["m",
+      FontSlant->"Plain"]}], 
+    SuperscriptBox["C", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5b38e08b-adac-48ab-bbed-f6e5b504e917"],
+ "\n\nOne more thing: a Joule-meter is the same as a ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"Newton", "-", 
+    SuperscriptBox["meter", "2"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6c59f9c9-125c-4791-8f83-fc4b72660aad"],
+ ", and while I am at it, I might as well round 8.99 to 9, so the way I am \
+used to seeing ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    RowBox[{"4", "\[VeryThinSpace]", "\[Pi]", "\[VeryThinSpace]", 
+     SubscriptBox["\[Epsilon]", "0"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f981394d-be02-4653-b809-5890fabe0508"],
+ " written is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"4", "\[VeryThinSpace]", "\[Pi]", " ", 
+      SubscriptBox["\[Epsilon]", "0"]}]], "=", 
+    RowBox[{"9", " ", 
+     SuperscriptBox["10", "9"]}]}], TraditionalForm]],ExpressionUUID->
+  "4295364e-1f3c-413b-b998-9fb0d22a3a36"],
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{
+     StyleBox["N",
+      FontSlant->"Plain"], 
+     StyleBox[" ",
+      FontSlant->"Italic"], 
+     SuperscriptBox[
+      StyleBox["m",
+       FontSlant->"Plain"], "2"]}], 
+    SuperscriptBox["C", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "65e33b89-2283-475f-9512-5cf2bded62a2"],
+ "\n\nTo remember why a Newton-meter is a Joule, go back to the \
+tangerine-dropping example we did on the first day."
+}], "Text",
+ CellChangeTimes->{{3.883562058854238*^9, 3.883562389188849*^9}, {
+  3.8835624396044073`*^9, 3.8835625863988647`*^9}, {3.883562616999164*^9, 
+  3.883562699909782*^9}, {3.883562755788951*^9, 3.883563081769656*^9}, {
+  3.883563122966031*^9, 3.8835631231327953`*^9}, {3.883563163039546*^9, 
+  3.883563163210484*^9}},ExpressionUUID->"84fa1524-b295-4c65-ab66-\
+da10e1fcb859"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Getting Reed\[CloseCurlyQuote]s Equation 2.26", "Subsection",
+ CellChangeTimes->{{3.883561049847179*^9, 3.883561052625903*^9}, {
+  3.883562034633428*^9, 3.8835620376712112`*^9}, {3.8835631726114883`*^9, 
+  3.883563186595796*^9}},ExpressionUUID->"ffe242bc-c436-4c9c-85bb-\
+22c8da7bf64f"],
+
+Cell[TextData[{
+ "If we assume that we have two nuclei colliding, then ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["q", "1"], "=", 
+    RowBox[{
+     SubscriptBox["Z", "1"], "e"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "799838c7-391d-4d69-b6e6-e24ec6ccdf65"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["q", "2"], "=", 
+    RowBox[{
+     SubscriptBox["Z", "2"], "e"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a14fc1f1-5f84-4a51-824f-f6fcd7441770"],
+ ", where ",
+ Cell[BoxData[
+  FormBox["e", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5b8f99c5-3114-43df-b8b7-5f6917846b07"],
+ " is the charge on the proton and Z as usual represents the number of \
+protons. If we assume nucleus 1 has radius ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5e569aec-3946-4162-abff-82f590e3d3af"],
+ " and nucleus 2 has radius ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d592f2df-8833-4e5b-8a49-04ef0402fe68"],
+ " then when the two spheres are just touching, their centers will be \
+separated by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{
+     SubscriptBox["r", "1"], "+", 
+     SubscriptBox["r", "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8dfb9a1b-6caf-4080-aa09-6addc30404c5"],
+ ". So we put those three facts into:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"E", "=", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"4", "  ", "\[Pi]", " ", 
+        SubscriptBox["\[Epsilon]", "o"]}]], 
+      FractionBox[
+       RowBox[{
+        SubscriptBox["q", "1"], 
+        SubscriptBox["q", "2"]}], "r"]}], "=", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"4", "  ", "\[Pi]", " ", 
+        SubscriptBox["\[Epsilon]", "o"]}]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["Z", "1"], "e"}], ")"}], 
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["Z", "2"], "e"}], ")"}]}], 
+       RowBox[{
+        SubscriptBox["r", "1"], "+", 
+        SubscriptBox["r", "2"]}]]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fb48980f-b0a8-4cc1-9c4c-5a6b61319240"],
+ "\n\nReed also introduces the empirical assumption (Equation 2.25) that the \
+volume of a nucleus is proportional to its A value (the number of nucleons \
+which means the number of protons plus neutrons).\n\nSo we have\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"Volume", " ", "of", " ", "nucleus"}], "=", 
+    RowBox[{
+     RowBox[{
+      FractionBox["4", "3"], "\[Pi]", " ", 
+      SuperscriptBox[
+       SubscriptBox["a", "0"], "3"], "A"}], "=", 
+     RowBox[{
+      FractionBox["4", "3"], "\[Pi]", " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["a", "0"], 
+         SuperscriptBox["A", 
+          RowBox[{"1", "/", "3"}]]}], ")"}], "3"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1b4466d7-0497-425a-8df3-fec6040b3240"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["a", "0"], 
+    SuperscriptBox["A", 
+     RowBox[{"1", "/", "3"}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ef3fa5c1-3fd6-429f-b959-47ef802d66d5"],
+ " has the interpretation of being the radius of the nucleus. The value of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "0"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "eb83a1ac-2993-4c04-a0f8-1d6165fac46d"],
+ " that makes this empirical formula work is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["a", "0"], "=", 
+    RowBox[{"1.2", " ", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "15"}]], 
+     StyleBox["m",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "97c842e6-e154-49e3-920f-ee9b46f1d559"],
+ ".\n\nSo we have ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "1"], "=", 
+    RowBox[{
+     SubscriptBox["a", "0"], 
+     SubsuperscriptBox["A", "1", 
+      RowBox[{"1", "/", "3"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "51fbcd5f-4e02-490f-b002-33ecb908aae6"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "2"], "=", 
+    RowBox[{
+     SubscriptBox["a", "0"], 
+     SubsuperscriptBox["A", "2", 
+      RowBox[{"1", "/", "3"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "979aa7dc-a07c-4cad-b70a-8713d22bddf5"],
+ " and we put that into \n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"E", "=", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"4", "  ", "\[Pi]", " ", 
+        SubscriptBox["\[Epsilon]", "o"]}]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["Z", "1"], "e"}], ")"}], 
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["Z", "2"], "e"}], ")"}]}], 
+       RowBox[{
+        SubscriptBox["r", "1"], "+", 
+        SubscriptBox["r", "2"]}]]}], "=", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"4", "  ", "\[Pi]", " ", 
+        SubscriptBox["\[Epsilon]", "o"]}]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["Z", "1"], "e"}], ")"}], 
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["Z", "2"], "e"}], ")"}]}], 
+       RowBox[{
+        RowBox[{
+         SubscriptBox["a", "0"], 
+         SubsuperscriptBox["A", "1", 
+          RowBox[{"1", "/", "3"}]]}], "+", 
+        RowBox[{
+         SubscriptBox["a", "0"], 
+         SubsuperscriptBox["A", "2", 
+          RowBox[{"1", "/", "3"}]]}]}]], " "}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c69deaaf-4be8-4ad5-982f-efeffc7d58c5"],
+ "\n\nand simplify and we get exactly what Reed got in Equation 2.26:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"E", "=", 
+    RowBox[{
+     RowBox[{"the", " ", "Coulomb", " ", "barrier"}], " ", "=", 
+     RowBox[{
+      FractionBox[
+       SuperscriptBox["e", "2"], 
+       RowBox[{"4", "  ", "\[Pi]", " ", 
+        SubscriptBox["\[Epsilon]", "o"], 
+        SubscriptBox["a", "0"]}]], 
+      FractionBox[
+       RowBox[{
+        SubscriptBox["Z", "1"], 
+        SubscriptBox["Z", "2"]}], 
+       RowBox[{
+        SubsuperscriptBox["A", "1", 
+         RowBox[{"1", "/", "3"}]], "+", 
+        SubsuperscriptBox["A", "2", 
+         RowBox[{"1", "/", "3"}]]}]], " "}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "92b43fad-8cd3-433a-82db-bbd963d9e761"],
+ "\n\nThis is how much energy it takes to get two nuclei to touch.\n\nThe \
+mess out front is is something that can be calculated once and for all:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     SuperscriptBox["e", "2"], 
+     RowBox[{"4", "  ", "\[Pi]", " ", 
+      SubscriptBox["\[Epsilon]", "o"], 
+      SubscriptBox["a", "0"]}]], "=", 
+    RowBox[{
+     RowBox[{"1.6022", " ", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "15"}]], 
+      StyleBox["J",
+       FontSlant->"Plain"]}], "=", 
+     RowBox[{"1.2", "MeV", " "}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bacf640c-723e-4c74-a31d-3d04424083e2"]
+}], "Text",
+ CellChangeTimes->{{3.883563199352643*^9, 3.883564235315757*^9}, {
+  3.883564268281806*^9, 
+  3.883564375962612*^9}},ExpressionUUID->"13b8ac5b-14b7-4cc3-9411-\
+da9329132edd"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"3f78803f-e295-41f0-bf79-7ca1ed062fdf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "The relationship between a ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "91ea8f65-7543-412e-9230-b626b7f214a3"],
+ " force and a ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "r"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "50d8a8e8-80a1-40e4-8687-8970814c9f9d"],
+ " potential"
+}], "Subsection",
+ CellChangeTimes->{{3.883561049847179*^9, 3.883561052625903*^9}, {
+  3.883562034633428*^9, 3.8835620376712112`*^9}, {3.8835631726114883`*^9, 
+  3.883563186595796*^9}, {3.883564396063732*^9, 
+  3.8835644216580153`*^9}},ExpressionUUID->"8dec5c91-3f20-4d58-b77e-\
+f1bbebf8d886"],
+
+Cell[TextData[{
+ "Although we aren\[CloseCurlyQuote]t using calculus in this class, it would \
+be awfully nice to see why a ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "569e7188-a014-4999-9297-127deb737db6"],
+ " force creates a ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "r"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "916e5272-fd10-4f2a-a635-9e6b9357ec6a"],
+ " potential. Here is a graph of a force that is ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"1", " ", 
+     StyleBox["N",
+      FontSlant->"Plain"], " ", 
+     SuperscriptBox[
+      StyleBox["m",
+       FontSlant->"Plain"], "2"]}], 
+    SuperscriptBox["r", "2"]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fc80f60b-3019-4a97-b676-3463bea95f3d"],
+ ":"
+}], "Text",
+ CellChangeTimes->{{3.883562058854238*^9, 3.883562389188849*^9}, {
+   3.8835624396044073`*^9, 3.8835625863988647`*^9}, {3.883562616999164*^9, 
+   3.883562699909782*^9}, {3.883562755788951*^9, 3.883563081769656*^9}, {
+   3.883563122966031*^9, 3.8835631231327953`*^9}, {3.883563163039546*^9, 
+   3.883563163210484*^9}, {3.883564522458021*^9, 3.8835646215231237`*^9}, 
+   3.883564964644396*^9},ExpressionUUID->"d17c141b-8ab9-41f8-bb49-\
+d267b5fcdc59"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"r", ",", " ", 
+     RowBox[{"-", "3"}], ",", " ", "0"}], "}"}], ",", " ", 
+   RowBox[{"PlotRange", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "3.0"}], ",", " ", "0.0"}], "}"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"0.0", ",", " ", "6"}], "}"}]}], "}"}]}], ",", 
+   RowBox[{"GridLines", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Range", "[", 
+       RowBox[{
+        RowBox[{"-", "3.0"}], ",", " ", "0.0", ",", " ", "0.1"}], "]"}], ",", 
+      " ", 
+      RowBox[{"Range", "[", 
+       RowBox[{"0.0", ",", " ", "6", ",", " ", "0.1"}], "]"}]}], "}"}]}], ",",
+    " ", 
+   RowBox[{"AspectRatio", "->", 
+    FractionBox["6", "3"]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.883564624708186*^9, 3.883564644799034*^9}, {
+  3.883564677099491*^9, 3.883564861695387*^9}},
+ FontSize->8,
+ CellLabel->"In[6]:=",ExpressionUUID->"569a38f6-2586-4b18-8394-eb1e391f9cf3"],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, {}, 
+    TagBox[
+     {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], Opacity[
+      1.], LineBox[CompressedData["
+1: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
+Aet6zQ4g/Z9V+L+4l6N9
+       "]]},
+     Annotation[#, "Charting`Private`Tag$4291#1"]& ]}, {}},
+  AspectRatio->2,
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{{-3., -2.9, -2.8, -2.7, -2.6, -2.5, -2.4, -2.3, -2.2, -2.1, \
+-2., -1.9, -1.7999999999999998`, -1.7, -1.5999999999999999`, -1.5, -1.4, \
+-1.2999999999999998`, -1.2, -1.0999999999999999`, -1., -0.8999999999999999, \
+-0.7999999999999998, -0.6999999999999997, -0.5999999999999996, -0.5, \
+-0.3999999999999999, -0.2999999999999998, -0.19999999999999973`, \
+-0.09999999999999964, 0.}, CompressedData["
+1:eJxFzM0KAVEYxvEzDAaD+R5b18BW51yDS1BYuh7uxCUoVlZ2SillQSQi6Xj/
+5dlM8zy/93SG08HIUUr11T/zmc1Cy3epe12bDf9bLWpHv9eTsc2B/ajXK5sT
+7kx/wV/Zb9zdcQ/cE/fCvXEfnDLSKyPeMbIXjNwVjTAX5+JKuDKugvNwHq6K
+q+HqOB/n4xq4Jq6FC+gDfGB+czfkLsRFuAgX8U6Mi3EJLsEluBSX4jJchstw
+OS7Htc0Xxnqz8A==
+    "]},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  ImageSize->{321.1777343749994, Automatic},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{-3., 0.}, {0., 6.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0, 0}, {0, 0}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.8835646474770107`*^9, 3.883564677778015*^9, 
+  3.883564736624085*^9, 3.883564773967535*^9, 3.8835648321909533`*^9, 
+  3.8835648622543993`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"03257ff1-95e2-4432-8e42-899958cd437c"]
+}, Open  ]],
+
+Cell["\<\
+On the horizontal axis is distance in meters, counting down from -\[Infinity] \
+to 0. On the vertical axis is the strength of the force in Newtons. Obviously \
+this function is hard to graph. The force gets enormously large as you get \
+closer and closer to zero distance. It never goes to zero no matter how far \
+to the left we plotted it. That just means the force gets weaker and weaker \
+but never vanishes going to the left.\
+\>", "Text",
+ CellChangeTimes->{{3.883562058854238*^9, 3.883562389188849*^9}, {
+  3.8835624396044073`*^9, 3.8835625863988647`*^9}, {3.883562616999164*^9, 
+  3.883562699909782*^9}, {3.883562755788951*^9, 3.883563081769656*^9}, {
+  3.883563122966031*^9, 3.8835631231327953`*^9}, {3.883563163039546*^9, 
+  3.883563163210484*^9}, {3.883564522458021*^9, 3.8835646215231237`*^9}, {
+  3.883564964644396*^9, 3.88356514700476*^9}, {3.88356519308292*^9, 
+  3.8835651992924*^9}},ExpressionUUID->"add65074-8ed3-4f9b-b7ab-6a85a0833cf0"],
+
+Cell["\<\
+Now we want to get the potential. Energy is force times distance. Although \
+the force is constantly changing, we can estimate the force times the \
+distance, by counting up the little squares. Each square is 0.1m across and \
+0.1N high. So each square represents 0.01J of energy. The amount of energy \
+required to bring the charge in from -\[Infinity] is cumulative. Fill in the \
+following table by counting squares.\
+\>", "Text",
+ CellChangeTimes->{{3.883562058854238*^9, 3.883562389188849*^9}, {
+  3.8835624396044073`*^9, 3.8835625863988647`*^9}, {3.883562616999164*^9, 
+  3.883562699909782*^9}, {3.883562755788951*^9, 3.883563081769656*^9}, {
+  3.883563122966031*^9, 3.8835631231327953`*^9}, {3.883563163039546*^9, 
+  3.883563163210484*^9}, {3.883564522458021*^9, 3.8835646215231237`*^9}, {
+  3.883564964644396*^9, 3.88356514700476*^9}, {3.88356519308292*^9, 
+  3.8835651992924*^9}, {3.883565272099671*^9, 
+  3.8835654315987597`*^9}},ExpressionUUID->"02c41aa3-5ad8-4054-b7d8-\
+e128c8cad7b9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"d", "==", 
+       RowBox[{"-", "3.5"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<distance\>\"", ",", " ", "\"\<squares\>\"", ",", " ", 
+        "\"\<squares x 0.01 (cumulative)\>\""}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "d", ",", " ", "\"\< ______\>\"", ",", "\"\<          _____\>\""}], 
+       "}"}]}], "]"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"d", ",", " ", 
+      RowBox[{"-", "3.5"}], ",", " ", 
+      RowBox[{"-", "0.5"}], ",", " ", "0.5"}], "}"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.883565433524199*^9, 3.883565517131811*^9}, {
+  3.8835656563598223`*^9, 3.88356567466175*^9}, {3.8835657194810543`*^9, 
+  3.883565775257255*^9}, {3.883565809981517*^9, 3.883565897576583*^9}},
+ FontSize->9,
+ CellLabel->"In[16]:=",ExpressionUUID->"fd7085cd-e7ae-4e9c-bc13-cb967f2a2f1c"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"distance\"\>", "\<\"squares\"\>", "\<\"squares x 0.01 \
+(cumulative)\"\>"},
+    {
+     RowBox[{"-", "3.`"}], "\<\" ______\"\>", "\<\"          _____\"\>"},
+    {
+     RowBox[{"-", "2.5`"}], "\<\" ______\"\>", "\<\"          _____\"\>"},
+    {
+     RowBox[{"-", "2.`"}], "\<\" ______\"\>", "\<\"          _____\"\>"},
+    {
+     RowBox[{"-", "1.5`"}], "\<\" ______\"\>", "\<\"          _____\"\>"},
+    {
+     RowBox[{"-", "1.`"}], "\<\" ______\"\>", "\<\"          _____\"\>"},
+    {
+     RowBox[{"-", "0.5`"}], "\<\" ______\"\>", "\<\"          _____\"\>"}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{
+  3.8835657761175833`*^9, {3.883565871872093*^9, 3.883565897995351*^9}},
+ CellLabel->
+  "Out[16]//TableForm=",ExpressionUUID->"7511451d-db55-4ade-aae5-\
+d8064e0b10e2"]
+}, Open  ]],
+
+Cell["\<\
+I will tell you the first entry in the table which results in counting up all \
+the squares from -\[Infinity] to -3.0. It is 33.
+
+Now you estimate the number of squares between -3.0 and -2.5, multiply by \
+0.01 and add it to 0.33.
+
+You will have to do your best estimate partial squares.
+
+Finally, after we have done all the counting and cumulative adding, we will \
+add a fourth column to the table, and hopefully a pleasant surprise will \
+happen.\
+\>", "Text",
+ CellChangeTimes->{{3.883562058854238*^9, 3.883562389188849*^9}, {
+  3.8835624396044073`*^9, 3.8835625863988647`*^9}, {3.883562616999164*^9, 
+  3.883562699909782*^9}, {3.883562755788951*^9, 3.883563081769656*^9}, {
+  3.883563122966031*^9, 3.8835631231327953`*^9}, {3.883563163039546*^9, 
+  3.883563163210484*^9}, {3.883564522458021*^9, 3.8835646215231237`*^9}, {
+  3.883564964644396*^9, 3.88356514700476*^9}, {3.88356519308292*^9, 
+  3.8835651992924*^9}, {3.883565272099671*^9, 3.8835654315987597`*^9}, {
+  3.883565552748129*^9, 3.883565647369163*^9}, {3.883565742666294*^9, 
+  3.88356575162119*^9}, {3.88356593753489*^9, 
+  3.883565982646297*^9}},ExpressionUUID->"2bd2c4c2-7bc6-4a83-b362-\
+070d6f979563"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1031, 1208},
+WindowMargins->{{-1772, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"80d750f9-435d-402a-9cfe-1dfae663fd0c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 189, 3, 84, "Section",ExpressionUUID->"b636154d-42f9-4e96-bf0d-3b946db76ba8"],
+Cell[CellGroupData[{
+Cell[772, 27, 234, 4, 58, "Subtitle",ExpressionUUID->"9a0dcd7b-0aa1-4a1d-bf51-d5f9006fcdbc"],
+Cell[CellGroupData[{
+Cell[1031, 35, 178, 3, 67, "Subsection",ExpressionUUID->"bbe7765a-83ee-4fb1-9308-2ab76417c1b7"],
+Cell[1212, 40, 4193, 102, 881, "Text",ExpressionUUID->"0b20b59c-53ed-4c13-b36e-6a7d72f0c6ec"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5442, 147, 220, 4, 67, "Subsection",ExpressionUUID->"1a51ecb6-ad1b-4798-b7e6-0509edd1ae85"],
+Cell[5665, 153, 5464, 151, 737, "Text",ExpressionUUID->"84fa1524-b295-4c65-ab66-da10e1fcb859"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11166, 309, 292, 4, 67, "Subsection",ExpressionUUID->"ffe242bc-c436-4c9c-85bb-22c8da7bf64f"],
+Cell[11461, 315, 7555, 237, 917, "Text",ExpressionUUID->"13b8ac5b-14b7-4cc3-9411-da9329132edd"],
+Cell[19019, 554, 99, 1, 1, "PageBreak",ExpressionUUID->"3f78803f-e295-41f0-bf79-7ca1ed062fdf",
+ PageBreakBelow->True]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19155, 560, 721, 20, 75, "Subsection",ExpressionUUID->"8dec5c91-3f20-4d58-b77e-f1bbebf8d886"],
+Cell[19879, 582, 1349, 36, 93, "Text",ExpressionUUID->"d17c141b-8ab9-41f8-bb49-d267b5fcdc59"],
+Cell[CellGroupData[{
+Cell[21253, 622, 1069, 31, 48, "Input",ExpressionUUID->"569a38f6-2586-4b18-8394-eb1e391f9cf3"],
+Cell[22325, 655, 5569, 109, 807, "Output",ExpressionUUID->"03257ff1-95e2-4432-8e42-899958cd437c"]
+}, Open  ]],
+Cell[27909, 767, 965, 14, 131, "Text",ExpressionUUID->"add65074-8ed3-4f9b-b7ab-6a85a0833cf0"],
+Cell[28877, 783, 1007, 16, 131, "Text",ExpressionUUID->"02c41aa3-5ad8-4054-b7d8-e128c8cad7b9"],
+Cell[CellGroupData[{
+Cell[29909, 803, 964, 25, 54, "Input",ExpressionUUID->"fd7085cd-e7ae-4e9c-bc13-cb967f2a2f1c"],
+Cell[30876, 830, 1158, 31, 189, "Output",ExpressionUUID->"7511451d-db55-4ade-aae5-d8064e0b10e2"]
+}, Open  ]],
+Cell[32049, 864, 1179, 23, 246, "Text",ExpressionUUID->"2bd2c4c2-7bc6-4a83-b362-070d6f979563"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
