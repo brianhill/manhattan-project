@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    160349,       2781]
-NotebookOptionsPosition[    158241,       2736]
-NotebookOutlinePosition[    158695,       2754]
-CellTagsIndexPosition[    158652,       2751]
+NotebookDataLength[    160313,       2778]
+NotebookOptionsPosition[    158208,       2733]
+NotebookOutlinePosition[    158659,       2751]
+CellTagsIndexPosition[    158616,       2748]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,10 +30,11 @@ Cell["\<\
 There were numbering errors (two problem 2\[CloseCurlyQuote]s and every \
 problem after that was off by 1), and the wording of the electron-Volt \
 problem had people confused about what to do with the minus signs. I have \
-corrected both of those things.\
+corrected both of those things and more.\
 \>", "Subtitle",
  CellChangeTimes->{{3.883559041822081*^9, 3.88355909064589*^9}, {
-  3.883559148132213*^9, 3.8835591566035957`*^9}},
+  3.883559148132213*^9, 3.8835591566035957`*^9}, {3.883593290116415*^9, 
+  3.8835932927382927`*^9}},
  FontSize->18,ExpressionUUID->"f52b60bc-bca3-4e87-a818-cf6f38d1919b"],
 
 Cell[CellGroupData[{
@@ -2522,8 +2523,7 @@ Cell[TextData[{
   FormBox[
    RowBox[{"9.1", 
     SuperscriptBox["x10", 
-     RowBox[{"-", "31"}]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     RowBox[{"-", "31"}]]}], TraditionalForm]],ExpressionUUID->
   "3d44898c-1419-4015-89f2-1bc38a31754a"],
  "kg, how many electrons would it take to make 1kg?\n\n(b) Since one electron \
 has -",
@@ -2531,8 +2531,7 @@ has -",
   FormBox[
    RowBox[{"1.6", 
     SuperscriptBox["x10", 
-     RowBox[{"-", "19"}]]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     RowBox[{"-", "19"}]]}], TraditionalForm]],ExpressionUUID->
   "f529b587-f6be-40d7-81fc-eadc04663f16"],
  "C of charge, how many electrons would it take to make -1C of charge? \
 Mathematically, this is as easy as 3(a) even though charge is harder to \
@@ -2545,8 +2544,7 @@ about 1.66x",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["10", 
-    RowBox[{"-", "24"}]], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    RowBox[{"-", "24"}]], TraditionalForm]],ExpressionUUID->
   "157b2116-4d73-43f4-9d50-d687b878e0b0"],
  "g. How many Carbon-12 atoms would it take to make 12 grams?\n\nDISCUSSION: \
 Once you calculate the number in (c), it should look familiar. It is a famous \
@@ -2556,15 +2554,13 @@ after Avogadro. It is very hard to count atoms, so as of 2019, instead of \
 trying to count them, Avogadro\[CloseCurlyQuote]s constant is now, ",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["N", "A"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["N", "A"], TraditionalForm]],ExpressionUUID->
   "a92176d8-6dab-49c7-975e-928ea928a67a"],
  " is DEFINED to be ",
  Cell[BoxData[
   FormBox[
    RowBox[{"6.02214076", 
-    SuperscriptBox["x10", "23"]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+    SuperscriptBox["x10", "23"]}], TraditionalForm]],ExpressionUUID->
   "654a27ed-8e8c-4f0d-a009-83c313559c52"],
  ".  So as of 2019, the kilogram is no longer a primary standard! The kg used \
 to be a tangerine-sized piece of platinum stored in a vault in Paris. It is \
@@ -2603,17 +2599,16 @@ b8223249ad59"],
 Cell[TextData[{
  "Since mass can be converted to energy, at least in principle, we can \
 \[OpenCurlyDoubleQuote]measure\[CloseCurlyDoubleQuote] mass by how much \
-energy it would release if it were converted. In problem 1, you found that a \
-number for the amount of energy released into each of two photons when an \
-electron and a positron became two photons. The electron and the positron \
-weigh the same amount, and the two photons have the same energy. So what you \
-calculated in Problem 1 was how much energy an electron could make if it \
-could be turned into energy. (IT CAN\[CloseCurlyQuote]T all by itself. You \
-need a positron to annihilate it with). Anyway, imagining that the electron \
-CAN be turned into energy all by itself, you calculated the amount of energy, \
-in Joules, that would be released.\n\n(a) Using the conversion factor you \
-found in 2(c) what is the amount of energy you found in 1 in eV?\n\n(b) Using \
-1MeV = ",
+energy it would release if it were converted. In Problem 1, you found the \
+amount of energy released into each of two photons when an electron and a \
+positron annihilate. The electron and the positron weigh the same amount, and \
+the two photons equally share the energy. So what you calculated in Problem 1 \
+was how much energy an electron could make if it could be turned into energy. \
+(IT CAN\[CloseCurlyQuote]T all by itself. You need a positron to annihilate \
+it with.) Anyway, imagining that the electron CAN be turned into energy all \
+by itself, you calculated the amount of energy, in Joules, that would be \
+released.\n\n(a) Using the conversion factor you found in 3(c) what is the \
+amount of energy you found in Problem 2 in eV?\n\n(b) Using 1MeV = ",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["10", "6"], TraditionalForm]],ExpressionUUID->
@@ -2623,8 +2618,7 @@ common to say the electron weighs that much, even though MeV is a unit of \
 energy, not of mass. Thanks to Einstein, we know they are deeply related, and \
 to get back to mass requires ",
  Cell[BoxData[
-  FormBox["E", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["E", TraditionalForm]],ExpressionUUID->
   "3c98c897-5c65-4b25-958d-20b2e44eeb7a"],
  " dividing by ",
  Cell[BoxData[
@@ -2636,8 +2630,7 @@ to get back to mass requires ",
   FormBox[
    RowBox[{"m", "=", 
     RowBox[{"E", "/", 
-     SuperscriptBox["c", "2"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     SuperscriptBox["c", "2"]}]}], TraditionalForm]],ExpressionUUID->
   "1b7fe8ab-bb79-463d-bec1-9fc43293677f"],
  "). Any working particle physicist will say \[OpenCurlyDoubleQuote]an \
 electron weighs half an MeV\[CloseCurlyDoubleQuote] without even blinking."
@@ -2650,7 +2643,9 @@ electron weighs half an MeV\[CloseCurlyDoubleQuote] without even blinking."
   3.882957341881485*^9, 3.8829583394477863`*^9}, {3.882960681895565*^9, 
   3.8829608632902737`*^9}, {3.883559301725675*^9, 3.8835593314024963`*^9}, {
   3.883559361866819*^9, 3.883559371237932*^9}, {3.883559409824861*^9, 
-  3.883559503209467*^9}},ExpressionUUID->"54d74079-8b1f-46f7-aacd-\
+  3.883559503209467*^9}, {3.883591113247979*^9, 3.883591134958701*^9}, {
+  3.883593383288789*^9, 
+  3.8835934380324993`*^9}},ExpressionUUID->"54d74079-8b1f-46f7-aacd-\
 b5413635e2d0"]
 }, Open  ]],
 
@@ -2720,22 +2715,24 @@ factor you found in 3(c), convert what you found in (d) to eV.\n\n(f) Using \
  " eV convert what you got in (e) to MeV."
 }], "Text",
  CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
-  3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
-  3.8829567384615717`*^9}, {3.8829568422055063`*^9, 3.8829568981319637`*^9}, {
-  3.8829570420928383`*^9, 3.8829571307731543`*^9}, {3.882957161360065*^9, 
-  3.882957189586413*^9}, {3.882957264765923*^9, 3.882957308425704*^9}, {
-  3.882957341881485*^9, 3.8829583394477863`*^9}, {3.882960009954157*^9, 
-  3.88296049068888*^9}, {3.8829605374422827`*^9, 3.882960667765595*^9}, {
-  3.883558764953442*^9, 3.8835587659778852`*^9}, {3.8835595405811996`*^9, 
-  3.8835595427632008`*^9}, {3.883559592149584*^9, 3.88355959294174*^9}, {
-  3.88355963341222*^9, 3.883559698162098*^9}, {3.883559729133604*^9, 
-  3.88355972943682*^9}},ExpressionUUID->"88475c31-1f74-4350-a5ee-\
+   3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+   3.8829567384615717`*^9}, {3.8829568422055063`*^9, 
+   3.8829568981319637`*^9}, {3.8829570420928383`*^9, 
+   3.8829571307731543`*^9}, {3.882957161360065*^9, 3.882957189586413*^9}, {
+   3.882957264765923*^9, 3.882957308425704*^9}, {3.882957341881485*^9, 
+   3.8829583394477863`*^9}, {3.882960009954157*^9, 3.88296049068888*^9}, {
+   3.8829605374422827`*^9, 3.882960667765595*^9}, {3.883558764953442*^9, 
+   3.8835587659778852`*^9}, {3.8835595405811996`*^9, 
+   3.8835595427632008`*^9}, {3.883559592149584*^9, 3.88355959294174*^9}, {
+   3.88355963341222*^9, 3.883559698162098*^9}, {3.883559729133604*^9, 
+   3.88355972943682*^9}, 
+   3.883592436332793*^9},ExpressionUUID->"88475c31-1f74-4350-a5ee-\
 10c0e20d3f57"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 911},
-WindowMargins->{{-1215, Automatic}, {Automatic, 89}},
+WindowMargins->{{139, Automatic}, {Automatic, 0}},
 PrintingCopies->1,
 PrintingPageRange->{1, Automatic},
 FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
@@ -2755,32 +2752,32 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 219, 4, 67, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
-Cell[802, 28, 468, 8, 93, "Subtitle",ExpressionUUID->"f52b60bc-bca3-4e87-a818-cf6f38d1919b"],
+Cell[802, 28, 528, 9, 93, "Subtitle",ExpressionUUID->"f52b60bc-bca3-4e87-a818-cf6f38d1919b"],
 Cell[CellGroupData[{
-Cell[1295, 40, 383, 12, 54, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
-Cell[1681, 54, 2044, 51, 221, "Text",ExpressionUUID->"acd3fa3a-7f4d-474c-88df-1fc04bc6b640"]
+Cell[1355, 41, 383, 12, 54, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
+Cell[1741, 55, 2044, 51, 221, "Text",ExpressionUUID->"acd3fa3a-7f4d-474c-88df-1fc04bc6b640"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3762, 110, 232, 4, 54, "Subsection",ExpressionUUID->"67e4d52d-062d-4676-bdc7-97813d557a31"],
-Cell[3997, 116, 494, 9, 58, "Text",ExpressionUUID->"d1e1c9bf-0587-4c7a-b66e-bfa1cc08dd27"],
-Cell[4494, 127, 139312, 2289, 202, "Input",ExpressionUUID->"218c4ef6-3d79-46d2-b0e1-fd85928569c0"],
-Cell[143809, 2418, 1135, 26, 173, "Text",ExpressionUUID->"14a27582-f04e-4dca-86b5-57f79fc6d0f7"]
+Cell[3822, 111, 232, 4, 54, "Subsection",ExpressionUUID->"67e4d52d-062d-4676-bdc7-97813d557a31"],
+Cell[4057, 117, 494, 9, 58, "Text",ExpressionUUID->"d1e1c9bf-0587-4c7a-b66e-bfa1cc08dd27"],
+Cell[4554, 128, 139312, 2289, 202, "Input",ExpressionUUID->"218c4ef6-3d79-46d2-b0e1-fd85928569c0"],
+Cell[143869, 2419, 1135, 26, 173, "Text",ExpressionUUID->"14a27582-f04e-4dca-86b5-57f79fc6d0f7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[144981, 2449, 381, 6, 54, "Subsection",ExpressionUUID->"5ffd6442-671e-469a-9695-24b64970aff6"],
-Cell[145365, 2457, 2437, 41, 403, "Text",ExpressionUUID->"46164f77-cc1a-4ff6-81a2-84590af74278"]
+Cell[145041, 2450, 381, 6, 54, "Subsection",ExpressionUUID->"5ffd6442-671e-469a-9695-24b64970aff6"],
+Cell[145425, 2458, 2437, 41, 403, "Text",ExpressionUUID->"46164f77-cc1a-4ff6-81a2-84590af74278"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[147839, 2503, 647, 13, 54, "Subsection",ExpressionUUID->"8a545998-ff7b-4274-a2a2-c7e4d6394214"],
-Cell[148489, 2518, 3119, 71, 426, "Text",ExpressionUUID->"1533d3a5-bcef-4bf4-a587-deefb0e11216"]
+Cell[147899, 2504, 647, 13, 54, "Subsection",ExpressionUUID->"8a545998-ff7b-4274-a2a2-c7e4d6394214"],
+Cell[148549, 2519, 2964, 66, 426, "Text",ExpressionUUID->"1533d3a5-bcef-4bf4-a587-deefb0e11216"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[151645, 2594, 414, 6, 54, "Subsection",ExpressionUUID->"75e4e860-2818-4e65-aa86-b8223249ad59"],
-Cell[152062, 2602, 2698, 51, 358, "Text",ExpressionUUID->"54d74079-8b1f-46f7-aacd-b5413635e2d0"]
+Cell[151550, 2590, 414, 6, 54, "Subsection",ExpressionUUID->"75e4e860-2818-4e65-aa86-b8223249ad59"],
+Cell[151967, 2598, 2720, 50, 358, "Text",ExpressionUUID->"54d74079-8b1f-46f7-aacd-b5413635e2d0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[154797, 2658, 516, 8, 54, "Subsection",ExpressionUUID->"3a8250b2-5e3c-46d9-8d63-032c9abf17c2"],
-Cell[155316, 2668, 2897, 64, 449, "Text",ExpressionUUID->"88475c31-1f74-4350-a5ee-10c0e20d3f57"]
+Cell[154724, 2653, 516, 8, 54, "Subsection",ExpressionUUID->"3a8250b2-5e3c-46d9-8d63-032c9abf17c2"],
+Cell[155243, 2663, 2937, 66, 449, "Text",ExpressionUUID->"88475c31-1f74-4350-a5ee-10c0e20d3f57"]
 }, Open  ]]
 }, Open  ]]
 }
