@@ -1,0 +1,783 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     28804,        775]
+NotebookOptionsPosition[     27423,        740]
+NotebookOutlinePosition[     27907,        759]
+CellTagsIndexPosition[     27864,        756]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Manhattan Project \[LongDash] Assignment 4 \
+\[LongDash] The Coulomb Barrier, The Neutron, Fission Products, Cross \
+Sections",
+ FontSize->24]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.8841887766699266`*^9, 3.884188788354083*^9}, {
+  3.884188850341049*^9, 3.8841888531195707`*^9}, {3.8841889066918297`*^9, 
+  3.884188911067999*^9}, {3.884189020676065*^9, 3.8841890240735207`*^9}, {
+  3.884194323489108*^9, 3.884194332680498*^9}, {3.884195154470296*^9, 
+  3.8841951592285633`*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
+77e0e173d37d"],
+
+Cell[CellGroupData[{
+
+Cell["1. The Coulomb Barrier", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.8841890544712753`*^9, 
+  3.884189060016066*^9}},ExpressionUUID->"cb18b75f-b7de-4570-bdb9-\
+3d013725e9e2"],
+
+Cell[TextData[{
+ "To understand what you are calculating, you will want to review the Coulomb \
+Barrier handout:\n\n\
+https://brianhill.github.io/manhattan-project/resources/TheCoulombBarrier.pdf\
+\n\n(a) First let\[CloseCurlyQuote]s do alpha-particle bombardment on \
+beryllium as shown in Fig. 2.23. Write down ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["Z", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "51c6dc4f-6bc6-4c21-a8cd-e1b831514680"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["A", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "921bdd8c-4c49-4a42-b5a1-443724bb8b85"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["Z", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3e2a5bc7-4bf8-4588-9c09-aa46a9301f38"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["A", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "af8d750c-3bed-42bd-af96-ce494fd36123"],
+ ", assuming that particle 1 is the alpha particle and particle 2 is the most \
+common form of Beryllium, which is Beryllium-9.\n\n(b) Use the last two \
+formulas in the Coulomb Barrier handout to find the Coulomb barrier for this \
+collision (report your answer in MeV) .\n\n(c) The alpha particles from \
+polonium carry 5.3 MeV of kinetic energy. Is this enough to overcome the \
+Coulomb barrier you found in (b)?\n\n(d) Now let\[CloseCurlyQuote]s do \
+alpha-particle bombardment on uranium. ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["Z", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "14e0de9e-a2fc-43cd-a549-e95c07679df7"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["A", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f53b8ffc-44d5-4e9a-8085-bbafacc45594"],
+ " will be the same as in part (a), but you need to write down ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["Z", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4e7a6f52-c379-4fec-b409-45bf01b00c3a"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["A", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dc2d7bdb-03db-4989-baf2-a803f51a8f69"],
+ ". (Let\[CloseCurlyQuote]s assume that particle 2 is the most common form of \
+Uranium, which is Uranium-238.)\n\n(e) What is the Coulomb barrier for this \
+collision?\n\n(f) Assuming the alpha-particles from polonium are still being \
+used, is this enough to overcome the Coulomb barrier you found in (d)?"
+}], "Text",
+ CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
+   3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+   3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
+   3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
+   3.8831843041995583`*^9}, {3.883184342888789*^9, 3.883184351146276*^9}, {
+   3.8841890849919443`*^9, 3.8841891426814013`*^9}, {3.8841892031610203`*^9, 
+   3.884189268637741*^9}, 3.884189310521976*^9, {3.88418934818775*^9, 
+   3.8841893757612658`*^9}, {3.884189427759839*^9, 3.884189428513361*^9}, {
+   3.884189466718503*^9, 3.884189572256094*^9}, {3.884189671100107*^9, 
+   3.88418967156171*^9}, {3.884189761550167*^9, 3.88419011223993*^9}, {
+   3.884190223616379*^9, 
+   3.884190225922552*^9}},ExpressionUUID->"acd3fa3a-7f4d-474c-88df-\
+1fc04bc6b640"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. The Neutron", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.883184905350834*^9, 3.8831849081855516`*^9}, {
+  3.884189521534213*^9, 3.884189521541279*^9}, {3.884190239343153*^9, 
+  3.8841902472857933`*^9}},ExpressionUUID->"7cb40b47-921b-4c2b-928e-\
+95d7de018a07"],
+
+Cell[TextData[{
+ "In the Photon-Proton Collision handout,\n\n\
+https://brianhill.github.io/manhattan-project/resources/PhotonProtonCollision.\
+pdf\n\nit was derived why the \[OpenCurlyDoubleQuote]mystery radiation\
+\[CloseCurlyDoubleQuote] in Fig. 2.23 cannot be a photon. In this problem, we \
+want to see how supposing that the mystery radiation is a neutron fixes the \
+problem.\n\nThe very first collision in this 1-minute YouTube video will help \
+explain what is going on:\n\nhttps://youtu.be/4v2RHtBTbj8\n\nThe first \
+collision is a collision between two equal-sized billiard balls. The neutron \
+and the proton have very nearly equal mass. For this problem, we\
+\[CloseCurlyQuote]ll treat them as exactly equal ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["m", 
+      StyleBox["p",
+       FontSlant->"Plain"]], 
+     SuperscriptBox["c", "2"]}], "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["m", 
+       StyleBox["n",
+        FontSlant->"Plain"]], 
+      SuperscriptBox["c", "2"]}], "=", 
+     RowBox[{"938", " ", "MeV"}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8b74963f-122e-4867-8392-3a4255646735"],
+ ", and we\[CloseCurlyQuote]ll call both masses ",
+ Cell[BoxData[
+  FormBox["m", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "752cc97f-b4d7-4d96-9b36-759454c77a37"],
+ ". (Only if you are wondering, the neutron is actually 1.3 MeV heavier.)\n\n\
+(a) Momentum conservation says:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["p", 
+      RowBox[{
+       StyleBox["n",
+        FontSlant->"Plain"], 
+       StyleBox[",",
+        FontSlant->"Italic"], 
+       StyleBox["i",
+        FontSlant->"Plain"]}]], "+", "0"}], "=", 
+    RowBox[{
+     StyleBox[
+      SubscriptBox["p", 
+       RowBox[{
+        StyleBox["n",
+         FontSlant->"Plain"], ",", 
+        StyleBox["f",
+         FontSlant->"Plain"]}]],
+      FontSlant->"Italic"], "+", 
+     SubscriptBox["p", 
+      RowBox[{
+       StyleBox["p",
+        FontSlant->"Plain"], ",", 
+       StyleBox["f",
+        FontSlant->"Plain"]}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "97b526ef-35ad-4fcc-949f-60f2559c6cc8"],
+ "\n\nIn this equation, italic ",
+ Cell[BoxData[
+  FormBox["p", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c8381b40-4141-4c5d-af67-54bf7c65d0c6"],
+ " is momentum, roman subscript \[OpenCurlyDoubleQuote]n\
+\[CloseCurlyDoubleQuote] means neutron, roman subscript \
+\[OpenCurlyDoubleQuote]p\[CloseCurlyDoubleQuote] means proton,  roman \
+subscript \[OpenCurlyDoubleQuote]i\[CloseCurlyDoubleQuote] means initial, and \
+roman subscript \[OpenCurlyDoubleQuote]f\[CloseCurlyDoubleQuote] means final.\
+\n\nAll we have done is write down momentum conservation for a neutron \
+striking a proton that is initially at rest. Afterwards, both of them can \
+carry momentum. Momentum conservation is more complicated if, after the \
+collision, they come out at angles, but there is no need to go into that.\n\n\
+Rearrange the momentum conservation to solve for ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", 
+    RowBox[{
+     StyleBox["n",
+      FontSlant->"Plain"], ",", 
+     StyleBox["f",
+      FontSlant->"Plain"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "49ce167b-0cfa-40e4-8fb9-036b40d9701e"],
+ ". Box that.\n\n(b) Energy conservation says:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["n",
+       FontSlant->"Plain"], ",", 
+      StyleBox["i",
+       FontSlant->"Plain"]}]], "=", 
+    SqrtBox[
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"m", "\[VeryThinSpace]", 
+         SuperscriptBox["c", "2"]}], ")"}], "2"], "+", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["p", 
+          RowBox[{
+           StyleBox["n",
+            FontSlant->"Plain"], ",", 
+           StyleBox["i",
+            FontSlant->"Plain"]}]], "c"}], ")"}], "2"]}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e27e0e08-65a9-4736-8bb1-fe0877f9fa2a"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["n",
+       FontSlant->"Plain"], ",", 
+      StyleBox["f",
+       FontSlant->"Plain"]}]], "=", 
+    SqrtBox[
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"m", "\[VeryThinSpace]", 
+         SuperscriptBox["c", "2"]}], ")"}], "2"], "+", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["p", 
+          RowBox[{
+           StyleBox["n",
+            FontSlant->"Plain"], ",", 
+           StyleBox["f",
+            FontSlant->"Plain"]}]], "c"}], ")"}], "2"]}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2cf793ef-7dd2-411f-a7f1-56f4916365f4"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["p",
+       FontSlant->"Plain"], ",", 
+      StyleBox["i",
+       FontSlant->"Plain"]}]], "=", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"m", "\[VeryThinSpace]", 
+          SuperscriptBox["c", "2"]}], ")"}], "2"], "+", 
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["p", 
+          RowBox[{
+           StyleBox["p",
+            FontSlant->"Plain"], ",", 
+           StyleBox["i",
+            FontSlant->"Plain"]}]], "c"}], ")"}]}]], "=", 
+     RowBox[{"m", "\[VeryThinSpace]", 
+      SuperscriptBox["c", "2"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "61eae163-083c-4582-bd23-cb16d39a84ca"],
+ " (because ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["p", 
+     RowBox[{
+      StyleBox["p",
+       FontSlant->"Plain"], ",", 
+      StyleBox["i",
+       FontSlant->"Plain"]}]], "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7f30817c-7763-4830-872e-c4788fce85af"],
+ ")\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["p",
+       FontSlant->"Plain"], ",", 
+      StyleBox["f",
+       FontSlant->"Plain"]}]], "=", 
+    SqrtBox[
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"m", "\[VeryThinSpace]", 
+         SuperscriptBox["c", "2"]}], ")"}], "2"], "+", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["p", 
+          RowBox[{
+           StyleBox["p",
+            FontSlant->"Plain"], ",", 
+           StyleBox["f",
+            FontSlant->"Plain"]}]], "c"}], ")"}], "2"]}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "23ae13d3-38f3-48c4-b08e-960fa299a97f"],
+ "\n\nHowever, the neutron and the proton are heavy and slow-moving in this \
+reaction. They are not relativistic. Therefore, we can make the same \
+approximation as was made for non-relativistic motion in the handout:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["n",
+       FontSlant->"Plain"], ",", 
+      StyleBox["i",
+       FontSlant->"Plain"]}]], "=", 
+    RowBox[{
+     RowBox[{"m", "\[VeryThinSpace]", 
+      SuperscriptBox["c", "2"]}], "+", 
+     FractionBox[
+      SubsuperscriptBox["p", 
+       RowBox[{
+        StyleBox["n",
+         FontSlant->"Plain"], ",", 
+        StyleBox["i",
+         FontSlant->"Plain"]}], "2"], 
+      RowBox[{"2", "m"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f6e61ab3-9833-45f5-854a-d15fcd8859bf"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["n",
+       FontSlant->"Plain"], ",", 
+      StyleBox["f",
+       FontSlant->"Plain"]}]], "=", 
+    RowBox[{
+     RowBox[{"m", "\[VeryThinSpace]", 
+      SuperscriptBox["c", "2"]}], "+", 
+     FractionBox[
+      SubsuperscriptBox["p", 
+       RowBox[{
+        StyleBox["n",
+         FontSlant->"Plain"], ",", 
+        StyleBox["f",
+         FontSlant->"Plain"]}], "2"], 
+      RowBox[{"2", "m"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1a09adc5-fcee-46f6-8b22-ba30953e9b33"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["p",
+       FontSlant->"Plain"], ",", 
+      StyleBox["i",
+       FontSlant->"Plain"]}]], "=", 
+    RowBox[{"m", "\[VeryThinSpace]", 
+     SuperscriptBox["c", "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6d779df3-1472-4028-bf02-0a0a1c438223"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", 
+     RowBox[{
+      StyleBox["p",
+       FontSlant->"Plain"], ",", 
+      StyleBox["f",
+       FontSlant->"Plain"]}]], "=", 
+    RowBox[{
+     RowBox[{"m", "\[VeryThinSpace]", 
+      SuperscriptBox["c", "2"]}], "+", 
+     FractionBox[
+      SubsuperscriptBox["p", 
+       RowBox[{
+        StyleBox["p",
+         FontSlant->"Plain"], ",", 
+        StyleBox["f",
+         FontSlant->"Plain"]}], "2"], 
+      RowBox[{"2", "m"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c222fb04-65db-461f-a0aa-2ae9097a15fa"],
+ "\n\nPut these nice simple formulas for ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", 
+    RowBox[{
+     StyleBox["n",
+      FontSlant->"Plain"], ",", 
+     StyleBox["i",
+      FontSlant->"Plain"]}]], TraditionalForm]],ExpressionUUID->
+  "0fb3e593-68db-40e9-b77f-ba1bf9b2b3d6"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", 
+    RowBox[{
+     StyleBox["n",
+      FontSlant->"Plain"], ",", 
+     StyleBox["f",
+      FontSlant->"Plain"]}]], TraditionalForm]],ExpressionUUID->
+  "9536054e-7567-4bac-991f-b049e3e51be9"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", 
+    RowBox[{
+     StyleBox["p",
+      FontSlant->"Plain"], ",", 
+     StyleBox["i",
+      FontSlant->"Plain"]}]], TraditionalForm]],ExpressionUUID->
+  "6528a90d-6e00-42f3-8146-314a7bd01127"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", 
+    RowBox[{
+     StyleBox["p",
+      FontSlant->"Plain"], ",", 
+     StyleBox["f",
+      FontSlant->"Plain"]}]], TraditionalForm]],ExpressionUUID->
+  "13dbff20-6564-43c5-998f-d51ea6ae40aa"],
+ " into the equation for energy conservation, which is \n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["E", 
+      RowBox[{
+       StyleBox["n",
+        FontSlant->"Plain"], ",", 
+       StyleBox["i",
+        FontSlant->"Plain"]}]], "+", 
+     SubscriptBox["E", 
+      RowBox[{
+       StyleBox["p",
+        FontSlant->"Plain"], ",", 
+       StyleBox["i",
+        FontSlant->"Plain"]}]]}], "=", 
+    RowBox[{
+     SubscriptBox["E", 
+      RowBox[{
+       StyleBox["n",
+        FontSlant->"Plain"], ",", 
+       StyleBox["f",
+        FontSlant->"Plain"]}]], "+", 
+     SubscriptBox["E", 
+      RowBox[{
+       StyleBox["p",
+        FontSlant->"Plain"], ",", 
+       StyleBox["f",
+        FontSlant->"Plain"]}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "38483ddc-5e1a-4e94-87f4-e5f81e728b6f"],
+ "\n\nSimplify like heck. Not much will be left. Box it.\n\n(c) Now \
+substitute for what you got in part (a) into what you got in part (b) and \
+simplify like heck again. Box that.\n\n(d) If you did (c) right, you will see \
+there is a common factor of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", 
+    RowBox[{
+     StyleBox["p",
+      FontSlant->"Plain"], ",", 
+     StyleBox["f",
+      FontSlant->"Plain"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "928b3bc9-abe2-4578-bf77-0070baa806f3"],
+ " in every term in your equation, so you can divide it out. But wait! You \
+can\[CloseCurlyQuote]t divide something out if it is zero, so before you move \
+on, explain the interpretation of the collision if ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", 
+    RowBox[{
+     StyleBox["p",
+      FontSlant->"Plain"], ",", 
+     StyleBox["f",
+      FontSlant->"Plain"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "45b74c3f-2020-4504-8ecf-b57cd90d6548"],
+ " is zero.\n\n(e) Moving on, now with the ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", 
+    RowBox[{
+     StyleBox["p",
+      FontSlant->"Plain"], ",", 
+     StyleBox["f",
+      FontSlant->"Plain"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f8c42385-8c8f-4e5a-99e1-639587456f5e"],
+ " cancelled, what is left of the equation is super-simple.  Write that down \
+and box it.\n\n(f) Compare the equations in (a) and (e) and make the most \
+simple statements you can about the collision.\n\nDISCUSSION (no need to \
+answer, just think about these comments): Do you see why the first collision \
+in the YouTube video is relevant? Do you see why this solves the problem at \
+the top of p. 57? The photon can only give a little of its energy to the \
+proton and satisfy energy and momentum conservation. The neutron can give all \
+of its energy and momentum to the neutron and come to a dead stop! If you \
+have unequal-sized objects, different outcomes occur, and the 1-minute \
+YouTube video illustrated those nicely too."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdzD1IAgEAxXEtTAoRCpQwEyQ5yxBKwsAIkYaGwkERQcKOI4PKPs6GLHDI
+gnKKBsMbWoIgCE5KoqAPAgtEQppCwYKwIkUPowgziu41PH685a+mZm2eGoFA
+oOAHPWQxRHBFS7QkisCrjDkOU88ZDr4KW9+h4dpagdsqeSbMW/gIlaD2oKMK
+mdzoLyTu52u3eBNUnRx+zmUVcIh9aoHpdJMGmnud7dBpeTBAye7CMFwbeBtc
+LvM96aMNLkbpKaj3Z6eh95COQJ2SYiE79hKDan01BfuY5jtIJt152JCzl/6/
+2CgM8gbpYxG8NO87oEPkdkFiqc0DLxrLNByxrwegmNjkYPKnIl7h3dNOSKBX
+cyuDO2WTAsp0Nyoorf8mIOFjumC/8twKV/NnLjjTEyTh+JdvEoY3AjFoYjuP
+IGfsPoXxE38C/gFCbOyM
+  "],ExpressionUUID->"bcfa4a90-a55a-4898-979e-be263e64bc49"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. Fission Products", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.883184913832761*^9, 3.8831849338471403`*^9}, {3.88419465241159*^9, 
+  3.8841946554831448`*^9}},ExpressionUUID->"901ec2af-bfc5-4dc8-a6f4-\
+0bfe9746fa5c"],
+
+Cell[TextData[{
+ "(a) Consult Fig. 3.7 on p. 89. Estimate the height of the high plateaus by \
+drawing a horizontal line (with a ruler) across the plateaus to the vertical \
+axis.\n\n(b) The vertical axis is a log axis! Take ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"whatever", " ", "you", " ", "got", " ", "in", " ", "part", " ", 
+     RowBox[{"(", 
+      StyleBox["a",
+       FontSlant->"Plain"], ")"}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1a2ff403-3267-40d0-9885-e8fcd1ff2aa0"],
+ ".\n\n(c) The caption says whatever you got in (b) is a percentage. So what \
+percentage of the time do you get a fission product with mass number A=95?\n\n\
+(d) Estimate the height of the bottom of the low valley between the plateaus \
+by drawing a horizontal line (with a ruler) across the bottom of the valley \
+to the vertical axis.\n\n(e) Take ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"whatever", " ", "you", " ", "got", " ", "in", " ", "part", " ", 
+     RowBox[{"(", 
+      StyleBox["d",
+       FontSlant->"Plain"], ")"}]}]], TraditionalForm]],ExpressionUUID->
+  "648101da-3dd9-4914-90a0-da6a69bac182"],
+ ".\n\n(f) The caption says whatever you got in (e) is a percentage. So what \
+percentage of the time do you get a fission product with mass number A=116?"
+}], "Text",
+ CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
+  3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+  3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
+  3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
+  3.8831843041995583`*^9}, {3.883184342888789*^9, 3.883184351146276*^9}, {
+  3.88318441658897*^9, 3.883184450725494*^9}, {3.883184534945476*^9, 
+  3.8831847397388973`*^9}, {3.883184946244472*^9, 3.883185377999518*^9}, {
+  3.884194659827201*^9, 3.884194822962371*^9}, {3.884194857701889*^9, 
+  3.884194980812133*^9}, {3.884195065232658*^9, 3.884195080948785*^9}, {
+  3.884195443245591*^9, 
+  3.884195453674155*^9}},ExpressionUUID->"ae3ee66d-2c87-4ffe-a576-\
+aeb2d59cbf62"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Relative Cross Sections", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+  3.8841951805909767`*^9}, {3.884196695659255*^9, 
+  3.884196696840188*^9}},ExpressionUUID->"dfb167ca-492c-4085-8318-\
+430e94372054"],
+
+Cell[TextData[{
+ "(a) Look at the figures on p. 100. The horizontal axis is a log axis. ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "6"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fc3ebbc6-b9e6-43b9-b95b-cbda9818dfae"],
+ " MeV is just 1eV. Thermal neutrons are about ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "40"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3d6b7c07-1e3d-45e2-be91-84b2755663f6"],
+ " of an eV. What is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["log", "10"], 
+    FractionBox["1", "40"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b5fc126d-a6d9-4fc6-b2f6-a108e8c18ae8"],
+ "?\n\n(b) So on a plot where the axis is ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["log", "10"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ea14d6b4-e4e5-4235-8456-0c0b8c185411"],
+ " of MeV, ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "40"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ab165606-9fbe-474c-a6df-6e6d28b8cd97"],
+ " of an eV is at -7.6. Find -7.6 on the horizontal axis in Fig. 3.11. Use a \
+ruler to draw lines and find the value on the vertical axis. Write that down.\
+\n\n(c) Take ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"whatever", " ", "you", " ", "got", " ", "in", " ", 
+     RowBox[{"(", 
+      StyleBox["b",
+       FontSlant->"Plain"], ")"}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "87684a7e-f261-46c2-898b-21dd786b17c0"],
+ ". This is the absorption cross section of a thermal neutron hitting \
+Uranium-238 in barns.\n\n(d) Repeat step (b) on Figure 3.12.\n\n(e) Take ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"whatever", " ", "you", " ", "got", " ", "in", " ", 
+     RowBox[{"(", 
+      StyleBox["d",
+       FontSlant->"Plain"], ")"}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6c168cc2-ce96-47fb-b0d7-d92cfc2f2e94"],
+ ". This is the fission cross-section for a thermal neutron hitting \
+Uranium-235 in barns.\n\n(f) In nature, there are about 140 Uranium-238 atoms \
+for every Uranium-235 atom. So if you aim thermal neutrons at an unenriched \
+sample, the fraction of the neutrons that will cause Uranium-235 fissions is\n\
+\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"what", " ", "you", " ", "got", " ", "in", " ", 
+     StyleBox["e",
+      FontSlant->"Plain"], "*", "1"}], 
+    RowBox[{
+     RowBox[{"what", " ", "you", " ", "got", " ", "in", " ", 
+      StyleBox["e",
+       FontSlant->"Plain"], "*", "1"}], "+", 
+     RowBox[{"what", " ", "you", " ", "got", " ", "in", " ", 
+      StyleBox["c",
+       FontSlant->"Plain"], "*", "140"}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "19d82888-8882-463b-91ad-51d2ba11b16c"],
+ "\n\nDISCUSSION (no need to answer, just think about this): Given what a \
+small fraction of the sample is U-235, it is brilliant of Bohr to have \
+suggested that that was where all the fissions were coming from! We have \
+these wonderfully detailed cross-section graphs now, but he had nothing of \
+the kind! Section 3.6 is about proving his suggestion to be correct by \
+enriching the Uranium-235 in a sample and seeing that this dramatically \
+increased the ratio of fissions to captures. These 1920\[CloseCurlyQuote]s \
+and 1930\[CloseCurlyQuote]s physicists were unfathomably smart. It was an age \
+of radically fast progress on many fronts, from quantum mechanics to the Big \
+Bang."
+}], "Text",
+ CellChangeTimes->{{3.882955855386767*^9, 3.882955968185264*^9}, {
+   3.8829563139953327`*^9, 3.8829566628093023`*^9}, {3.8829566969064827`*^9, 
+   3.8829567384615717`*^9}, {3.883183816691237*^9, 3.8831839803111467`*^9}, {
+   3.883184081302875*^9, 3.883184114996533*^9}, {3.8831841556207457`*^9, 
+   3.8831843041995583`*^9}, {3.883184342888789*^9, 3.883184351146276*^9}, {
+   3.88318441658897*^9, 3.883184450725494*^9}, {3.883184534945476*^9, 
+   3.8831847397388973`*^9}, {3.883185431895658*^9, 3.883185580532702*^9}, {
+   3.883185891640935*^9, 3.88318590340845*^9}, {3.883186097116153*^9, 
+   3.883186196982749*^9}, {3.883186282494115*^9, 3.883186302103067*^9}, {
+   3.8831864408048058`*^9, 3.883186498281303*^9}, {3.8832170382716722`*^9, 
+   3.883217224076869*^9}, {3.883217482381056*^9, 3.883217482887259*^9}, {
+   3.883217732789845*^9, 3.883218046638196*^9}, {3.883218340156144*^9, 
+   3.88321838620205*^9}, {3.883218417622311*^9, 3.883219075053232*^9}, {
+   3.8832286018582163`*^9, 3.883228626066285*^9}, {3.883679193710189*^9, 
+   3.883679193710451*^9}, 3.8836798394670563`*^9, 3.884195188567767*^9, {
+   3.884195468737463*^9, 3.884195565388237*^9}, {3.884195682424177*^9, 
+   3.884196024415168*^9}, {3.884196065208293*^9, 3.8841961373765917`*^9}, {
+   3.884196334398877*^9, 3.88419665434944*^9}, {3.884196712073492*^9, 
+   3.884196778110696*^9}, {3.8841968752586317`*^9, 3.8841969493499517`*^9}, {
+   3.884196995935865*^9, 3.8841970700842457`*^9}, {3.8841971521310472`*^9, 
+   3.884197239047585*^9}, {3.884197290729163*^9, 3.884197295949081*^9}, {
+   3.884197427742011*^9, 
+   3.8841974795936813`*^9}},ExpressionUUID->"52a2a1af-f209-4817-98ac-\
+63c80859078e"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1409, 1209},
+WindowMargins->{{190, Automatic}, {60, Automatic}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 702, 11, 142, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1307, 37, 273, 4, 81, "Subsection",ExpressionUUID->"cb18b75f-b7de-4570-bdb9-3d013725e9e2"],
+Cell[1583, 43, 3392, 76, 677, "Text",ExpressionUUID->"acd3fa3a-7f4d-474c-88df-1fc04bc6b640"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5012, 124, 411, 6, 81, "Subsection",ExpressionUUID->"7cb40b47-921b-4c2b-928e-95d7de018a07"],
+Cell[5426, 132, 13631, 426, 2244, "Text",ExpressionUUID->"bcfa4a90-a55a-4898-979e-be263e64bc49"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19094, 563, 417, 6, 81, "Subsection",ExpressionUUID->"901ec2af-bfc5-4dc8-a6f4-0bfe9746fa5c"],
+Cell[19514, 571, 2113, 40, 538, "Text",ExpressionUUID->"ae3ee66d-2c87-4ffe-a576-aeb2d59cbf62"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21664, 616, 474, 7, 81, "Subsection",ExpressionUUID->"dfb167ca-492c-4085-8318-430e94372054"],
+Cell[22141, 625, 5254, 111, 808, "Text",ExpressionUUID->"52a2a1af-f209-4817-98ac-63c80859078e"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
