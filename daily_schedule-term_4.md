@@ -37,21 +37,22 @@ Course [home page](./)
 
 ### Week 4 &mdash; Possibility of a Fission Bomb (A-Bomb)
 
-* Preparation for Tuesday, Jan. 31 &mdash; Continue Chapter 3, Reed Sections 3.2-3.6 &mdash; We have three presentations: (1) Trey: the timeline for the discovery of transuranic elements, especially plutonium, (2) Mac: possible sources of antagonism between Hahn and Meitner (two interesting factors to consider in Meitner not being credited are Hahn's continued work in Berlin and also that the Nobel committee meets in Sweden and that both Norway and Denmark were Nazi-occupied when the 1944 Nobel prize was awarded to Hahn alone), and (3) Norah: are the primary ways that Uranium-238 fissions (when we get to Uranium-235 and Plutonium-239, their fission products are what becomes the radioactive fallout)
-* Tuesday, Jan. 31 &mdash; Do second set of short presentations &mdash; Topics discussed after short presentations: mass spectrometry (and comparing it to spectroscopy), neutron-richness and instability of fission products, chemical similarities of fallout elements and isotopes to the more common elements that the body uses, the empirical Z/N stability patterns that strongly favor even Z and even N
-* Preparation for Friday, Feb. 3 &mdash; Finish Chapter 3 (Reed Sections 3.7 and 3.8) &mdash; At the beginning of class, turn in [Assignment 4 - FORTHCOMING]() &mdash; Hand out copies of each other's mock journal entries to read for Tuesday
-* Friday, Feb. 3 &mdash; We still need to discuss the droplet model of fission to have at least a vague understanding why a large nucleus might be prompted to fall apart &mdash; While we are finishing Chapter 3 (Sections 3.7 and 3.8), we need to spend more time than we had on the previous reading
+* Preparation for Tuesday, Jan. 31 &mdash; Continue Chapter 3, Reed Sections 3.2-3.6
+* Tuesday, Jan. 31 &mdash;  We had three presentations: (1) Trey: the timeline for the discovery of transuranic elements, especially plutonium, (2) Mac: possible sources of antagonism between Hahn and Meitner (two interesting factors to consider in Meitner not being credited are Hahn's continued work in Berlin and also that the Nobel committee meets in Sweden and that both Norway and Denmark were Nazi-occupied when the 1944 Nobel prize was awarded to Hahn alone), and (3) Norah: are the primary ways that Uranium-238 fissions (when we get to Uranium-235 and Plutonium-239, their fission products are what becomes the radioactive fallout) &mdash; Topics discussed after short presentations: mass spectrometry (and comparing it to spectroscopy), neutron-richness and instability of fission products, chemical similarities of fallout elements and isotopes to the more common elements that the body uses, the empirical Z/N stability patterns that strongly favor even Z and even N
+* Preparation for Friday, Feb. 3 &mdash; Finish Chapter 3 (Reed Sections 3.7 and 3.8) &mdash; At the beginning of class, turn in [Assignment 4 - FORTHCOMING]() &mdash; Mac will look prepare a discussion of the most recently-discovered transuranic element, element number 118, the specific name and isotope being Oganesson-294, focusing on the technique and cost of production, the method of detection, and the half-life
+* Friday, Feb. 3 &mdash; Hand out copies of each other's mock journal entries to read for Tuesday &mdash; We need to further discuss the droplet model of fission to have at least a vague understanding why a large nucleus might be prompted to suddenly fall apart into two unequal halves rather than to just slowly alpha- and beta-decay its way toward stability &mdash; While we are finishing Chapter 3 (Sections 3.7 and 3.8), we need to spend more time than we have so far on Sections 3.2 to 3.7
 
 ### Week 5 &mdash; Assembly of the Manhattan Project Scientists
 
 * Preparation for Tuesday, Feb. 7 &mdash; Read each other's mock journal entries &mdash; Read first half of Chapter 4 (4.1 to 4.6, pp. 125-153)
-* Tuesday, Feb. 7 &mdash; Discuss mock journal entries &mdash; Hand out Assignment 5
-* Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; At the beginning of class, turn in Assignment 5
+* Tuesday, Feb. 7 &mdash; Discuss mock journal entries
+* Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; At the beginning of class, turn in [Assignment 5 - FORTHCOMING]()
 * Friday, Feb. 10
 
 ### Week 6 &mdash; Creation and Refinement of Fissile Isotopes
 
 * Tuesday, Feb. 14
+* Preparation for Friday, Feb. 17 &mdash; At the beginning of class, turn in [Assignment 6 - FORTHCOMING]()
 * Friday, Feb. 17
 
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
