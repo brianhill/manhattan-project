@@ -45,7 +45,7 @@ Course [home page](./)
 ### Week 5 &mdash; Assembly of the Manhattan Project Scientists
 
 * Preparation for Tuesday, Feb. 7 &mdash; Read each other's mock journal entries &mdash; Read first half of Chapter 4 (4.1 to 4.6, pp. 125-153)
-* Tuesday, Feb. 7 &mdash; Discuss mock journal entries
+* Tuesday, Feb. 7 &mdash; Discuss mock journal entries, handouts from last time (both on Meitner), first half of Chapter 4
 * Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; At the beginning of class, turn in [Assignment 5 - FORTHCOMING]()
 * Friday, Feb. 10
 
