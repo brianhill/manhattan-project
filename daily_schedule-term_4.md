@@ -46,7 +46,7 @@ Course [home page](./)
 
 * Preparation for Tuesday, Feb. 7 &mdash; Read each other's mock journal entries &mdash; Read the two handouts on Meitner from Friday &mdash; Read first half of Chapter 4 (4.1 to 4.6, pp. 125-153)
 * Tuesday, Feb. 7 &mdash; Discussion of readings
-* Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; At the beginning of class, turn in [Assignment 5 - FORTHCOMING]()
+* Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; At the beginning of class, turn in [Assignment 5](./assignments/Assignment05.pdf)
 * Friday, Feb. 10
 
 ### Week 6 &mdash; Creation and Refinement of Fissile Isotopes
