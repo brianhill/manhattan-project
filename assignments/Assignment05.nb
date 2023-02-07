@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     12045,        276]
-NotebookOptionsPosition[     10673,        241]
-NotebookOutlinePosition[     11157,        260]
-CellTagsIndexPosition[     11114,        257]
+NotebookDataLength[     13510,        313]
+NotebookOptionsPosition[     12136,        278]
+NotebookOutlinePosition[     12620,        297]
+CellTagsIndexPosition[     12577,        294]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -87,8 +87,7 @@ Cell[TextData[{
   FormBox[
    RowBox[{"A", "=", 
     RowBox[{"4", "\[Pi]", "\[VeryThinSpace]", 
-     SuperscriptBox["R", "2"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     SuperscriptBox["R", "2"]}]}], TraditionalForm]],ExpressionUUID->
   "1f468c3f-abe6-4c05-b398-1a828dbedb1b"],
  ", and (b) the volume, ",
  Cell[BoxData[
@@ -96,30 +95,25 @@ Cell[TextData[{
    RowBox[{"V", "=", 
     RowBox[{
      FractionBox["4", "3"], "\[Pi]", "\[VeryThinSpace]", 
-     SuperscriptBox["R", "3"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     SuperscriptBox["R", "3"]}]}], TraditionalForm]],ExpressionUUID->
   "c7d2338f-7760-4973-8bf9-a17451dfb21a"],
  ", of a Uranium nucleus. Your answers should be in ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["Fm", "2"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SuperscriptBox["Fm", "2"], TraditionalForm]],ExpressionUUID->
   "a7ed4bfa-33c5-4d0b-b583-2ebff0682b1e"],
  " (\[OpenCurlyDoubleQuote]square Fermis\[CloseCurlyDoubleQuote]) for ",
  Cell[BoxData[
-  FormBox["A", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["A", TraditionalForm]],ExpressionUUID->
   "2f55d874-1571-48e5-8dd3-52fff3101f9a"],
  " and ",
  Cell[BoxData[
   FormBox[
-   SuperscriptBox["Fm", "3"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SuperscriptBox["Fm", "3"], TraditionalForm]],ExpressionUUID->
   "13e0c96b-2768-4845-974c-438aa4a6a59f"],
  " (\[OpenCurlyDoubleQuote]cubic Fermis\[CloseCurlyDoubleQuote]) for ",
  Cell[BoxData[
-  FormBox["V", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["V", TraditionalForm]],ExpressionUUID->
   "e7a8e807-ed73-44a6-adca-f1912d1f1e9f"],
  "."
 }], "Text",
@@ -139,13 +133,18 @@ Cell[TextData[{
 
 Cell[CellGroupData[{
 
-Cell["\<\
-3. Reed Problem 3.3 \[LongDash] Coulomb Energy of a Nucleus
-
-and
-
-4. Reed Problem 3.4 \[LongDash] Coulomb Energy of Two Nuclei\
-\>", "Subsection",
+Cell[TextData[{
+ "3. Reed Problem 3.3 \[LongDash] Coulomb Energy of a Nucleus\n",
+ StyleBox["\n",
+  FontSize->12,
+  FontWeight->"Regular"],
+ StyleBox["and",
+  FontWeight->"Regular"],
+ StyleBox["\n\n",
+  FontSize->12,
+  FontWeight->"Regular"],
+ "4. Reed Problem 3.4 \[LongDash] Coulomb Energy of Two Nuclei"
+}], "Subsection",
  CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
@@ -154,26 +153,28 @@ and
   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
-  3.884606500326788*^9}, {3.884606655207756*^9, 
-  3.8846066568862677`*^9}},ExpressionUUID->"86b110dc-78b7-444d-b549-\
+  3.884606500326788*^9}, {3.884606655207756*^9, 3.8846066568862677`*^9}, {
+  3.884624885965867*^9, 
+  3.8846248873494263`*^9}},ExpressionUUID->"86b110dc-78b7-444d-b549-\
 9a9b9b11fa59"],
 
 Cell["\<\
 I tried really hard to make my own liquid-drop-model fission problem, but I \
-couldn\[CloseCurlyQuote]t make it work. So I am just giving you two of Reed\
-\[CloseCurlyQuote]s problems.\
+couldn\[CloseCurlyQuote]t make it work. So instead Problems 3 and 4 are just \
+two of Reed\[CloseCurlyQuote]s problems.\
 \>", "Text",
  CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
-  3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
-  3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
-  3.88453371022758*^9, 3.884533722387786*^9}, {3.884533763597081*^9, 
-  3.884533770144987*^9}, {3.884533859423704*^9, 3.884533869650931*^9}, {
-  3.8845342825280447`*^9, 3.884534283560706*^9}, {3.884534350965436*^9, 
-  3.8845343612696257`*^9}, {3.884602565672615*^9, 3.884602586438093*^9}, {
-  3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
-  3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
-  3.884606636510015*^9, 
-  3.884606636623172*^9}},ExpressionUUID->"1735dc99-0334-4e59-9ea1-\
+   3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
+   3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
+   3.88453371022758*^9, 3.884533722387786*^9}, {3.884533763597081*^9, 
+   3.884533770144987*^9}, {3.884533859423704*^9, 3.884533869650931*^9}, {
+   3.8845342825280447`*^9, 3.884534283560706*^9}, {3.884534350965436*^9, 
+   3.8845343612696257`*^9}, {3.884602565672615*^9, 3.884602586438093*^9}, {
+   3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
+   3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
+   3.884606636510015*^9, 3.884606636623172*^9}, {3.884624290648266*^9, 
+   3.884624304069724*^9}, 
+   3.8846247296043053`*^9},ExpressionUUID->"1735dc99-0334-4e59-9ea1-\
 6dc486c51c08"]
 }, Open  ]],
 
@@ -193,36 +194,71 @@ Cell["5. Critical Mass and Bomb Energy", "Subsection",
 e23011e66efa"],
 
 Cell[TextData[{
- "(a) On p. 111, Reed says the true critical mass of Uranium is about 100 lb, \
-although this can be improved with a tamper. Find the necessary conversion \
-factors to get a radius from this. You will need the density of Uranium, \
-\[Rho]. You will need to solve the relationship between radius, volume, and \
-density for ",
+ "(a) On p. 111, Reed says the critical mass of Uranium is about 100 lb \
+(although this can be improved with a tamper). Find the necessary conversion \
+factors to get the critical radius from this. You will need to look up the \
+density of Uranium, call that \[Rho]. You will need to solve two formulas for \
+",
  Cell[BoxData[
   FormBox[
-   SubscriptBox["R", "crit"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["R", "crit"], TraditionalForm]],ExpressionUUID->
   "c9c4cf42-45b5-4376-bd13-699d66e598e8"],
- ". The formulas are:\n\n",
+ ",\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["V", "crit"], "=", 
     RowBox[{
      FractionBox["4", "3"], "\[Pi]", " ", 
-     SubscriptBox["R", "crit"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "6c46c315-bca9-48db-86a7-07ebdd9b8f0f"],
- "\n\nand\n\n",
+     SubsuperscriptBox["R", "crit", "3"]}]}], TraditionalForm]],
+  ExpressionUUID->"0ef54979-04f5-45db-990d-fbeb665ffd2a"],
+ "    and    ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["W", "crit"], "=", 
     RowBox[{"\[Rho]", "\[VeryThinSpace]", 
-     SubscriptBox["V", "crit"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+     SubscriptBox["V", "crit"]}]}], TraditionalForm]],ExpressionUUID->
   "37d77950-2f46-465b-82f4-57adf984e737"],
- "\n\nWhere W is weight and "
+ ",\n\nwhere ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["W", "crit"], "=", 
+    RowBox[{"100", " ", "lb"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2659f88e-82c2-4d8c-9499-22ad07f20e92"],
+ " is the weight of the critical mass.\n\n(b) Assume that a bomb has ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["R", "core"], "=", 
+    RowBox[{"1.2", 
+     SubscriptBox["R", "crit"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c3190c29-182b-42b4-91aa-c064a4e3c95c"],
+ ". What does equation Reed\[CloseCurlyQuote]s Equation 3.18 give you for ",
+ Cell[BoxData[
+  FormBox["E", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0c435a38-0841-4404-bae1-54bfc925cd6f"],
+ "? The easiest way to answer will be in Joules, but that presumes that you \
+have converted everything else to SI units (meters, kilograms, and seconds). \
+Reed gives you ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0c71d74c-f8e9-4fc3-85b6-729766fa4627"],
+ "=10ns on p. 111.\n\n(c) Use the conversion factor ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"1", " ", "kt"}], " ", "=", " ", 
+    RowBox[{"4.2", " ", 
+     SuperscriptBox["10", "12"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ca56c961-c272-4a83-978c-54c066330ae7"],
+ "J to convert your answer to kilotons."
 }], "Text",
  CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
   3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
@@ -234,7 +270,8 @@ density for ",
   3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
   3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
   3.884606626294807*^9, 3.8846066269472933`*^9}, {3.884606668346723*^9, 
-  3.884606919092597*^9}},ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-\
+  3.884606919092597*^9}, {3.884624316434538*^9, 
+  3.884624814755164*^9}},ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-\
 b897677095ad"]
 }, Open  ]]
 }, Open  ]]
@@ -267,15 +304,15 @@ Cell[2006, 49, 1060, 17, 122, "Text",ExpressionUUID->"90de9dc5-522c-4c79-b4cf-23
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[3103, 71, 683, 10, 81, "Subsection",ExpressionUUID->"38071384-d2b2-4828-94fc-177fc5f563e4"],
-Cell[3789, 83, 2216, 53, 96, "Text",ExpressionUUID->"ae5dd557-6d00-473d-ac07-2bac9fb03b76"]
+Cell[3789, 83, 2030, 47, 96, "Text",ExpressionUUID->"ae5dd557-6d00-473d-ac07-2bac9fb03b76"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6042, 141, 876, 17, 243, "Subsection",ExpressionUUID->"86b110dc-78b7-444d-b549-9a9b9b11fa59"],
-Cell[6921, 160, 971, 16, 88, "Text",ExpressionUUID->"1735dc99-0334-4e59-9ea1-6dc486c51c08"]
+Cell[5856, 135, 1095, 23, 211, "Subsection",ExpressionUUID->"86b110dc-78b7-444d-b549-9a9b9b11fa59"],
+Cell[6954, 160, 1068, 17, 88, "Text",ExpressionUUID->"1735dc99-0334-4e59-9ea1-6dc486c51c08"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7929, 181, 772, 11, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
-Cell[8704, 194, 1941, 43, 396, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+Cell[8059, 182, 772, 11, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
+Cell[8834, 195, 3274, 79, 480, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
 }, Open  ]]
 }, Open  ]]
 }
