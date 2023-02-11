@@ -52,19 +52,19 @@
    * furthermore non-italic m is also used as the abbreviation for milli, as in millimeter which is abbreviated mm
    * time, second, abbreviated s
    * energy, Joule, abbreviated J
-   * 1 kg m/s^2 = 1 J
+   * 1 kg m<sup>2</sup>/s<sup>2</sup> = 1 J
 
 * Real-world example of 1 J
-  * 100g tangerine dropped from a height of one meter in a gravitational field whose acceleration is approximately 10 m/s^2
-  * 0.1 kg * 1 m * 10 m/s^2 = 1 J
+  * 100g tangerine dropped from a height of one meter in a gravitational field whose acceleration is approximately 10 m/s<sup>2</sup>
+  * 0.1 kg * 1 m * 10 m/s<sup>2</sup> = 1 J
   * If you dropped the tangerine from two meters, it would hit with an energy of 2 J
 
-* Intuitive meaning of units of acceleration: m/s^2
+* Intuitive meaning of units of acceleration: m/s<sup>2</sup>
   * m/s per second
 
-* Examining units in the equation *E= mc*^2
+* Examining units in the equation *E= mc*<sup>2</sup>
 
-* Example of a 1/5 gram coffee bean converted to energy using *E=mc*^2
-  * 1/5000 kg * (3x10^8 m/s)^2 = 9/5 x 10^13 J
+* Example of a 1/5 gram coffee bean converted to energy using *E=mc*<sup>2</sup>
+  * 1/5000 kg * (3x10^8 m/s)<sup>2</sup> = 9/5 x 10^13 J
   * or 18,000,000,000,000 J
   * or the energy of 18 trillion tangerine drops
