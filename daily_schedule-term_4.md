@@ -58,7 +58,8 @@ Course [home page](./)
 
 ### Week 6 &mdash; Creation and Refinement of Fissile Isotopes
 
-* Tuesday, Feb. 14
+* Preparation for Tuesday, Feb. 14 &mdash; Read about the pile program (the beginnings of nuclear reactors), pp. 183-198 of Chapter 5
+* Tuesday, Feb. 14 &mdash; Mac's presentation on China's role in the war &mdash; Discussion of remainder of Chapter 4 &mdash; Discussion of pile program material in Chapter 5 &mdash; I have a piece of atomic pile to show you
 * Preparation for Friday, Feb. 17 &mdash; At the beginning of class, turn in [Assignment 6 - FORTHCOMING]()
 * Friday, Feb. 17
 
