@@ -52,8 +52,9 @@ Course [home page](./)
 
 * Preparation for Tuesday, Feb. 7 &mdash; Read each other's mock journal entries &mdash; Read the two handouts on Meitner from Friday &mdash; Read first half of Chapter 4 (4.1 to 4.6, pp. 125-153)
 * Tuesday, Feb. 7 &mdash; Discussion of first half of Chapter 4 and readings
-* Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; At the beginning of class, turn in [Assignment 5](./assignments/Assignment05.pdf) &mdash; Short research topics (about 10 minutes, including questions): Norah, the thinking of Vannevar Bush and whatever skeptics you can find; Mac, what was China's role; Trey, why would Japan's leaders thought it was a strategically good idea to attack our naval base in Hawaii; Brian, Lise Meitner's living conditions at the time she was expelled from the KWG
-* Friday, Feb. 10 &mdash; Discussion of remainder of Chapter 4 and readings continued
+* Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; Short research topics (about 10 minutes, including questions): Norah, the thinking of Vannevar Bush and whatever skeptics you can find; Mac, what was China's role; Trey, why would Japan's leaders thought it was a strategically good idea to attack our naval base in Hawaii; Brian, Lise Meitner's living conditions at the time she was expelled from the KWG
+* Friday, Feb. 10 &mdash; Discussion of remainder of Chapter 4 and readings continued &mdash; Discussion of conservation of energy and momentum problem on Assignment 4 &mdash; Presentations from Norah and Trey (Mac's presentation delayed to Tuesday)
+* Sunday, Feb. 12 &mdash; of class, turn in [Assignment 5](./assignments/Assignment05.pdf)
 
 ### Week 6 &mdash; Creation and Refinement of Fissile Isotopes
 
