@@ -2,6 +2,8 @@
 
 Course [home page](./)
 
+Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
+
 ### Week 8 (Mar. 12-18)
 
 ### Week 9 (Mar. 19-25)

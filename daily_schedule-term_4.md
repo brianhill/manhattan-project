@@ -2,6 +2,8 @@
 
 Course [home page](./)
 
+See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
+
 ### Week 1 &mdash; Discovery of Mysterious Radioactivity
 
 * Preparation for Tuesday, Jan. 10 &mdash; Preface and Chapter 1 (Overview) from *The History and Science of the Manhattan Project, 2nd Edition,* 2019, by Bruce Cameron Reed
@@ -54,7 +56,7 @@ Course [home page](./)
 * Tuesday, Feb. 7 &mdash; Discussion of first half of Chapter 4 and readings
 * Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; Short research topics (about 10 minutes, including questions): Norah, the thinking of Vannevar Bush and whatever skeptics you can find; Mac, what was China's role; Trey, why would Japan's leaders thought it was a strategically good idea to attack our naval base in Hawaii; Brian, Lise Meitner's living conditions at the time she was expelled from the KWG
 * Friday, Feb. 10 &mdash; Discussion of remainder of Chapter 4 and readings continued &mdash; Discussion of conservation of energy and momentum problem on Assignment 4 &mdash; Presentations from Norah and Trey (Mac's presentation delayed to Tuesday)
-* Sunday, Feb. 12 &mdash; of class, turn in [Assignment 5](./assignments/Assignment05.pdf)
+* Sunday, Feb. 12 &mdash; of class, turn in [Assignment 5](./assignments/Assignment05.pdf) &mdash; [Assignment 5-Solution](./assignments/Assignment05-Solution.pdf)
 
 ### Week 6 &mdash; Creation and Refinement of Fissile Isotopes
 
@@ -67,3 +69,5 @@ Course [home page](./)
 
 * Tuesday, Feb. 21 &mdash; Midterm Exam
 * Friday, Feb. 24 &mdash; No class (due to Shakespeare festival)
+
+Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)
