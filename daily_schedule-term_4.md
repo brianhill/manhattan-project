@@ -58,11 +58,12 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 * Friday, Feb. 10 &mdash; Discussion of remainder of Chapter 4 and readings continued &mdash; Discussion of conservation of energy and momentum problem on Assignment 4 &mdash; Presentations from Norah and Trey (Mac's presentation delayed to Tuesday)
 * Sunday, Feb. 12 &mdash; of class, turn in [Assignment 5](./assignments/Assignment05.pdf) &mdash; [Assignment 5-Solution](./assignments/Assignment05-Solution.pdf)
 
-### Week 6 &mdash; Creation and Refinement of Fissile Isotopes
+### Week 6 &mdash; Creation and Refinement of Fissile Isotopes &mdash; Part I, Uranium Enrichment
 
-* Preparation for Tuesday, Feb. 14 &mdash; Read about the pile program (the beginnings of nuclear reactors), pp. 183-198 of Chapter 5
-* Tuesday, Feb. 14 &mdash; Mac's presentation on China's role in the war &mdash; Discussion of remainder of Chapter 4 &mdash; Discussion of pile program material in Chapter 5 &mdash; I have a piece of atomic pile to show you
-* Preparation for Friday, Feb. 17 &mdash; At the beginning of class, turn in [Assignment 6 - FORTHCOMING]()
+* Preparation for Tuesday, Feb. 14 &mdash; Study the pile program (the beginnings of nuclear reactors), pp. 183-198 of Chapter 5
+* Tuesday, Feb. 14 &mdash; Mac's presentation on China's role in the war &mdash; Discussion of remainder of Chapter 4 &mdash; Discussion of pile program material in Chapter 5 &mdash; Drop by my place to see a piece of atomic pile
+* Preparation for Friday, Feb. 17 &mdash; At the beginning of class, turn in [Assignment 6](./assignments/Assignment06.pdf) &mdash; Study the electromagnetic and gas diffusion programs pp. 199-222 of Chapter 5
+
 * Friday, Feb. 17
 
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival

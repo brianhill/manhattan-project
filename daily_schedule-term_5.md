@@ -4,7 +4,10 @@ Course [home page](./)
 
 Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
-### Week 8 (Mar. 12-18)
+### Week 8 (Mar. 12-18) &mdash; Creation and Refinement of Fissile Isotopes &mdash; Part II, Plutonium Production
+
+* Preparation for Tuesday, Mar. 13 &mdash; Finish Chapter 5 (the thermal diffusion program), pp. 223-234 &mdash; Start Chapter 6 (the Hanford nuclear reactors), to p. 251
+* Preparation for Friday, Mar. 16 &mdash;  At the beginning of class, turn in [Assignment 7-FORTHCOMING](./assignments/Assignment07.pdf) 
 
 ### Week 9 (Mar. 19-25)
 

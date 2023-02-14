@@ -1,0 +1,351 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     14761,        343]
+NotebookOptionsPosition[     13066,        303]
+NotebookOutlinePosition[     13549,        322]
+CellTagsIndexPosition[     13506,        319]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Manhattan Project \[LongDash] Assignment 6 \
+\[LongDash] Reactors",
+ FontSize->24]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.8841887766699266`*^9, 3.884188788354083*^9}, {
+  3.884188850341049*^9, 3.8841888531195707`*^9}, {3.8841889066918297`*^9, 
+  3.884188911067999*^9}, {3.884189020676065*^9, 3.8841890240735207`*^9}, {
+  3.884194323489108*^9, 3.884194332680498*^9}, {3.884195154470296*^9, 
+  3.8841951592285633`*^9}, {3.884448116289482*^9, 3.884448164001893*^9}, {
+  3.885371984178865*^9, 
+  3.885371990207759*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
+77e0e173d37d"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "All but the last problem below are straightforward plug-ins. So what is the \
+point, other than becoming familiar with the equations and quantities \
+involved? The point is to set things up well, to get answers clearly, and to \
+avoid silly mistakes.\n\nTo do that, you need to: (a) name the quantities \
+involved with variable names, (b) solve for the quantity you are interested \
+in, (c) write down your input values, (d) do any needed units conversions, \
+(e) check units, and only then (f) plug into a calculator.\n\nEven at the \
+last step of plugging into a calculator, you want to (g) handle the powers of \
+10 yourself (you don\[CloseCurlyQuote]t need a calculator to do ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", "13"], "/", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "11"}]]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6c01c457-17da-4fa5-bf1d-b72925c9b095"],
+ " \[LongDash] it\[CloseCurlyQuote]s just addition and subtraction), and (g) \
+estimate in round numbers what the calculator should give you before you plug \
+in to help catch the possibility of punching in silly values."
+}], "Subtitle",
+ CellChangeTimes->{{3.8853720667974977`*^9, 3.8853724864545717`*^9}},
+ FontSize->16,
+ FontSlant->"Italic",ExpressionUUID->"74b3387d-3855-4bcb-ac1e-905960d8a6f0"],
+
+Cell[CellGroupData[{
+
+Cell["1. Reed Problem 5.1, p. 235", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+  3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+  3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+  3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+  3.884606242451766*^9, 3.88460624321677*^9}, {3.885372493202692*^9, 
+  3.885372507186987*^9}},ExpressionUUID->"d2e42290-811b-4bfa-a5a0-\
+eb93facc8998"],
+
+Cell[TextData[{
+ "This is a really good power vs. energy problem. 1MW is a unit of power, not \
+energy. Power is a rate of energy production (or energy consumption or energy \
+flow). The important thing is that it is a rate. Similarly, 30,000 cubic feet \
+/ minute is a rate of air flow. It might help you think more concretely about \
+this problem to ask what happens in 1 second. In that time, how many Joules \
+of power are produced, and how many cubic feet of air are circulated.\n\nIn \
+the equation ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"Q", "=", 
+    RowBox[{
+    "m", "\[VeryThinSpace]", "c", "\[VeryThinSpace]", "\[CapitalDelta]", 
+     "\[VeryThinSpace]", "T"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a4c1234a-b2bf-4fc8-9cea-2678d3031f62"],
+ ", ",
+ Cell[BoxData[
+  FormBox["Q", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "610a3294-9d68-4bee-9de4-6b5e1b66061e"],
+ " is the heat absorbed by the air, which is the energy that has to be \
+carried away from the pile, ",
+ Cell[BoxData[
+  FormBox["m", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "dc4178cd-2640-4786-b61c-06923f3cb20a"],
+ " is the mass of the air, ",
+ Cell[BoxData[
+  FormBox["c", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c6aacf68-8d88-4301-b1bc-c0fd9a59c8f6"],
+ " is the specific heat of air, and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "20187e6c-6061-4d93-8cef-fa6c7a7f6d31"],
+ " is the temperature increase you are asked for."
+}], "Text",
+ CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
+  3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
+  3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
+  3.88453371022758*^9, 3.884533722387786*^9}, {3.884533763597081*^9, 
+  3.884533770144987*^9}, {3.884533859423704*^9, 3.884533869650931*^9}, {
+  3.8845342825280447`*^9, 3.884534283560706*^9}, {3.884534350965436*^9, 
+  3.8845343612696257`*^9}, {3.884602565672615*^9, 3.884602586438093*^9}, {
+  3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
+  3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
+  3.884606626294807*^9, 3.8846066269472933`*^9}, {3.884606668346723*^9, 
+  3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
+  3.8853726532127237`*^9, 
+  3.885372943081229*^9}},ExpressionUUID->"34765f28-11f4-4ed9-b219-\
+233c58fce275"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+2. Reed Problem 5.2
+
+and
+
+3. Reed Problem 5.3\
+\>", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+  3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+  3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+  3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+  3.884606242451766*^9, 3.884606284065853*^9}, {3.885372512116547*^9, 
+  3.8853725374616528`*^9}, {3.885372882946823*^9, 3.88537288393781*^9}, {
+  3.885373027055367*^9, 3.885373033152631*^9}, {3.885374819100148*^9, 
+  3.885374820507251*^9}},ExpressionUUID->"38071384-d2b2-4828-94fc-\
+177fc5f563e4"],
+
+Cell["\<\
+These are both straightforward mass, density, volume, and units conversion \
+problems.\
+\>", "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQneMYXa/48Y3jGX7eGSD6rdW9+SB6ze+9i0H05/kb
+VoPoO6+WbgTR03bPOQyijx3mvQeiwzyO/9QA0vsyfH6DaC/pYgZNIL1nsQsj
+iP7Tl8sDonOvbOEF0fueBjiCaL+PhWD61pN7niD62AINbxAt0LZ1hhfIPha/
+2SC6T7lb2QdIVyq4q4Do2KrkBBDdN7kATLtU/G8B0f+8VnWBaP58zykg2iog
+DkxHS3TPBKv/9mgHiN7zvNc8FGS/1o1SEL3o3LK5hz69ccyb+eggiF7xT+A4
+iM75LnQKRJ95bH0ORBvsenkeRAMA+tyvKw==
+  "],ExpressionUUID->"4bde2fe5-db15-451e-b813-95ac11a6d755"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Reed Problem 5.4", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+   3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+   3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
+   3.884606500326788*^9}, {3.884606555542246*^9, 3.884606614516095*^9}, {
+   3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
+   3.885374934446911*^9, 
+   3.88537493565075*^9}},ExpressionUUID->"3f13c8e1-873e-403b-a3f6-\
+e23011e66efa"],
+
+Cell["\<\
+(a) Start by making a table, so that you know what it is the math is doing \
+for you (continued on reverse).\
+\>", "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQneMYXa/48Y3jGX7eGSD6rdW9+SB6ze+9i0H05/kb
+VoPoO6+WbgTR03bPOQyijx3mvQeiwzyO/9QA0vsyfH6DaC/pYgZNIL1nsQsj
+iP7Tl8sDonOvbOEF0fueBjiCaL+PhWD61pN7niD62AINbxAt0LZ1hhfIPha/
+2SC6T7lb2QdIVyq4q4Do2KrkBBDdN7kATLtU/G8B0f+8VnWBaP58zykg2iog
+DkxHS3TPBKv/9mgHiN7zvNc8FGS/1o1SEH1HzvPioU9vHDNebr4Cohtc1rIc
+BtKdh46CaQ/H7lUgetWzsHUgGgC0vKyD
+  "],ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Reed Problem 5.4, p. 235 (Cont\[CloseCurlyQuote]d)", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+   3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+   3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
+   3.884606500326788*^9}, {3.884606555542246*^9, 3.884606614516095*^9}, {
+   3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
+   3.8853748414205637`*^9, 
+   3.885374843761142*^9}},ExpressionUUID->"4ee9c1e2-c60b-46d8-a158-\
+5c0510e58abc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"PrependTo", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"i", ",", " ", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"i", "==", "0"}], "||", 
+           RowBox[{"i", "==", "1"}]}], ",", 
+          RowBox[{"0.0072", "*", 
+           RowBox[{"Power", "[", 
+            RowBox[{"1.1", ",", "i"}], "]"}]}], ",", "\"\<\>\""}], "]"}]}], 
+       "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", " ", "0", ",", " ", "6"}], "}"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Enrichment Round\>\"", ",", "\"\<Concentration\>\""}], 
+     "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.885373138946169*^9, 3.885373368673422*^9}, {
+  3.885373413461069*^9, 3.885373413527155*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"220c27ec-66ab-4cdc-8e94-4820640acc26"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Enrichment Round\"\>", "\<\"Concentration\"\>"},
+    {"0", "0.0072`"},
+    {"1", "0.00792`"},
+    {"2", "\<\"\"\>"},
+    {"3", "\<\"\"\>"},
+    {"4", "\<\"\"\>"},
+    {"5", "\<\"\"\>"},
+    {"6", "\<\"\"\>"}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.885373254540936*^9, 3.885373269079713*^9}, 
+   3.885373373285532*^9, 3.885373414328659*^9},
+ CellLabel->
+  "Out[6]//TableForm=",ExpressionUUID->"51dcdded-7c01-4a36-81fc-0504e4dfa4ad"]
+}, Open  ]],
+
+Cell[TextData[{
+ "Obviously you don\[CloseCurlyQuote]t want to make a table with 51 entries \
+to show the desired answer, unless that is your idea of a good time. So your \
+next step is:\n\n(b) Write down the equation for the ",
+ Cell[BoxData[
+  FormBox["i", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "eee67d06-ce67-4b6a-9b51-da1192d848d1"],
+ "th table entry.\n\n(c) The trick is to set the equation for the ",
+ Cell[BoxData[
+  FormBox["i", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9ce002bd-39e2-46ce-8562-5b88ca3f7acc"],
+ "th concentration equal to the final concentration, and then solve this \
+equation for the enrichment round, ",
+ Cell[BoxData[
+  FormBox["i", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "67a741ab-1e10-42cc-92c2-82a086f5efff"],
+ ". This algebra requires logarithms, powers, and logarithms of powers!"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQAWIQneMYXa/48Y3jGX7eGSD6rdW9+SB6ze+9i0H05/kb
+VoPoO6+WbgTR03bPOQyijx3mvQeiwzyO/9QA0vsyfH6DaC/pYgZNIL1nsQsj
+iP7Tl8sDonOvbOEF0fueBjiCaL+PhWD61pN7niD62AINbxAt0LZ1hhfIPha/
+2SC6T7lb2QdIVyq4q4Do2KrkBBDdN7kATLtU/G8B0f+8VnWBaP58zykg2iog
+DkxHS3TPBKv/9mgHiN7zvNc8FGS/1o1SEH1HzvPioU9vHDNebr4Cot/IBf8H
+0Se/mHIcBtKXjqRNAtFaZfcXgeiYbYs2gehHN07vBNEAEj25FQ==
+  "],ExpressionUUID->"3fb11905-0cb5-4d9a-b3cf-0ccbac985b55"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1409, 1209},
+WindowMargins->{{417, Automatic}, {Automatic, 19}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4b2db4e-6ed7-4613-b5d2-dcf0444c5a88"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 740, 12, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1323, 36, 1340, 24, 326, "Subtitle",ExpressionUUID->"74b3387d-3855-4bcb-ac1e-905960d8a6f0"],
+Cell[CellGroupData[{
+Cell[2688, 64, 713, 10, 81, "Subsection",ExpressionUUID->"d2e42290-811b-4bfa-a5a0-eb93facc8998"],
+Cell[3404, 76, 2548, 53, 262, "Text",ExpressionUUID->"34765f28-11f4-4ed9-b219-233c58fce275"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5989, 134, 885, 18, 243, "Subsection",ExpressionUUID->"38071384-d2b2-4828-94fc-177fc5f563e4"],
+Cell[6877, 154, 550, 11, 53, "Text",ExpressionUUID->"4bde2fe5-db15-451e-b813-95ac11a6d755"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7464, 170, 891, 13, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
+Cell[8358, 185, 568, 11, 53, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8963, 201, 928, 13, 81, "Subsection",ExpressionUUID->"4ee9c1e2-c60b-46d8-a158-5c0510e58abc"],
+Cell[CellGroupData[{
+Cell[9916, 218, 910, 24, 78, "Input",ExpressionUUID->"220c27ec-66ab-4cdc-8e94-4820640acc26"],
+Cell[10829, 244, 826, 24, 250, "Output",ExpressionUUID->"51dcdded-7c01-4a36-81fc-0504e4dfa4ad"]
+}, Open  ]],
+Cell[11670, 271, 1368, 28, 263, "Text",ExpressionUUID->"3fb11905-0cb5-4d9a-b3cf-0ccbac985b55"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
