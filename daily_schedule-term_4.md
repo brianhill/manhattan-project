@@ -72,4 +72,4 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
 Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
-<img src="./resources/CP1Pile.jpg" width=600></img>
+<img src="./resources/CP1Pile.jpg" width=600 />
