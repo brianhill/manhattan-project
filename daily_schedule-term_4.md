@@ -56,19 +56,20 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 * Tuesday, Feb. 7 &mdash; Discussion of first half of Chapter 4 and readings
 * Preparation for Friday, Feb. 10 &mdash; Read second half of Chapter 4 (4.7 to 4.11, pp. 153-179) &mdash; Short research topics (about 10 minutes, including questions): Norah, the thinking of Vannevar Bush and whatever skeptics you can find; Mac, what was China's role; Trey, why would Japan's leaders thought it was a strategically good idea to attack our naval base in Hawaii; Brian, Lise Meitner's living conditions at the time she was expelled from the KWG
 * Friday, Feb. 10 &mdash; Discussion of remainder of Chapter 4 and readings continued &mdash; Discussion of conservation of energy and momentum problem on Assignment 4 &mdash; Presentations from Norah and Trey (Mac's presentation delayed to Tuesday)
-* Sunday, Feb. 12 &mdash; of class, turn in [Assignment 5](./assignments/Assignment05.pdf) &mdash; [Assignment 5-Solution](./assignments/Assignment05-Solution.pdf)
+* Sunday, Feb. 12 &mdash; of class, turn in [Assignment 5](./assignments/Assignment05.pdf) &mdash; [Assignment 5 Solution](./assignments/Assignment05-Solution.pdf)
 
 ### Week 6 &mdash; Creation and Refinement of Fissile Isotopes &mdash; Part I, Uranium Enrichment
 
 * Preparation for Tuesday, Feb. 14 &mdash; Study the pile program (the beginnings of nuclear reactors), pp. 183-198 of Chapter 5
 * Tuesday, Feb. 14 &mdash; Mac's presentation on China's role in the war &mdash; Discussion of remainder of Chapter 4 &mdash; Discussion of pile program material in Chapter 5 &mdash; Drop by my place to see a piece of atomic pile
-* Preparation for Friday, Feb. 17 &mdash; At the beginning of class, turn in [Assignment 6](./assignments/Assignment06.pdf) &mdash; Study the electromagnetic and gas diffusion programs pp. 199-222 of Chapter 5
-
-* Friday, Feb. 17
+* Preparation for Friday, Feb. 17 &mdash; At the beginning of class, turn in [Assignment 6](./assignments/Assignment06.pdf) &mdash; [Assignment 6 Solution](./assignments/Assignment06-Solution.pdf) &mdash; Study the electromagnetic and gas diffusion programs pp. 199-222 of Chapter 5
+* Friday, Feb. 17 &mdash; Mac's Presentation on CANDU reactors &mdash; The Y-12, K-25, and U-25 Enrichment Programs
 
 ### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
 
-* Tuesday, Feb. 21 &mdash; Midterm Exam
+* Tuesday, Feb. 21 &mdash; Midterm Exam (open book and note)
 * Friday, Feb. 24 &mdash; No class (due to Shakespeare festival)
 
 Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)
+
+<img src="./resources/CP1Pile.jpg" width=600></img>
