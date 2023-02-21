@@ -67,7 +67,7 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 
 ### Week 7 &mdash; Term 4 Exam &mdash; Shakespeare Festival
 
-* Tuesday, Feb. 21 &mdash; [Term 4 Exam](./exams/Term4Exam.pdf) (open book and note)
+* Tuesday, Feb. 21 &mdash; [Term 4 Exam - FORTHCOMING](./Midterm.pdf) (open book and note)
 * Friday, Feb. 24 &mdash; No class (due to Shakespeare festival)
 
 Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)
