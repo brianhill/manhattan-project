@@ -1,0 +1,744 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     31451,        736]
+NotebookOptionsPosition[     28043,        663]
+NotebookOutlinePosition[     28525,        682]
+CellTagsIndexPosition[     28482,        679]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Manhattan Project Midterm", "Chapter",
+ CellChangeTimes->{{3.8108301441059628`*^9, 3.810830154284514*^9}, {
+  3.8108325017505493`*^9, 3.810832501874113*^9}, {3.811111515882894*^9, 
+  3.811111520981724*^9}, {3.885973415880975*^9, 
+  3.885973419479229*^9}},ExpressionUUID->"ac09b78f-b0ae-4571-8c81-\
+126439b5be44"],
+
+Cell["\<\
+Feb. 21, 2023 \[LongDash] Covering Reed through Chapter 5
+
+Five Problems worth 4 points each, plus 2 points of extra credit, makes a \
+maximum of 20 points.\
+\>", "Subtitle",
+ CellChangeTimes->{{3.810830181444294*^9, 3.810830242161654*^9}, {
+  3.810836233878502*^9, 3.810836316534246*^9}, {3.8111115321309*^9, 
+  3.811111543920794*^9}, {3.811158927536954*^9, 3.81115919556214*^9}, {
+  3.811159955069104*^9, 3.811159955741652*^9}, {3.885973427635676*^9, 
+  3.885973439436954*^9}, {3.885973481094565*^9, 3.8859734837609177`*^9}, {
+  3.885973514799238*^9, 3.885973610118599*^9}, {3.885973837196822*^9, 
+  3.885973839007894*^9}, {3.885980592222868*^9, 3.885980650406167*^9}, {
+  3.88598299842185*^9, 3.885982999401606*^9}, {3.885983524789235*^9, 
+  3.8859835255093393`*^9}},
+ FontSize->16,ExpressionUUID->"26179db2-2a1c-4950-a133-ecce64d1e0a8"],
+
+Cell[CellGroupData[{
+
+Cell["Radioactivity, Half-Life", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+  3.810836354200274*^9, 3.810836367947353*^9}, {3.8111208401885357`*^9, 
+  3.811120847501309*^9}, {3.8111555349502573`*^9, 3.811155535332354*^9}, {
+  3.8111573247047253`*^9, 
+  3.811157327134671*^9}},ExpressionUUID->"f0b117aa-125e-44f6-b4cf-\
+de4536caa2b1"],
+
+Cell[CellGroupData[{
+
+Cell["1. Iodine-131 in Radioactive Fallout", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.810830890947775*^9, 
+  3.810830894760894*^9}, {3.810831787526675*^9, 3.810831791981542*^9}, {
+  3.810832064755122*^9, 3.81083206485632*^9}, {3.810832371969105*^9, 
+  3.810832390845808*^9}, {3.810832421481245*^9, 3.810832423414888*^9}, {
+  3.8111179069464493`*^9, 3.81111791864583*^9}, {3.8111179903993*^9, 
+  3.811117999389017*^9}, {3.811120660556097*^9, 3.811120666361321*^9}, {
+  3.811155539360173*^9, 3.811155542926681*^9}, {3.8859780102177*^9, 
+  3.885978010307798*^9}, {3.885980690208949*^9, 
+  3.885980691580802*^9}},ExpressionUUID->"21b9db49-83c0-469a-acf0-\
+d9d5215d6a56"],
+
+Cell[TextData[{
+ "CONTEXT: Iodine-131 is one of the fission products of Uranium. If ingested \
+in radioactive fallout, it is taken up by the thyroid, because that\
+\[CloseCurlyQuote]s what the thyroid does: it takes in iodine and produces \
+iodine-containing thyroid hormones. Unfortunately, Iodine-131 is itself \
+radioactive. It decays by ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[Beta]", "-"], TraditionalForm]],ExpressionUUID->
+  "c4ef13e5-64b4-40f7-b293-1ec142bea261"],
+ " decay with a half-life of 8 days and these \[Beta]-decays damage thyroid \
+cells.\n\nThat\[CloseCurlyQuote]s just context. Here is the problem:\n\n(a) \
+Complete the following reaction:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubsuperscriptBox["", "53", "131"], 
+     RowBox[{
+      StyleBox["I",
+       FontSlant->"Plain"], 
+      StyleBox[" ",
+       FontSlant->"Plain"], 
+      UnderscriptBox["\[LongRightArrow]", 
+       RowBox[{"     ", 
+        RowBox[{
+         SuperscriptBox["\[Beta]", "-"], "\[IndentingNewLine]", 
+         RowBox[{"8", " ", "days"}]}]}]], " ", 
+      SubsuperscriptBox["", "Z", "A"]}], "Q"}], " ", "+", " ", "electron"}], 
+   TraditionalForm]],ExpressionUUID->"cf497a1f-df69-47d6-9987-99c2ae4a292a"],
+ "\n\nI just want you to answer with the numbers ",
+ StyleBox["Z",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["A",
+  FontSlant->"Italic"],
+ ":\n",
+ "\n\n(b) The element ",
+ Cell[BoxData[
+  FormBox["Q", TraditionalForm]],ExpressionUUID->
+  "6c8587c5-5d7d-4f16-a798-18c1d29eee8e"],
+ " above is Xenon, and the abbreviation is actually Xe. In 32 days (to make a \
+nice round multiple of 8 days), if your thyroid started with 1600 Iodine-131 \
+atoms, how many of those Iodine-131 atoms would be left at the end of those \
+32 days?\n\n\n\n(c) Also, how many beta rays (electrons) was your thyroid \
+bombarded with in this time?\n\n\n\nSUGGESTION: If you \
+aren\[CloseCurlyQuote]t confident of your answer, it might be advisable to \
+double-check it by making a table. How many are left after 8 days? How many \
+after 16 days? How many after 24 days? And finally, how many are left after \
+32 days?"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdzlsoQ3EAx/FjqcULb5QiLI1i0SZbsrZ0Ui7N5UXTXPcyty13G6W0kki5
+00GzcgujieZha8msRuQytVNq5c4TGUb5/zz8+rz9+sbXNJeoORRFxZFByWJG
+2Hjdi0wR20TDaHa2GD6vPWphlobthN/Uzjw0zleZoW/qahNufZXuQs5BnBcW
+Bjg++DHovYdKETcILRbdL6T7N/gTxAdBZT7sOlYqoKMoTQVDOy9qobmnpxUG
+3NT7JLF6R/oBJ1uEDfFq8iPwayH/Ut4OvaaqEVihyR2Dq236BfiQdLgNrw1z
++1D1WXYOu/XhLPyh7KMJxGHB3Ri8Uqwz8CaqcQ9qT8R2yKY6HXC5N3gIPemh
+LlgwNOCBtDXkFArVzr5EYt7avhFaJdEpPKKPGyGGPMacA21BJQ39HveskCgt
+u2Egd7rcBGfObpeghBpKE6Hj9TYLOosY0dPbi0zGxEjhTKaOhgdS17+GZJvo
+mci+D2TDyKMOOaxfMRTAPz43/+I=
+  "],ExpressionUUID->"fe308149-c87c-49e5-9143-35f95fc8c66e"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"9935896d-92ed-41de-9878-19e87a71e337"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Cross Sections", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+  3.811155372328751*^9, 3.811155387448997*^9}, {3.885973652992275*^9, 
+  3.8859736547927094`*^9}},ExpressionUUID->"6217574c-d61a-4e59-8b59-\
+a639e6a91e22"],
+
+Cell[CellGroupData[{
+
+Cell["2. Classical Cross Section of the Uranium-238 Nucleus", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.8111116837267647`*^9, 
+  3.811111706284073*^9}, {3.811155416677002*^9, 3.811155420434423*^9}, {
+  3.885974195032312*^9, 3.885974212480654*^9}, {3.885977443698608*^9, 
+  3.885977445959804*^9}, {3.885980696790112*^9, 
+  3.885980696857101*^9}},ExpressionUUID->"1a66e4eb-6dba-4cdc-b930-\
+f044116fde54"],
+
+Cell[TextData[{
+ "On Reed p. 50, Eq. 2.25 is a formula for the radius of a nucleus:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{
+     SubscriptBox["a", "0"], 
+     SuperscriptBox["A", 
+      RowBox[{"1", "/", "3"}]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5aaa0d74-8fd9-48bc-9787-fde609765ce7"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "0"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ab6a8e47-1b62-436e-b96b-b81834aa7d03"],
+ " is some number that we will plug in later. ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2b7ab961-e4ef-4413-82a4-22c3c6ce71cb"],
+ " is the nucleon number of the nucleus.\n\n(a) If a spherical nucleus has \
+radius ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "270f5d0f-2e37-4114-b69b-966748aa5bcf"],
+ ", and you look at it from any angle, it appears to have the same area as if \
+it were a disk. The area of a disk is,\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Sigma]", "=", 
+    RowBox[{"\[Pi]", "\[VeryThinSpace]", 
+     SuperscriptBox["r", "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "44e28c9c-6338-45cd-a82a-2f1424d30c7a"],
+ "\n\nCombine this formula for \[Sigma] with the formula above for ",
+ Cell[BoxData[
+  FormBox["r", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fabd73cf-c368-4c3b-91aa-94499c9f7e7b"],
+ " to get the \[OpenCurlyDoubleQuote]cross section\[CloseCurlyDoubleQuote] of \
+a nucleus. Don\[CloseCurlyQuote]t plug in yet. That will come at the next \
+step.\n\n\n\n(b) Plug in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"A", "=", "238"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d34d89be-b7b5-4569-823d-7ed89970dbff"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["a", "0"], "=", 
+    RowBox[{"1.2", " ", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "15"}]], 
+     StyleBox["m",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "447f09bd-f3ff-40b6-8720-f9f5d465d960"],
+ " to get \[Sigma] for Uranium-238.\n\n\n\n(c) You probably answered (b) in \
+square meters. Nuclear physicists often use Fermis instead of meters for tiny \
+lengths. Convert to ",
+ StyleBox["square",
+  FontWeight->"Bold",
+  FontSlant->"Italic"],
+ " Fermis using ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"1", "Fm"}], "=", 
+    RowBox[{
+     SuperscriptBox["10", 
+      RowBox[{"-", "15"}]], 
+     StyleBox["m",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "cf9efc94-e64b-4a86-b877-c4f7bec27019"],
+ ".\n\n\n\n(d) Nuclear physicists also use barns. Convert your answer to (b) \
+to barns using ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"1", " ", "barn"}], "\[Congruent]", 
+    RowBox[{
+     SuperscriptBox["10", 
+      RowBox[{"-", "28"}]], 
+     SuperscriptBox[
+      StyleBox["m",
+       FontSlant->"Plain"], "2"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "746062fd-2ceb-4652-88ec-57f148f30d8e"],
+ ".\n\n\n\nDISCUSSION: Imagining that the nucleus presents itself to an \
+oncoming neutron as a classical disk is hopelessly crude. It is a complex \
+quantum-mechanical object whose properties are too complex to calculate. In \
+the next problem, we deal with the actually-measured, quantum-mechanical \
+cross sections."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQB2IQbbXYiHNqyhvHSSd1nUF0k9mcNBA9QeAVmDaUEE+S
+S33j+PapajaILuPYWAiikxbVVoDoG3Pq60F0VxbPHBCt9UB4C4hW+qO+FURb
+xTzfBaLvGoccBNESh2KPgWiD/YcfgejZ1iLPQfRv225OeSCdHDzJTwFIV+2Y
+A6atQ5iCQTSbflYIiGZS3BIBlu+7CaYvGU+dAqIXcMydBqKbGDNrTIB0iMeH
+WhC9rvYqtymQDqjl5QfRAj5LI198fuOoclSvB0TL3vw+AURn5TzaCKL/Cebu
+BNGrPHJ3g+hD7/4tewmktzT+2QKi9xnpfgDRTi3CH0H0+rtyX0F0j87qHyDa
+zDjl4xsgfWRB5BcQfY0n8QeInlJ+DkwDAFaOwQE=
+  "],ExpressionUUID->"0ce3fdf9-3c74-4321-915c-09a8dbefbe16"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"8a661570-9842-4df7-b91d-23e7f2083625"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quantum-Mechanical Cross Sections", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+  3.811155372328751*^9, 3.811155387448997*^9}, {3.885973652992275*^9, 
+  3.8859736547927094`*^9}, {3.885980964390655*^9, 
+  3.885980970296809*^9}},ExpressionUUID->"1b5c579a-d783-4918-950b-\
+87ad436203d4"],
+
+Cell[CellGroupData[{
+
+Cell["3. Relative Cross Sections \[LongDash] Fast Neutrons", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.8111116837267647`*^9, 
+  3.811111706284073*^9}, {3.811155416677002*^9, 3.811155420434423*^9}, {
+  3.885974195032312*^9, 3.885974212480654*^9}, {3.88597503365546*^9, 
+  3.8859750367491693`*^9}, {3.88597529704811*^9, 3.8859753000062523`*^9}, {
+  3.88597563017959*^9, 3.885975634949431*^9}, {3.8859762589843607`*^9, 
+  3.88597628239517*^9}, {3.885976850816943*^9, 3.885976865870708*^9}, {
+  3.885977269719638*^9, 3.885977272644473*^9}, {3.8859807013012447`*^9, 
+  3.885980701380094*^9}},ExpressionUUID->"8707b9a5-b5c0-41a1-893a-\
+9b19eab81d03"],
+
+Cell[TextData[{
+ "On Assignment 4, we looked at the thermal neutron cross section for Uranium \
+nuclei. Thermal neutrons have energy ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", 
+     RowBox[{"-", "7.6"}]], "MeV"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d8249a8e-2ddc-47d5-b6a2-4f30bb76d6ff"],
+ ", so that put us at -7.6 on the horizontal axis in Figs. 3.11 and 3.12 on \
+p. 100 of Reed.\n\nIn this problem, you will do the same thing, but for ",
+ StyleBox["fast neutrons",
+  FontWeight->"Bold"],
+ ". For simplicity, let\[CloseCurlyQuote]s say a fast neutron is a neutron \
+with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "MeV"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fa2d8d60-a444-4f6e-8462-4bc8ef434c86"],
+ " of energy. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"1", "MeV"}], "=", 
+    RowBox[{
+     SuperscriptBox["10", "0"], "MeV"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a5ccfc73-5de2-4882-938b-29505e341076"],
+ ", ",
+ StyleBox["so that puts us at 0 on the horizontal axes",
+  FontWeight->"Bold"],
+ " of Figs. 3.11 and 3.12.",
+ "\n\n(a) Use a straight edge on Fig. 3.11 to get an accurate estimate of the \
+log of the cross section in barns for fast neutrons to be captured by U-238.\n\
+\n\n(b) Take ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"whatever", " ", "you", " ", "got", " ", "in", " ", "Part", " ", 
+     RowBox[{"(", 
+      StyleBox["a",
+       FontSlant->"Plain"], ")"}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ba129a85-5726-403e-8425-33dc95bff85e"],
+ " to find the cross section for capture in barns.\n\n\n(c) Use a straight \
+edge on Fig. 3.12 to get an accurate estimate of the log of the cross section \
+in barns for fast neutrons to cause fission of U-235.\n\n\n(d) Take ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"whatever", " ", "you", " ", "got", " ", "in", " ", "Part", " ", 
+     RowBox[{"(", 
+      StyleBox["c",
+       FontSlant->"Plain"], ")"}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a62ab198-4732-4ec7-baac-00f9a3f555da"],
+ " to find the cross section for fission in barns.\n\n\n(e) In unenriched \
+uranium, there are about 140 Uranium-238 atoms for every Uranium-235 atom. So \
+if fast neutrons are bouncing around in an unenriched sample, the fraction of \
+the neutrons that will cause Uranium-235 fissions is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"what", " ", "you", " ", "got", " ", "in", " ", 
+     StyleBox["d",
+      FontSlant->"Plain"], "*", "1"}], 
+    RowBox[{
+     RowBox[{"what", " ", "you", " ", "got", " ", "in", " ", 
+      StyleBox["d",
+       FontSlant->"Plain"], "*", "1"}], "+", 
+     RowBox[{"what", " ", "you", " ", "got", " ", "in", " ", 
+      StyleBox["b",
+       FontSlant->"Plain"], "*", "140"}]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e657d2d7-2892-48f9-b715-64330c7e0641"],
+ "\n\nCompute this ratio."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdz11IU3EYBvC1sDlyuT7AdaG2aAiDdLkpOFFcgY0oFXc0BZVYR6O5KYNN
+JJzCuhB0iIxzROgEpXhhF6KxNrch1fEDYxU0MNrFwGYxsxlSRIki/p//xcuP
+hwceeNXW3sZOqUQi0ZCDxulSOc9mTP53V29Ab7nQBceVO9RrqjxrQWfGtPtd
+0w37shec0Drl6YdfhKEhOGLLEaB283wAXj4segWNbekITOqZt1Altq9B3evl
+FHxSeSEND6pG5YXE+xZ/3SXio0WBWslILfBUiY2BUnWghfZjCWpcz3PwWfbT
+Ceg98XDAQGTMex4459k4XUZs8ChyofL2TOv2n4zpymqxD+Yn/o1Dmz21AI/O
+OsLwhdkRhWzBna8wIudTsJYRs34QtRHxFhTn0/Ww5y/bAGs4KwO9iZNNNAeu
+t0Ih5KLemzWykHHfpc7p4g4YfKDshy03ZwbghDwxCBsrmDH4+00zNdbVzsHH
+w9XPYalLH6a7S+eicFI2ug47FJ834EqM24SBb/Vb0O7/n4YfPyi26R99YekO
+8aUrJIOTn5K+n8S1WDMPtT53EJ5hOWpxzvvdDHHQffEX9Br4fTjiXKUeAzFG
+SwY=
+  "],ExpressionUUID->"89099fdc-ba98-4474-9795-fec2c64c9d6b"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"a19d58f6-d385-42f8-bb94-c5b123cdcee7"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Molarity, Energy Released", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+  3.811155372328751*^9, 
+  3.811155387448997*^9}},ExpressionUUID->"0d77926b-c545-4e1b-a4f8-\
+cb5dfa7ed832"],
+
+Cell[CellGroupData[{
+
+Cell["4. Energy of a Critical Mass of Plutonium-239", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.8111116837267647`*^9, 
+  3.811111706284073*^9}, {3.811155416677002*^9, 3.811155420434423*^9}, {
+  3.885977822705408*^9, 3.885977822809862*^9}, {3.8859807061162567`*^9, 
+  3.885980706206211*^9}},ExpressionUUID->"60a9d126-26cf-4f48-a8fb-\
+78591525b1db"],
+
+Cell[TextData[{
+ "Pure Plutonium-239, has atomic weight 239.05216 grams per mol. Let\
+\[CloseCurlyQuote]s just round to 239 grams per mol.\n\n(a) One critical mass \
+of Plutonium-239 is about 10kg. How many mols of Plutonium-239 are in a \
+critical mass?\n\n\n\n(b) Knowing that Avogadro\[CloseCurlyQuote]s number, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["N", "A"], TraditionalForm]],ExpressionUUID->
+  "31ceb337-112f-4d8d-9f87-0a3ee3a58dd1"],
+ ", is about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"6", " ", 
+    SuperscriptBox["10", "23"]}], TraditionalForm]],ExpressionUUID->
+  "3ef7e165-8a8a-455b-8160-1585c76cdc7c"],
+ " atoms/mol, how many atoms of Plutonium-239 are in a critical mass?\n\n\n\n\
+(c) If only 10% of these atoms fission during the explosion, how many of \
+these atoms fission?\n\n\n\n(d) If each fission of Plutonium-239 releases \
+about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3", " ", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "11"}]]}], TraditionalForm]],ExpressionUUID->
+  "890a3cbf-a37e-42bd-a412-ecf03581da54"],
+ "J, how many Joules do  you expect a Plutonium bomb to release?\n\n\n\n(e) \
+The conversion between Joules and kilotons (equivalent) of TNT is quoted on \
+p. 111 of Reed. Convert your answer to (d) to kilotons.\n"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQbbXYiHNqyhvHSSd1nUF0k9mcNBA9QeAVmDaUEE+S
+S33j+PapajaILuPYWAiikxbVVoDoG3Pq60F0VxbPHBCt9UB4C4hW+qO+FURb
+xTzfBaLvGoccBNESh2KPgWiD/YcfgejZ1iLPQfRv225OeSCdHDzJTwFIV+2Y
+A6atQ5iCQTSbflYIiGZS3BIBlu+7CaYvGU+dAqIXcMydBqKbGDNrTIB0iMeH
+WhC9rvYqtymQDqjl5QfRDi63uV99fuN4jqdaFESHbjomA6J1z2kqg+igbnNN
+EF3j9lQXRLPV/nz5BkgvuOD5CkQDAPaQkiE=
+  "],ExpressionUUID->"89b89ade-ec60-4fa4-9415-c5eb9d9f8be0"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"94f1c391-e4d3-4cf5-ad96-3a596bcac7d6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ " Mass Defect, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"E", "=", 
+    RowBox[{"m", "\[VeryThinSpace]", 
+     SuperscriptBox["c", "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "a9e06401-099e-45c9-ae8f-e23cd288c08c"],
+ ", Power"
+}], "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+   3.810836354200274*^9, 3.810836367947353*^9}, {3.8111208401885357`*^9, 
+   3.811120847501309*^9}, {3.8111555349502573`*^9, 3.811155563919511*^9}, 
+   3.8859780884836407`*^9, {3.885984183721897*^9, 
+   3.885984184811998*^9}},ExpressionUUID->"b8d5ae49-5441-4d5d-958c-\
+9be8983899c9"],
+
+Cell[CellGroupData[{
+
+Cell["5. Fusion in the Sun", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.810830890947775*^9, 
+  3.810830894760894*^9}, {3.810831787526675*^9, 3.810831791981542*^9}, {
+  3.810832064755122*^9, 3.81083206485632*^9}, {3.810832371969105*^9, 
+  3.810832390845808*^9}, {3.810832421481245*^9, 3.810832423414888*^9}, {
+  3.8108331480339823`*^9, 3.810833158744245*^9}, {3.811120824899391*^9, 
+  3.811120828287148*^9}, {3.811156427756805*^9, 3.8111564297130404`*^9}, {
+  3.88597812297665*^9, 
+  3.885978123088821*^9}},ExpressionUUID->"8dad2e26-91b2-40d4-8d86-\
+6787e6aef225"],
+
+Cell[TextData[{
+ "CONTEXT: In the core of the Sun, 600 million tons of Hydrogen are fused to \
+Helium every second. The basic process is that four Hydrogens, ",
+ Cell[BoxData[
+  RowBox[{
+   SubsuperscriptBox["", "1", "1"], "H"}]],ExpressionUUID->
+  "4f4514fe-737e-4943-9bd4-ae5d40dbf340"],
+ ", fuse to make one Helium, ",
+ Cell[BoxData[
+  RowBox[{
+   SubsuperscriptBox["", "2", "4"], 
+   StyleBox["He",
+    FontSlant->"Plain"]}]],ExpressionUUID->
+  "8edd6b5a-dff3-44b3-b917-54bcc3ad50b0"],
+ ".\n\nThat\[CloseCurlyQuote]s just context. Here is the problem:\n\n(a) \
+Hydrogen has atomic mass of 1.008 grams/mol. Helium has atomic mass of 4.003 \
+grams per mol. If four mols of Hydrogen fuse to make one mol of Helium, how \
+many grams disappear into energy?\n\n\n\n\n\n\n(b) Convert your answer to \
+Part (a) from grams to kg, and while you are at it, round your result to one \
+sig fig. Use scientific notation.\n\n\n\n\n\n(c) Multiply your answer to (b) \
+by the speed of light ",
+ StyleBox["squared",
+  FontWeight->"Bold"],
+ " to get the energy released. The speed of light is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3", " ", 
+    SuperscriptBox["10", "8"], " ", 
+    RowBox[{
+     StyleBox["m",
+      FontSlant->"Plain"], "/", 
+     StyleBox["s",
+      FontSlant->"Plain"]}]}], TraditionalForm]],ExpressionUUID->
+  "e0322863-efc8-4344-a007-315ef6890c18"],
+ ". Thanks to the incredible convenience of MKS units, your result is in \
+Joules, with no conversion factors needed.\n\n\n\n\n(d) The Sun makes about \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1.5", " ", 
+    SuperscriptBox["10", "14"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2eb95d68-65ee-4bcc-9e80-d341f780ab5b"],
+ " mols of Helium per second. Combine that fact with your answer to (c) to \
+get the rate of energy production in the Sun. REMINDER: Energy rates in MKS \
+units are in Joules/second and an energy rate is called power, and the unit \
+for power is so popular it has its own unit, the Watt, so report your answer \
+in Watts (abbreviated W). Round to 1 sig fig.\n\n\n"
+}], "Text",
+ CellChangeTimes->{{3.810830409582425*^9, 3.8108308994412003`*^9}, {
+   3.810830988870617*^9, 3.810831239302236*^9}, {3.810831302887966*^9, 
+   3.810831613656369*^9}, {3.810831651019473*^9, 3.810831742706159*^9}, {
+   3.81083180262423*^9, 3.8108320569926767`*^9}, {3.810832088092688*^9, 
+   3.810832190735835*^9}, {3.810832344225263*^9, 3.8108323635528183`*^9}, {
+   3.810832651313554*^9, 3.810832675926402*^9}, {3.810836429937043*^9, 
+   3.810836491294949*^9}, 3.81112117630167*^9, {3.8111212719188423`*^9, 
+   3.811121290402789*^9}, {3.811121570107231*^9, 3.811121684837701*^9}, {
+   3.811121736451939*^9, 3.811121756186915*^9}, {3.8111217874719067`*^9, 
+   3.811121844792252*^9}, {3.811121875348873*^9, 3.811121878666712*^9}, {
+   3.811122345070075*^9, 3.811122491062409*^9}, {3.811123816437091*^9, 
+   3.811124008445159*^9}, {3.8111240763179493`*^9, 3.8111241438878727`*^9}, {
+   3.811124178527869*^9, 3.811124195751938*^9}, {3.8111242935721407`*^9, 
+   3.8111243085919333`*^9}, {3.811156436992343*^9, 3.811156437735098*^9}, {
+   3.811156478281311*^9, 3.8111564974849463`*^9}, {3.811156529626916*^9, 
+   3.811156695862275*^9}, {3.811156737082827*^9, 3.8111567432246103`*^9}, {
+   3.81115677654854*^9, 3.8111568548839483`*^9}, {3.811158614587888*^9, 
+   3.811158618109676*^9}, {3.811159338542994*^9, 3.811159338823481*^9}, {
+   3.81115937324949*^9, 3.811159408743832*^9}, {3.885978155765033*^9, 
+   3.8859781799286337`*^9}, {3.885980927683311*^9, 3.8859809311926193`*^9}, {
+   3.885983868486923*^9, 3.885984072279066*^9}, {3.885984199674172*^9, 
+   3.88598420367845*^9}, {3.8859842779300137`*^9, 3.885984322703013*^9}, {
+   3.885984428542511*^9, 3.885984433740025*^9}, {3.885998458825624*^9, 
+   3.885998465226076*^9}},ExpressionUUID->"291eae64-1893-4f8e-b5ac-\
+96c947d41827"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"4897ae87-4982-4fb6-823f-285fd2b62343"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[" Extra Credit", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+   3.810836354200274*^9, 3.810836367947353*^9}, {3.8111208401885357`*^9, 
+   3.811120847501309*^9}, {3.8111555349502573`*^9, 3.811155563919511*^9}, 
+   3.8859780884836407`*^9, 
+   3.8859805353798857`*^9},ExpressionUUID->"1f72eb94-0149-49ad-a490-\
+b8ba51f57ef8"],
+
+Cell["6. You Design a History Question", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.810830890947775*^9, 
+  3.810830894760894*^9}, {3.810831787526675*^9, 3.810831791981542*^9}, {
+  3.810832064755122*^9, 3.81083206485632*^9}, {3.810832371969105*^9, 
+  3.810832390845808*^9}, {3.810832421481245*^9, 3.810832423414888*^9}, {
+  3.8108331480339823`*^9, 3.810833158744245*^9}, {3.811120824899391*^9, 
+  3.811120828287148*^9}, {3.811156427756805*^9, 3.8111564297130404`*^9}, {
+  3.88597812297665*^9, 3.885978123088821*^9}, {3.885978216354718*^9, 
+  3.885978223880961*^9}, {3.8859805313562527`*^9, 
+  3.885980542408551*^9}},ExpressionUUID->"da70093f-bbe9-455f-94a7-\
+7d5f193cbcad"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\t(I will share your answers.)", "Subsubtitle",
+ CellChangeTimes->{{3.810830181444294*^9, 3.810830242161654*^9}, {
+  3.810836233878502*^9, 3.810836316534246*^9}, {3.8111115321309*^9, 
+  3.811111543920794*^9}, {3.811158927536954*^9, 3.81115919556214*^9}, {
+  3.811159955069104*^9, 3.811159955741652*^9}, {3.885973427635676*^9, 
+  3.885973439436954*^9}, {3.885973481094565*^9, 3.8859734837609177`*^9}, {
+  3.885973514799238*^9, 3.885973610118599*^9}, {3.885973837196822*^9, 
+  3.885973839007894*^9}, {3.885980592222868*^9, 3.885980650406167*^9}, {
+  3.88598299842185*^9, 3.885982999401606*^9}, {3.8859831183705473`*^9, 
+  3.8859831323115396`*^9}},
+ FontSize->16,ExpressionUUID->"132cda51-2556-40ec-b474-205deee18b64"],
+
+Cell["\<\
+
+We have now studied a period of sweeping change from 1895, when Becquerel \
+discovered natural radioactivity, to 1942, when the U.S. has started an \
+ambitious wartime project to create two types of fission bombs, one using \
+Uranium-235 and the other using Plutonium-239.
+
+
+(a) In a few sentences, what stands out to you as the most significant \
+development in this period? Is there one that made your jaw drop? Maybe not. \
+I hope there is.
+
+
+
+
+
+
+
+
+
+
+
+
+
+(b) If you were to add a history question for this exam, what would it have \
+been?\
+\>", "Text",
+ CellChangeTimes->{{3.810830409582425*^9, 3.8108308994412003`*^9}, {
+   3.810830988870617*^9, 3.810831239302236*^9}, {3.810831302887966*^9, 
+   3.810831613656369*^9}, {3.810831651019473*^9, 3.810831742706159*^9}, {
+   3.81083180262423*^9, 3.8108320569926767`*^9}, {3.810832088092688*^9, 
+   3.810832190735835*^9}, {3.810832344225263*^9, 3.8108323635528183`*^9}, {
+   3.810832651313554*^9, 3.810832675926402*^9}, {3.810836429937043*^9, 
+   3.810836491294949*^9}, 3.81112117630167*^9, {3.8111212719188423`*^9, 
+   3.811121290402789*^9}, {3.811121570107231*^9, 3.811121684837701*^9}, {
+   3.811121736451939*^9, 3.811121756186915*^9}, {3.8111217874719067`*^9, 
+   3.811121844792252*^9}, {3.811121875348873*^9, 3.811121878666712*^9}, {
+   3.811122345070075*^9, 3.811122491062409*^9}, {3.811123816437091*^9, 
+   3.811124008445159*^9}, {3.8111240763179493`*^9, 3.8111241438878727`*^9}, {
+   3.811124178527869*^9, 3.811124195751938*^9}, {3.8111242935721407`*^9, 
+   3.8111243085919333`*^9}, {3.811156436992343*^9, 3.811156437735098*^9}, {
+   3.811156478281311*^9, 3.8111564974849463`*^9}, {3.811156529626916*^9, 
+   3.811156695862275*^9}, {3.811156737082827*^9, 3.8111567432246103`*^9}, {
+   3.81115677654854*^9, 3.8111568548839483`*^9}, {3.811158614587888*^9, 
+   3.811158618109676*^9}, {3.811159338542994*^9, 3.811159338823481*^9}, {
+   3.81115937324949*^9, 3.811159408743832*^9}, {3.885978155765033*^9, 
+   3.8859781799286337`*^9}, {3.885978228268866*^9, 3.8859782466503887`*^9}, {
+   3.885980367000308*^9, 3.88598039898468*^9}, {3.885980487273052*^9, 
+   3.8859805183450413`*^9}, {3.885980555199532*^9, 3.885980568889916*^9}, {
+   3.88598278431887*^9, 3.885982966079053*^9}, {3.88598301974161*^9, 
+   3.8859830536830072`*^9}, {3.885983084834365*^9, 3.885983095218068*^9}, 
+   3.88598313561689*^9, {3.885998507647463*^9, 
+   3.885998508142119*^9}},ExpressionUUID->"bdd063d2-f469-49c0-8044-\
+082e3c62de11"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1051, 1205},
+WindowMargins->{{41, Automatic}, {Automatic, 57}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"4a94233a-a795-4a63-8a44-3449e3ae2b17"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 318, 5, 103, "Chapter",ExpressionUUID->"ac09b78f-b0ae-4571-8c81-126439b5be44"],
+Cell[901, 29, 850, 15, 129, "Subtitle",ExpressionUUID->"26179db2-2a1c-4950-a133-ecce64d1e0a8"],
+Cell[CellGroupData[{
+Cell[1776, 48, 368, 6, 101, "Section",ExpressionUUID->"f0b117aa-125e-44f6-b4cf-de4536caa2b1"],
+Cell[CellGroupData[{
+Cell[2169, 58, 758, 11, 81, "Subsection",ExpressionUUID->"21b9db49-83c0-469a-acf0-d9d5215d6a56"],
+Cell[2930, 71, 2757, 61, 1029, "Text",ExpressionUUID->"fe308149-c87c-49e5-9143-35f95fc8c66e"],
+Cell[5690, 134, 99, 1, 6, "PageBreak",ExpressionUUID->"9935896d-92ed-41de-9878-19e87a71e337",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5838, 141, 256, 4, 101, "Section",ExpressionUUID->"6217574c-d61a-4e59-8b59-a639e6a91e22"],
+Cell[CellGroupData[{
+Cell[6119, 149, 493, 7, 81, "Subsection",ExpressionUUID->"1a66e4eb-6dba-4cdc-b930-f044116fde54"],
+Cell[6615, 158, 4023, 108, 1189, "Text",ExpressionUUID->"0ce3fdf9-3c74-4321-915c-09a8dbefbe16"],
+Cell[10641, 268, 99, 1, 6, "PageBreak",ExpressionUUID->"8a661570-9842-4df7-b91d-23e7f2083625",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10789, 275, 324, 5, 101, "Section",ExpressionUUID->"1b5c579a-d783-4918-950b-87ad436203d4"],
+Cell[CellGroupData[{
+Cell[11138, 284, 735, 10, 81, "Subsection",ExpressionUUID->"8707b9a5-b5c0-41a1-893a-9b19eab81d03"],
+Cell[11876, 296, 3782, 91, 1031, "Text",ExpressionUUID->"89099fdc-ba98-4474-9795-fec2c64c9d6b"],
+Cell[15661, 389, 99, 1, 6, "PageBreak",ExpressionUUID->"a19d58f6-d385-42f8-bb94-c5b123cdcee7",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15809, 396, 219, 4, 101, "Section",ExpressionUUID->"0d77926b-c545-4e1b-a4f8-cb5dfa7ed832"],
+Cell[CellGroupData[{
+Cell[16053, 404, 438, 6, 81, "Subsection",ExpressionUUID->"60a9d126-26cf-4f48-a8fb-78591525b1db"],
+Cell[16494, 412, 1711, 36, 883, "Text",ExpressionUUID->"89b89ade-ec60-4fa4-9415-c5eb9d9f8be0"],
+Cell[18208, 450, 99, 1, 6, "PageBreak",ExpressionUUID->"94f1c391-e4d3-4cf5-ad96-3a596bcac7d6",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18356, 457, 610, 15, 102, "Section",ExpressionUUID->"b8d5ae49-5441-4d5d-958c-9be8983899c9"],
+Cell[CellGroupData[{
+Cell[18991, 476, 653, 10, 81, "Subsection",ExpressionUUID->"8dad2e26-91b2-40d4-8d86-6787e6aef225"],
+Cell[19647, 488, 3864, 73, 1264, "Text",ExpressionUUID->"291eae64-1893-4f8e-b5ac-96c947d41827"],
+Cell[23514, 563, 99, 1, 6, "PageBreak",ExpressionUUID->"4897ae87-4982-4fb6-823f-285fd2b62343",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23662, 570, 361, 6, 101, "Section",ExpressionUUID->"1f72eb94-0149-49ad-a490-b8ba51f57ef8"],
+Cell[24026, 578, 762, 11, 81, "Subsection",ExpressionUUID->"da70093f-bbe9-455f-94a7-7d5f193cbcad"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24825, 594, 721, 10, 46, "Subsubtitle",ExpressionUUID->"132cda51-2556-40ec-b474-205deee18b64"],
+Cell[25549, 606, 2466, 53, 778, "Text",ExpressionUUID->"bdd063d2-f469-49c0-8044-082e3c62de11"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

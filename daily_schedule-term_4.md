@@ -65,9 +65,9 @@ See also [Daily Schedule-Term 5](./daily_schedule-term_5.html)
 * Preparation for Friday, Feb. 17 &mdash; At the beginning of class, turn in [Assignment 6](./assignments/Assignment06.pdf) &mdash; [Assignment 6 Solution](./assignments/Assignment06-Solution.pdf) &mdash; Study the electromagnetic and gas diffusion programs pp. 199-222 of Chapter 5
 * Friday, Feb. 17 &mdash; Mac's Presentation on CANDU reactors &mdash; The Y-12, K-25, and U-25 Enrichment Programs
 
-### Week 7 &mdash; Midterm Exam &mdash; Shakespeare Festival
+### Week 7 &mdash; Term 4 Exam &mdash; Shakespeare Festival
 
-* Tuesday, Feb. 21 &mdash; Midterm Exam (open book and note)
+* Tuesday, Feb. 21 &mdash; [Term 4 Exam](./exams/Term4Exam.pdf) (open book and note)
 * Friday, Feb. 24 &mdash; No class (due to Shakespeare festival)
 
 Weeks 8-14 are in [Daily Schedule-Term 5](./daily_schedule-term_5.html)

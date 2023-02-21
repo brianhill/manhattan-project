@@ -1,0 +1,520 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     22522,        512]
+NotebookOptionsPosition[     20593,        467]
+NotebookOutlinePosition[     21042,        485]
+CellTagsIndexPosition[     20999,        482]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Manhattan Project - Term 3 Exam", "Chapter",
+ CellChangeTimes->{{3.8108301441059628`*^9, 3.810830154284514*^9}, {
+  3.8108325017505493`*^9, 3.810832501874113*^9}, {3.811111515882894*^9, 
+  3.811111520981724*^9}, {3.8147574782161903`*^9, 
+  3.814757478397511*^9}},ExpressionUUID->"ac09b78f-b0ae-4571-8c81-\
+126439b5be44"],
+
+Cell["\<\
+November 8, 2020 \[LongDash] Covering the technical material in Reed Chs. 5 \
+to 7
+
+Do not feel time pressure. We will try to hold it to 45 minutes, but not cut \
+people off if they need a little more time to check their math.
+
+As with the last exam, I made the numbers round, and it shouldn\
+\[CloseCurlyQuote]t be necessary to use a calculator. A goal of the course is \
+for you to all become good at throwing around astronomic and microscopic \
+numbers without reaching for a calculator.
+
+There may be enough space on the exam to do the work and answer. Take your \
+pick on whether you\[CloseCurlyQuote]d rather work on your own paper.\
+\>", "Subtitle",
+ CellChangeTimes->{{3.810830181444294*^9, 3.810830242161654*^9}, {
+  3.810836233878502*^9, 3.810836316534246*^9}, {3.8111115321309*^9, 
+  3.811111543920794*^9}, {3.811158927536954*^9, 3.81115919556214*^9}, {
+  3.811159955069104*^9, 3.811159955741652*^9}, {3.814757487196863*^9, 
+  3.8147575820428534`*^9}, {3.814764500255938*^9, 3.814764519640945*^9}},
+ FontSize->16,ExpressionUUID->"26179db2-2a1c-4950-a133-ecce64d1e0a8"],
+
+Cell[CellGroupData[{
+
+Cell["Specific Heat", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+  3.811155372328751*^9, 3.811155387448997*^9}, {3.8147577985601397`*^9, 
+  3.814757806118145*^9}, {3.814757859432804*^9, 
+  3.814757859984817*^9}},ExpressionUUID->"0d77926b-c545-4e1b-a4f8-\
+cb5dfa7ed832"],
+
+Cell[CellGroupData[{
+
+Cell["1. Reactor Meltdown  ", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.8111116837267647`*^9, 
+  3.811111706284073*^9}, {3.811155416677002*^9, 3.811155420434423*^9}, {
+  3.8147578111138973`*^9, 
+  3.814757855381774*^9}},ExpressionUUID->"60a9d126-26cf-4f48-a8fb-\
+78591525b1db"],
+
+Cell[TextData[{
+ "One day, the coolant in a reactor producing 1100 MW stops flowing. Whatever \
+stopped the coolant also stopped many of the control rods from working, and \
+despite yours and the other operators\[CloseCurlyQuote] best efforts, the \
+reactor continues to produce 100 MW of heat. The temperature of the fuel \
+pellets in the fuel rods will now start rising.\n\nThis reactor contains 18 \
+million uranium dioxide fuel pellets. Each pellet is 1cm long and 1cm in \
+diameter, and is therefore ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["\[Pi]", "4"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "70eea6a2-3eb2-4b8c-ae78-2387860cbf85"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["cm", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "b19f588a-1eec-4e87-8c61-f494a579923e"],
+ " in volume. The density of uranium dioxide is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"11", 
+    RowBox[{
+     StyleBox["g",
+      FontSlant->"Plain"], "/", 
+     SuperscriptBox["cm", "3"]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "e1cf69a0-43ba-424f-b0e6-ba68062405c9"],
+ ". Let\[CloseCurlyQuote]s be kind to ourselves and do some rounding. We will \
+round each pellet\[CloseCurlyQuote]s mass to a nice tidy 10 grams and we will \
+round the 18 million pellets to 20 million. That\[CloseCurlyQuote]s actually \
+going to make our calculation a bit optimistic, but it\[CloseCurlyQuote]s a \
+crude calculation anyway.\n\n(a) If the reactor is still producing power \
+(heat) at the rate of 100 MW, how much is each of the 20 million pellets \
+being heated (your answer will be in Watts, or Joules / second \[LongDash] \
+please include units)."
+}], "Text",
+ CellChangeTimes->{{3.810830409582425*^9, 3.8108308734308558`*^9}, {
+   3.810831156881654*^9, 3.810831159314522*^9}, {3.811111696721703*^9, 
+   3.811111769184317*^9}, {3.811111821532283*^9, 3.811111875926072*^9}, {
+   3.811111931987896*^9, 3.8111121603880053`*^9}, {3.811112352621114*^9, 
+   3.811112361249528*^9}, {3.811112407230008*^9, 3.811112458631331*^9}, {
+   3.811112498929943*^9, 3.8111127261170883`*^9}, {3.811112760632276*^9, 
+   3.811113036351316*^9}, {3.811115636572679*^9, 3.811115636897519*^9}, {
+   3.811115672072782*^9, 3.81111568331824*^9}, {3.8111157176290293`*^9, 
+   3.811115718798642*^9}, {3.8111161966625757`*^9, 3.811116212907303*^9}, {
+   3.811156963281434*^9, 3.811156975508829*^9}, {3.8111581106715918`*^9, 
+   3.811158136421547*^9}, {3.8147578677944527`*^9, 3.814758043552815*^9}, {
+   3.814758263654151*^9, 3.8147586141767893`*^9}, {3.814758664669673*^9, 
+   3.814758748031748*^9}, {3.814758836998561*^9, 3.814758925683867*^9}, {
+   3.814758957533931*^9, 3.8147590883980713`*^9}, {3.814759123788795*^9, 
+   3.814759475920458*^9}, {3.8147595096345797`*^9, 3.814760021421834*^9}, {
+   3.814760259645032*^9, 3.814760261118918*^9}, {3.814760323411347*^9, 
+   3.8147603743073463`*^9}, {3.814760421545889*^9, 3.814760557199895*^9}, {
+   3.814760589330027*^9, 3.8147606128549547`*^9}, {3.8147606544466257`*^9, 
+   3.8147606665179358`*^9}, {3.814760709202527*^9, 3.814760761694387*^9}, {
+   3.814761134254045*^9, 3.8147611351433287`*^9}, 
+   3.814764100298016*^9},ExpressionUUID->"89b89ade-ec60-4fa4-9415-\
+c5eb9d9f8be0"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"a244da35-3199-4b5d-bd12-2fb69b7f5e5c"],
+
+Cell[TextData[{
+ "(b) The specific heat C of the uranium dioxide pellets at reasonable \
+temperatures is (on average in the range of interest) about 0.3 Joules/gram/\
+\.baK. Using just algebra rather than plugging in any numbers, and starting \
+with the definition of specific heat,\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"C", " ", "\[Congruent]", " ", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "E"}], 
+      RowBox[{
+      "m", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "T"}]],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "9647603b-df70-477c-adaa-2e5da103468a"],
+ "\n\ndivide numerator and denominator by ",
+ Cell[BoxData[
+  FormBox["\[CapitalDelta]t", TraditionalForm]],ExpressionUUID->
+  "2c876023-3874-426e-9b63-92508fc02f9d"],
+ " where ",
+ Cell[BoxData[
+  FormBox["\[CapitalDelta]t", TraditionalForm]],ExpressionUUID->
+  "12207c5c-ee5d-4b58-878d-24ed5b9166d5"],
+ " is an arbitrary amount of time, and then use that power, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"P", "\[Congruent]", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "E"}], 
+      RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}]],
+     FontSize->18]}], TraditionalForm]],ExpressionUUID->
+  "738cc5c8-4284-47de-bcad-dca12db9af3b"],
+ ", to simplify the numerator. You now have an equation involving ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"P", ",", " ", "m", ",", " ", 
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], ",", " ", "C", ",", 
+    " ", 
+    RowBox[{"and", " ", "\[CapitalDelta]", "\[VeryThinSpace]", 
+     RowBox[{"t", "."}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "00642b3c-5b11-4073-9880-59e1a9e66f8b"],
+ " Solve this equation for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
+  ExpressionUUID->"f6941d8b-d20b-4c93-9413-ebc9499e13ed"],
+ ".\n\n\n\n\n\n(c) The uranium dioxide pellets are clad in zirconium, which \
+melts at 1855 \.baK. To keep making things round, let's assume the reactor \
+started at 355\.baK which is a modest temperature. The uranium pellets can \
+therefore rise by \[CapitalDelta]T = 1500 \.baK before they melt the \
+zirconium. Plug in to the formula you got in (b) to find out how long this \
+takes. HINT: Be careful to carry through and cancel off your units as a \
+satisfying cross-check on your algebra.\n\n\n\n\n(d) You got an answer in \
+seconds. Convert it to minutes. How long do you tell your neighbors they have \
+to get in the car before the meltdown. Or to put it differently, how long do \
+you and your fellow operators have to get the cooling system working?\n\n\n\n\
+"
+}], "Text",
+ CellChangeTimes->{{3.810830409582425*^9, 3.8108308734308558`*^9}, {
+   3.810831156881654*^9, 3.810831159314522*^9}, {3.811111696721703*^9, 
+   3.811111769184317*^9}, {3.811111821532283*^9, 3.811111875926072*^9}, {
+   3.811111931987896*^9, 3.8111121603880053`*^9}, {3.811112352621114*^9, 
+   3.811112361249528*^9}, {3.811112407230008*^9, 3.811112458631331*^9}, {
+   3.811112498929943*^9, 3.8111127261170883`*^9}, {3.811112760632276*^9, 
+   3.811113036351316*^9}, {3.811115636572679*^9, 3.811115636897519*^9}, {
+   3.811115672072782*^9, 3.81111568331824*^9}, {3.8111157176290293`*^9, 
+   3.811115718798642*^9}, {3.8111161966625757`*^9, 3.811116212907303*^9}, {
+   3.811156963281434*^9, 3.811156975508829*^9}, {3.8111581106715918`*^9, 
+   3.811158136421547*^9}, {3.8147578677944527`*^9, 3.814758043552815*^9}, {
+   3.814758263654151*^9, 3.8147586141767893`*^9}, {3.814758664669673*^9, 
+   3.814758748031748*^9}, {3.814758836998561*^9, 3.814758925683867*^9}, {
+   3.814758957533931*^9, 3.8147590883980713`*^9}, {3.814759123788795*^9, 
+   3.814759475920458*^9}, {3.8147595096345797`*^9, 3.814760021421834*^9}, {
+   3.814760259645032*^9, 3.814760261118918*^9}, {3.814760323411347*^9, 
+   3.8147603743073463`*^9}, {3.814760421545889*^9, 3.814760557199895*^9}, {
+   3.814760589330027*^9, 3.8147606128549547`*^9}, {3.8147606544466257`*^9, 
+   3.8147606665179358`*^9}, {3.814760709202527*^9, 3.814760761694387*^9}, {
+   3.814761134254045*^9, 3.8147611351433287`*^9}, 3.814764103868482*^9, {
+   3.814764156708931*^9, 3.81476421219488*^9}, {3.814764291870488*^9, 
+   3.814764294186298*^9}, {3.8147912166559467`*^9, 3.814791335388011*^9}, {
+   3.814791369027855*^9, 
+   3.814791378295519*^9}},ExpressionUUID->"d33d5288-ad14-432c-9929-\
+d5b8c9daae80"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Radiation Fatalities", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+  3.811155372328751*^9, 3.811155387448997*^9}, {3.8147577985601397`*^9, 
+  3.814757806118145*^9}, {3.814757859432804*^9, 3.814757859984817*^9}, {
+  3.814761148192053*^9, 
+  3.8147611565398397`*^9}},ExpressionUUID->"06cef5da-cabb-4f5a-a183-\
+48902d06514e"],
+
+Cell[CellGroupData[{
+
+Cell["2.  What Were the Pilots Exposed To?", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.8111116837267647`*^9, 
+  3.811111706284073*^9}, {3.811155416677002*^9, 3.811155420434423*^9}, {
+  3.8147578111138973`*^9, 3.814757855381774*^9}, {3.8147611694896927`*^9, 
+  3.814761238384939*^9}},ExpressionUUID->"2ae3a40f-9d44-4a68-b8cb-\
+ada876169aed"],
+
+Cell[TextData[{
+ "\nAn empirical formula for the radius of radiation fatalities is\n\n",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "lethal"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "9b5d8b0c-dcdb-4c15-89eb-182009182943"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["Y", "0.19"], TraditionalForm]],ExpressionUUID->
+  "829e81b3-7f85-4c9a-8507-c68265bf3dbc"],
+ "\n\nWe are going to pick the numbers so that we have a shot at getting an \
+answer without a calculator.\n\nFirst we\[CloseCurlyQuote]ll round the \
+empirical formula:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "plane"], "=", 
+    RowBox[{
+     SuperscriptBox["Y", "0.2"], "=", 
+     SuperscriptBox["Y", 
+      RowBox[{"1", "/", "5"}]]}]}], TraditionalForm]],ExpressionUUID->
+  "c0aeecca-5523-4f84-940e-f102f3c6f68a"],
+ "\n\nIn other words, we\[CloseCurlyQuote]ve rounded it so that ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "lethal"], TraditionalForm]],ExpressionUUID->
+  "4443189d-76f0-4438-82cd-a5175dbb530a"],
+ " is the fifth root of ",
+ Cell[BoxData[
+  FormBox["Y", TraditionalForm]],ExpressionUUID->
+  "55383901-1596-470c-b0ac-b532cbcecdee"],
+ ".\n\nFor this formula to work, ",
+ Cell[BoxData[
+  FormBox["Y", TraditionalForm]],ExpressionUUID->
+  "9a2dfb96-e70b-4fa6-a426-1bcdc4b6d7d9"],
+ " has to be expressed as a multiple of 2.5kt. ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["r", "lethal"], TraditionalForm]],ExpressionUUID->
+  "267b66c2-d95f-49df-8fb4-5233ef65e8ec"],
+ " will then be in km. This is an empirical formula, not a fundamental one, \
+and you can\[CloseCurlyQuote]t make much sense of the units except to follow \
+the recipe as given.\n\n(a) If Y were 80kt, expressed as a multiple of 2.5kt, \
+your value for ",
+ Cell[BoxData[
+  FormBox["Y", TraditionalForm]],ExpressionUUID->
+  "bc95ba7e-3ca7-423c-bb03-855773a1d15f"],
+ " is? (Just divide ",
+ Cell[BoxData[
+  FormBox["Y", TraditionalForm]],ExpressionUUID->
+  "32d1e92a-88d9-4fab-b2c0-0ff65387eed5"],
+ " by 2.5, nothing fancy here.)\n\n\n(b) Then calculate the 5th root of what \
+you got in (a). This is the lethal radius in km.\n\n\n(c) If the pilots got \
+to 20km before the blast hit them, what multiple of the lethal radius is \
+this?\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["r", "pilots"], "=", 
+    RowBox[{"X", " ", 
+     SubscriptBox["r", "lethal"]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "dbcc686a-05f9-4c11-a831-085228668f3f"],
+ "\n\n(d) A very pessimistic and naive view of the way radiation travels in \
+air says that it simply weakens with distance as ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "2"]], TraditionalForm]],ExpressionUUID->
+  "d6663892-e02b-4756-a782-8ca716b6829e"],
+ ". The formula in Reed says it actually weakens far faster with distance. \
+Faster than ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "7"]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "639354a4-fea2-4cce-b90b-45b3651850ba"],
+ ". Using the multiple you found in (c) and ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", 
+    SuperscriptBox["r", "7"]], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "c5cd1de2-0280-46e7-99e5-cc6867aab498"],
+ " as the rate of weakening with distance, what fraction of the lethal \
+radiation dose did the pilots get? The lethal dose is 600 rems. What do you \
+estimate the their dose as?\n\n\n\n\n\nHINT: It\[CloseCurlyQuote]s *not* ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "10"], TraditionalForm]],ExpressionUUID->
+  "c91e93c7-31fb-4b09-aac1-522a88f9014c"],
+ " as much or 60 rems."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdzl1Ik2EABeBtjJi0UelGukKdWmoiZdoKZcEyQbwYkkvEnyVzE9SJSOJv
+HyuDXcyROZwXOlFUhglFY/MflS2sKTRhIqUQ5LQ+ia8hNLxRpPe8F4fn4pyL
+o9C3PDEKeDxeJgnMn7wb4zBwavtGdiHsVTrr4dvLf6g58Vf1iUZO/ffXjSbY
+LnK3Qv0E0wm/O81maG0UO+Gtn3FemHKWPgvzq9kl+CNX64Px/prP8M7apzAc
+KZCy8FTVF5NErCuza5KJ3QtOaoFWUAYv3G7UQoHCW0H7N7vUUK5jEI6LRodg
+L7/hRR5RW3zMwA/MzsV7xFJGcglmmLpWYk2c+t3H1m0YjEQj8NH0ujyOeNIs
+U0Cp8FUWVEbHlFAVnlXTXuYugrwVcTncUnVVQkMbY4HdGq8Vzpjfb0L5VNsR
+zA5OUn2ZzccwsLNxArkO9xm0Gl0SKdHRP3MFblaNSKG/JJgAI/bSa1De40qG
+TQ+U6TBVEXgKbw4dUgeu9+jgQ9EqtZp9ZoC1z09fw8e6NBvdHfRT+Z4kO7xf
+qwnBZZvhG3Tp/HuwfNGyD3USH7VveOA3/cPxWbg2P7cnI2Z5AtSjceEhNIWK
+otD21bKcQmz4UrEFX+pbduG/+rww7BRHWZi4LjyH/wH4MTCr
+  
+  "],ExpressionUUID->"f63b362f-ff1c-4fae-a5e6-ac18dde55c96"],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"38b66f21-f88a-4bd7-8dbe-40525ce0fbeb"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fallout", "Section",
+ CellChangeTimes->{{3.810830319868004*^9, 3.810830336967495*^9}, {
+  3.811155372328751*^9, 3.811155387448997*^9}, {3.8147577985601397`*^9, 
+  3.814757806118145*^9}, {3.814757859432804*^9, 3.814757859984817*^9}, {
+  3.814761148192053*^9, 3.8147611565398397`*^9}, {3.814762308952661*^9, 
+  3.814762310471383*^9}},ExpressionUUID->"99d10ff0-62c9-4e0c-a54b-\
+56a04d1ed537"],
+
+Cell[CellGroupData[{
+
+Cell["3. Fallout After Almost One Hour", "Subsection",
+ CellChangeTimes->{{3.810830350007175*^9, 3.810830350219508*^9}, {
+  3.8108303946709146`*^9, 3.810830397527528*^9}, {3.8111116837267647`*^9, 
+  3.811111706284073*^9}, {3.811155416677002*^9, 3.811155420434423*^9}, {
+  3.8147578111138973`*^9, 3.814757855381774*^9}, {3.8147611694896927`*^9, 
+  3.814761238384939*^9}, {3.81476233851799*^9, 3.814762347461447*^9}, {
+  3.814763375976829*^9, 3.81476337942067*^9}, {3.814764600697763*^9, 
+  3.8147646065370407`*^9}},ExpressionUUID->"7959b0e2-28d8-4742-9b7a-\
+3ae0467e7b09"],
+
+Cell[TextData[{
+ "As in Problem 7.9, we are going to start with as many atoms of Barium and \
+Krypton as we started with atoms of Uranium, and the number or Uranium atoms \
+was about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"24", 
+    SuperscriptBox["x10", "23"]}], TraditionalForm]],ExpressionUUID->
+  "1c461d59-06a3-4764-9c17-f92c53b68ed5"],
+ " atoms. But this time we are going to wait almost an hour, after which \
+pretty much all of the Krypton will be gone, and instead the radiation of the \
+fallout will now be coming from the Barium.\n\n(a) If  ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", 
+    RowBox[{"1", "/", "2"}]], TraditionalForm]],ExpressionUUID->
+  "01e7fa2a-65c9-4102-a7b5-2dd5de4fd1ff"],
+ " for Barium-141 is 18 minutes, how many Barium atoms are there after 54 \
+minutes?\n\n\n\n(b) The decay time ",
+ Cell[BoxData[
+  FormBox["\[Tau]", TraditionalForm]],ExpressionUUID->
+  "8f343810-4000-421f-982c-cbfe16905772"],
+ "\[Congruent] ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    FractionBox[
+     SubscriptBox["t", 
+      RowBox[{"1", "/", "2"}]], 
+     RowBox[{"ln", " ", "2"}]],
+    FontSize->18], TraditionalForm]],ExpressionUUID->
+  "04626a32-dcc2-4775-a196-f52599a9c8dc"],
+ ". This is about 1500 seconds. Using that the decay rate is ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    FractionBox["N", 
+     StyleBox["\[Tau]",
+      FontSize->12]],
+    FontSize->16], TraditionalForm]],ExpressionUUID->
+  "1c121563-302f-426e-9f8d-d76adde84212"],
+ " what is the rate of decay for the number of Barium atoms you found in part \
+(a).\n\n\n\n(c) Using that 1 Curie is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3.7", 
+    SuperscriptBox["x10", "10"], "fissions", " ", "per", " ", "second"}], 
+   TraditionalForm]],ExpressionUUID->"f6da3701-fc38-43db-9432-2ade99e37f7d"],
+ " and rounding that to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"4", 
+    SuperscriptBox["x10", "10"]}], TraditionalForm]],ExpressionUUID->
+  "edd9b54c-8e81-4c11-bb45-93b208c69032"],
+ " to as usual make life without a calculator easier, how many Curies of \
+radiation are there after 54 minutes?\n\n\n\n(d) Let\[CloseCurlyQuote]s say \
+that after the 54 minutes, the fallout has had time to spread to 20 square \
+miles, which is about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"5", 
+    SuperscriptBox["x10", "7"]}], TraditionalForm]],ExpressionUUID->
+  "8317cdfb-287c-4609-a480-4ca7e2a3927c"],
+ "square meters. How many Curies per square meter are being suffered in this \
+region?\n\n\n\n\nNOTE: It was 1 million Curies per square meter in Problem \
+7.9. As you can see, avoiding being exposed for an hour helps a great deal."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwlzl9MknEYBWAgM1ywTCGNWoJmlOVSKSwdLgqr0cZcopkaOcKWomuWWaCM
+wuYFMg2WthSXy2Lp0mRhZWUOSlMrWjZXubWV/cEcMS6cXmCt7/y6ePdcnLOz
+V6A+fbiUQaPRRNTBjK60iBaNX2obT94HTWL7SXglco6YGhuj3lDql/7+kaiF
+NUxnFVTfNFyAH+1GIzSXs+ww6Uu0C8YvCQdgRrHvMfwsUrphrOfYKEwZfj4D
+2zM5PhiSNEbEUZ7ItSn4lPpHdmKmkpELw7eXKyFD4CogedMn4qSo5SrsZHa0
+QhO9rG4HpfJg0AD7DFMrd1LmGNir4OYK3VBUhV/a3V/1HnoD8wG4984IL5py
+oZIrgJywS1uheP6GGEpmBqQk5zqzIW2IlQ/fSnSFUFNtaIB6hcsMe4y9E5B3
+q3oWJnu7iO4tlUE4NjW+AP3nnUvQXOpgcyhbmntWw4midg70yL1rYcCWsw7y
+ah18qN0lFsIEwVge3NT6nWhdX6uCWcxnxGLfcQ0sORuqhzLVRgvpfWsm0u/H
+2WB6iWISPrFoPkCHyjMN8wcbvkIV201sbLP+JP/46T6o8XmCsGxUugjTJPI/
+ZM+8QsjFzraY3fDpqaIDkBeyHoIzy34VQFbSiApOM5haSHvJroFt/X3E2bq/
+ehh2brgWJkYNWeDlB/euwYDM0wHvHs3rhElNPbfJvjy1F2a9eeiER3T7B2Hh
+9dfL10DTnnB4pjuFDedc/3W8WIyEygI6F15Ml/ETKN+9qo+H/wBaMnFg
+  
+  "],ExpressionUUID->"83c85d2e-9384-40c1-9386-cadd9055aee4"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1029, 1132},
+WindowMargins->{{Automatic, 450}, {Automatic, 68}},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 9, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"4a94233a-a795-4a63-8a44-3449e3ae2b17"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 326, 5, 69, "Chapter",ExpressionUUID->"ac09b78f-b0ae-4571-8c81-126439b5be44"],
+Cell[909, 29, 1089, 20, 197, "Subtitle",ExpressionUUID->"26179db2-2a1c-4950-a133-ecce64d1e0a8"],
+Cell[CellGroupData[{
+Cell[2023, 53, 304, 5, 67, "Section",ExpressionUUID->"0d77926b-c545-4e1b-a4f8-cb5dfa7ed832"],
+Cell[CellGroupData[{
+Cell[2352, 62, 368, 6, 54, "Subsection",ExpressionUUID->"60a9d126-26cf-4f48-a8fb-78591525b1db"],
+Cell[2723, 70, 3276, 59, 270, "Text",ExpressionUUID->"89b89ade-ec60-4fa4-9415-c5eb9d9f8be0"],
+Cell[6002, 131, 99, 1, 1, "PageBreak",ExpressionUUID->"a244da35-3199-4b5d-bd12-2fb69b7f5e5c",
+ PageBreakBelow->True],
+Cell[6104, 134, 4464, 84, 624, "Text",ExpressionUUID->"d33d5288-ad14-432c-9929-d5b8c9daae80"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10617, 224, 362, 6, 67, "Section",ExpressionUUID->"06cef5da-cabb-4f5a-a183-48902d06514e"],
+Cell[CellGroupData[{
+Cell[11004, 234, 431, 6, 54, "Subsection",ExpressionUUID->"2ae3a40f-9d44-4a68-b8cb-ada876169aed"],
+Cell[11438, 242, 4457, 109, 831, "Text",ExpressionUUID->"f63b362f-ff1c-4fae-a5e6-ac18dde55c96"],
+Cell[15898, 353, 99, 1, 4, "PageBreak",ExpressionUUID->"38b66f21-f88a-4bd7-8dbe-40525ce0fbeb",
+ PageBreakBelow->True]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16046, 360, 395, 6, 67, "Section",ExpressionUUID->"99d10ff0-62c9-4e0c-a54b-56a04d1ed537"],
+Cell[CellGroupData[{
+Cell[16466, 370, 571, 8, 54, "Subsection",ExpressionUUID->"7959b0e2-28d8-4742-9b7a-3ae0467e7b09"],
+Cell[17040, 380, 3513, 82, 597, "Text",ExpressionUUID->"83c85d2e-9384-40c1-9386-cadd9055aee4"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
