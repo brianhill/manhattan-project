@@ -15,6 +15,8 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 * Preparation for Tuesday, Mar. 20 &mdash; Short Presentations: Trey, the current status of spent fuel rod and other nuclear waste disposal at Yucca Mountain; Mac, the current status of groundwater contamination at Hanford &mdash; Finish reading Chapter 6 (the Hanford reactors) Sections 6.6 and 6.7, and begin reading Chapter 7 (Los Alamos) through 7.3, p. 286
 * Tuesday, Mar. 20 &mdash;
+* Preparation for Friday, Mar. 23 &mdash; Continue reading Chapter 7 through Section 7.7.2, p. 312 &mdash; Prepare to discuss or present a solution of Problem 7.4 on p. 376 (which is directly related to the fizzle problem) &mdash; Look at my copy of Richard Rhodes, *The Making of the Atomic Bomb,* and decide if you want to read selections from it (I filed my copy on the library shelves at call number 539.71) &mdash; You have hard-copy [*Los Alamos from Below*](./resources/LosAlamosFromBelow.pdf) by Richard Feynman that you can get started on, but I am not imagining that we discuss it until Tuesday, Mar. 27 &mdash; Here is soft-copy of [*The Los Alamos Primer*](./resources/LosAlamosPrimer.pdf) in case you are curious what scientists arriving at the project were given as a starting point
+* Friday, Mar. 23
 
 ### Week 10 (Mar. 26-Apr. 1)
 
