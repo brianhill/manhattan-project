@@ -21,6 +21,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 10 (Mar. 26-Apr. 1)
 
 * Preparation for Tuesday, Mar. 27 &mdash; Continue reading Chapter 7 to the start of Section 7.11 (through p. 326) &mdash; Pick a chapter (or two!) from the Richard Rhodes classic (I filed my copy on the library shelves at call number 539.71) &mdash; Finish  [*Los Alamos from Below*](./resources/LosAlamosFromBelow.pdf) by Richard Feynman
+* Preparation for Friday, Mar. 30 &mdash; Finish Chapter 7 (but not the optional section on other fissile materials)
 
 ### Week 11 (Apr. 2-8)
 
