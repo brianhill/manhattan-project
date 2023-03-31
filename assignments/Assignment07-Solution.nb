@@ -1,0 +1,529 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20604,        521]
+NotebookOptionsPosition[     19451,        490]
+NotebookOutlinePosition[     19934,        509]
+CellTagsIndexPosition[     19891,        506]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Manhattan Project \[LongDash] Assignment 7 \
+\[LongDash] Hanford Reactors \[LongDash] Solution",
+ FontSize->24]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.8841887766699266`*^9, 3.884188788354083*^9}, {
+  3.884188850341049*^9, 3.8841888531195707`*^9}, {3.8841889066918297`*^9, 
+  3.884188911067999*^9}, {3.884189020676065*^9, 3.8841890240735207`*^9}, {
+  3.884194323489108*^9, 3.884194332680498*^9}, {3.884195154470296*^9, 
+  3.8841951592285633`*^9}, {3.884448116289482*^9, 3.884448164001893*^9}, {
+  3.885371984178865*^9, 3.885371990207759*^9}, {3.88782312736489*^9, 
+  3.887823153947419*^9}, {3.8886633622351093`*^9, 
+  3.888663366299673*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
+77e0e173d37d"],
+
+Cell[CellGroupData[{
+
+Cell["1. Reed Problem 6.1, p. 269", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+  3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+  3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+  3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+  3.884606242451766*^9, 3.88460624321677*^9}, {3.885372493202692*^9, 
+  3.885372507186987*^9}, {3.887823370958372*^9, 
+  3.887823375920106*^9}},ExpressionUUID->"d2e42290-811b-4bfa-a5a0-\
+eb93facc8998"],
+
+Cell[TextData[{
+ "My hint was to use that the area of a cylinder is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"A", "=", 
+    RowBox[{
+    "2", "\[Pi]", "\[VeryThinSpace]", "R", "\[VeryThinSpace]", "L"}]}], 
+   TraditionalForm]],ExpressionUUID->"661b63fd-22bd-4fe2-af22-8fd1a771d0c6"],
+ "\n\nAn annulus has an inner radius, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "i"], TraditionalForm]],ExpressionUUID->
+  "27918fbb-e6e3-47c2-8d28-c61d54e75134"],
+ " and an outer radius, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "l"], TraditionalForm]],ExpressionUUID->
+  "10c94ea7-d57a-44a7-be39-d64cd0b6f8f2"],
+ ", but if those are so close in value to each other that we can treat the \
+annulus as if it were a sheet of aluminum foil, that can be unrolled off the \
+roll and laid out flat, then the volume of the annulus is:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"V", "=", 
+    RowBox[{"2", "\[Pi]", "\[VeryThinSpace]", "R", "\[VeryThinSpace]", 
+     RowBox[{"L", "(", 
+      RowBox[{
+       SubscriptBox["R", "l"], "-", 
+       SubscriptBox["R", "i"]}], ")"}]}]}], TraditionalForm]],ExpressionUUID->
+  "585c7f2f-ce34-4be6-bf9c-f055b246bf94"],
+ "\n\nWhich of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "l"], TraditionalForm]],ExpressionUUID->
+  "4e60afc4-c82d-43d0-b7ad-6789cb33954a"],
+ " or ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "i"], TraditionalForm]],ExpressionUUID->
+  "d072b041-31c4-4386-8dd6-e5ecaa7ecdf2"],
+ " do you put in for ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],ExpressionUUID->
+  "d89bd76d-5b16-4da5-a9ab-5e0260925d66"],
+ "? It doesn\[CloseCurlyQuote]t matter (at least not much), if the difference \
+between them is small. In fact, let\[CloseCurlyQuote]s compute the difference \
+(using ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "l"], TraditionalForm]],ExpressionUUID->
+  "b95b46da-aae6-4f7f-9071-1664cb2e6760"],
+ " for ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],ExpressionUUID->
+  "3a63557e-0d92-4f0b-87d6-2726a7890a67"],
+ " vs. ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["R", "i"], TraditionalForm]],ExpressionUUID->
+  "580907c7-06f6-41a9-9d39-2a44cfe930eb"],
+ " for ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],ExpressionUUID->
+  "59eb8097-e9a2-431c-a0ee-ffb2c7c7bc3e"],
+ "):\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+    "difference", " ", "in", " ", "V", " ", "calculated", " ", "two", " ", 
+     "ways"}], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"2", "\[Pi]", "\[VeryThinSpace]", 
+       SubscriptBox["R", "l"], "\[VeryThinSpace]", 
+       RowBox[{"L", "(", 
+        RowBox[{
+         SubscriptBox["R", "l"], "-", 
+         SubscriptBox["R", "i"]}], ")"}]}], "-", 
+      RowBox[{"2", "\[Pi]", "\[VeryThinSpace]", 
+       SubscriptBox["R", "i"], 
+       RowBox[{"L", "(", 
+        RowBox[{
+         SubscriptBox["R", "l"], "-", 
+         SubscriptBox["R", "i"]}], ")"}]}]}], "=", 
+     RowBox[{"2", 
+      RowBox[{"\[Pi]", "(", "\[VeryThinSpace]", 
+       RowBox[{
+        SubscriptBox["R", "l"], "-", 
+        SubscriptBox["R", "i"]}], ")"}], "R", "\[VeryThinSpace]", 
+      RowBox[{"L", "(", 
+       RowBox[{
+        SubscriptBox["R", "l"], "-", 
+        SubscriptBox["R", "i"]}], ")"}]}]}]}], TraditionalForm]],
+  ExpressionUUID->"638ec3a4-557b-4bbc-a212-72e001bc3b59"],
+ "\n\nAh! The difference in the two ways differs only by the something \
+proportional to the thickness squared! What if we did the exact calculation? \
+How much does that differ from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", "\[Pi]", "\[VeryThinSpace]", 
+    SubscriptBox["R", "i"], 
+    RowBox[{"L", "(", 
+     RowBox[{
+      SubscriptBox["R", "l"], "-", 
+      SubscriptBox["R", "i"]}], ")"}]}], TraditionalForm]],ExpressionUUID->
+  "ec46c97b-bf72-4eb8-9ff6-032e41e99dfd"],
+ "? The exact calculation would be:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Pi]", "\[VeryThinSpace]", 
+     SubsuperscriptBox["R", "l", "2"], "L"}], "-", 
+    RowBox[{"\[Pi]", "\[VeryThinSpace]", 
+     SubsuperscriptBox["R", "i", "2"], "L"}]}], TraditionalForm]],
+  ExpressionUUID->"cdfaf05d-9e31-44a9-b3da-6013707d2a50"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"2", "\[Pi]", "\[VeryThinSpace]\[VeryThinSpace]", "L", 
+     FractionBox["1", "2"], "\[VeryThinSpace]", 
+     RowBox[{"(", 
+      RowBox[{
+       SubsuperscriptBox["R", "l", "2"], "-", 
+       SubsuperscriptBox["R", "i", "2"]}], ")"}]}], "=", 
+    RowBox[{"2", "\[Pi]", "\[VeryThinSpace]\[VeryThinSpace]", "L", 
+     FractionBox["1", "2"], "\[VeryThinSpace]", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["R", "l"], "+", 
+       SubscriptBox["R", "i"]}], ")"}], "\[VeryThinSpace]", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["R", "l"], "-", 
+       SubscriptBox["R", "i"]}], ")"}]}]}], TraditionalForm]],ExpressionUUID->
+  "a68a9296-df39-41e2-9f4c-20769e6735e2"],
+ "\n\nAh! So the exact answer is obtained by putting ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    RowBox[{
+     FractionBox["1", "2"], "\[VeryThinSpace]", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["R", "l"], "+", 
+       SubscriptBox["R", "i"]}], ")"}]}]}], TraditionalForm]],ExpressionUUID->
+  "772ca1fa-e64a-4745-a9a2-bd07408adf54"]
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQA2IQneMYXa/48Y3jGX7eGSD6rdW9+SB6ze+9i0H05/kb
+VoPoO6+WbgTR03bPOQyijx3mvQeiwzyO/9QA0vsyfH6DaC/pYgZNIL1nsQsj
+iP7Tl8sDonOvbOEF0fueBjiCaL+PhWD61pN7niD62AINbxAt0LZ1hhfIPha/
+2SC6T7lb2QdIVyq4q4Do2KrkBBDdN7kATLtU/G8B0f+8VnWBaP58zykg2iog
+DkxHS3TPBKv/9mgHiN7zvNc8FGS/1o1SEL3o3LK5hz69ccyb+eggiH6yj8s5
+//sbx3ln3HxBNHO7YzCIvrb9UAyIPiovk8/5E6i+8/YaEK3TJ7IFTJcyXQDR
+kp9F1+r/AoaDiMMWEA0AJwrC/w==
+  "],ExpressionUUID->"34765f28-11f4-4ed9-b219-233c58fce275"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Reed Problem 6.2", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+  3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+  3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+  3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+  3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+  3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+  3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+  3.884606242451766*^9, 3.884606284065853*^9}, {3.885372512116547*^9, 
+  3.8853725374616528`*^9}, {3.885372882946823*^9, 3.88537288393781*^9}, {
+  3.885373027055367*^9, 3.885373033152631*^9}, {3.885374819100148*^9, 
+  3.885374820507251*^9}, {3.887823482485626*^9, 
+  3.887823506937196*^9}},ExpressionUUID->"38071384-d2b2-4828-94fc-\
+177fc5f563e4"],
+
+Cell[TextData[{
+ "The definition of specific heat, ",
+ Cell[BoxData[
+  FormBox["C", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4cd83907-80e0-41d4-9e66-79e39c2aaa69"],
+ ", is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+    "C", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "T"}], 
+    "=", 
+    RowBox[{"E", "/", "M"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d014e7e3-f5dc-41c7-b3a0-29f88aa2c463"],
+ "\n\nThe specific heat depends on the material and on the temperature, and \
+when a material goes through a phase transition (like ice to water at \
+32\.baF), the specific heat can\[CloseCurlyQuote]t be defined at that \
+temperature.\n\nAnyway, we rearrange the definition to solve for the \
+temperature rise and get:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], "=", 
+    StyleBox[
+     FractionBox["E", 
+      RowBox[{"C", " ", "M"}]],
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "eb7644fe-320c-4367-af82-424a1874ed19"],
+ "\n\nBut the energy and mass are not given as amounts. They are given as \
+rates. In a time ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0d21e806-8118-45f8-958f-79b88f411cc7"],
+ ", the mass is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{"r\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1505fece-0fe1-4118-87dd-f9c53f20a4eb"],
+ ". Similarly the energy is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"E", "=", 
+    RowBox[{
+    "P", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "t"}]}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "fd9c9184-5a57-4836-bfee-7f0d12f208ef"],
+ ".\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{
+      "P", "\[VeryThinSpace]", "\[CapitalDelta]", "\[VeryThinSpace]", "t"}], 
+      RowBox[{
+      "C", " ", "r", "\[VeryThinSpace]", "\[CapitalDelta]", 
+       "\[VeryThinSpace]", "t"}]],
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "d0faa6d6-5a90-4fa1-b94f-afdb2a1c85df"],
+ "\n\nThat\[CloseCurlyQuote]s nice! The ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "t"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f6702cd5-1f98-434b-a9e6-93518485c163"],
+ "\[CloseCurlyQuote]s cancel (as they must), leaving:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"P", "\[VeryThinSpace]"}], 
+      RowBox[{"C", " ", "r", "\[VeryThinSpace]"}]],
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "7922a100-95d1-431a-9165-6a7b109e78dd"],
+ "\n\nNow we can plug in:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"250", 
+       RowBox[{"MJ", " ", "/", " ", "second", "\[VeryThinSpace]"}]}], 
+      RowBox[{
+       RowBox[{"4187", " ", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           StyleBox["J",
+            FontSlant->"Plain"], "/", "kg"}], "/", 
+          StyleBox["K",
+           FontSlant->"Plain"]}], " ", "\[CenterDot]", "30"}]}], ",", 
+       RowBox[{"000", " ", 
+        RowBox[{"gallons", " ", "/", " ", "minute", "\[VeryThinSpace]"}]}]}]],
+     
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "46f549eb-359f-4787-8e3d-324618ef16c5"],
+ "\n\nOh my, there are lots of units conversions needed. For example, 1 \
+gallon = 3.786 liters and 1 liter of water weighs 1 kg. Also there are sixty \
+seconds in a minute, so\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], "=", 
+    StyleBox[
+     FractionBox[
+      RowBox[{"250", 
+       RowBox[{"MJ", " ", "\[CenterDot]", " ", "60", "\[VeryThinSpace]"}]}], 
+      RowBox[{
+       RowBox[{"4187", " ", 
+        RowBox[{
+         RowBox[{
+          StyleBox["J",
+           FontSlant->"Plain"], "/", 
+          StyleBox["K",
+           FontSlant->"Plain"]}], " ", "\[CenterDot]", "30"}]}], ",", 
+       RowBox[{"000", "\[CenterDot]", "3.786", " \[VeryThinSpace]"}]}]],
+     FontSize->16]}], TraditionalForm]],ExpressionUUID->
+  "79da918a-fc16-4671-aa63-482be0c74278"],
+ "=",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{
+      FractionBox[
+       RowBox[{"250", "\[CenterDot]", 
+        SuperscriptBox["10", "6"], " ", "\[CenterDot]", " ", "60", 
+        "\[VeryThinSpace]"}], 
+       RowBox[{"4187", " ", "\[CenterDot]", "3", "\[CenterDot]", 
+        SuperscriptBox["10", "4"], "\[CenterDot]", "3.786", 
+        " \[VeryThinSpace]"}]], 
+      StyleBox["K",
+       FontSlant->"Plain"]}], 
+     StyleBox["=",
+      FontSlant->"Plain"], 
+     RowBox[{
+      FractionBox[
+       StyleBox["1500000",
+        FontSlant->"Plain"], 
+       RowBox[{
+       "4187", "\[CenterDot]", "3", "\[VeryThinSpace]", "\[CenterDot]", 
+        "3.786"}]], "="}]}],
+    FontSize->16], TraditionalForm]],ExpressionUUID->
+  "e8e01861-0b83-4037-b0fc-e6ec92ab2ce3"],
+ "31.54K\n\nThis is a temperature rise. Multiply by 9/5 if you would rather \
+know the temperature rise in Fahrenheit."
+}], "Text",
+ CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
+   3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
+   3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
+   3.88453371022758*^9, 3.884533722387786*^9}, {3.884533763597081*^9, 
+   3.884533770144987*^9}, {3.884533859423704*^9, 3.884533869650931*^9}, {
+   3.8845342825280447`*^9, 3.884534283560706*^9}, {3.884534350965436*^9, 
+   3.8845343612696257`*^9}, {3.884602565672615*^9, 3.884602586438093*^9}, {
+   3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
+   3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
+   3.884606626294807*^9, 3.8846066269472933`*^9}, {3.884606668346723*^9, 
+   3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
+   3.8853726532127237`*^9, 3.885372943081229*^9}, {3.885372984531086*^9, 
+   3.885373008592703*^9}, {3.885373041871557*^9, 3.885373055303978*^9}, 
+   3.8878234931389713`*^9, {3.887823620234806*^9, 3.887823863705482*^9}, {
+   3.8892632257243147`*^9, 3.889263749479705*^9}, {3.889263823841614*^9, 
+   3.8892638856673813`*^9}, {3.889263926333023*^9, 3.889264283065523*^9}, {
+   3.889264332832075*^9, 3.889264424462708*^9}, {3.889265993210807*^9, 
+   3.8892660066294823`*^9}, {3.889266110960429*^9, 3.889266148185082*^9}, {
+   3.8892661960423307`*^9, 
+   3.889266217663171*^9}},ExpressionUUID->"4bde2fe5-db15-451e-b813-\
+95ac11a6d755"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. Reed Problem 6.3", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+   3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+   3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
+   3.884606500326788*^9}, {3.884606555542246*^9, 3.884606614516095*^9}, {
+   3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
+   3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
+   3.8878235091420183`*^9}},ExpressionUUID->"3f13c8e1-873e-403b-a3f6-\
+e23011e66efa"],
+
+Cell[TextData[{
+ "The production rate of plutonium in a full load  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"64000", "\[CenterDot]", "4"}], "kg"}], "=", 
+    RowBox[{"256000", "kg"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "5635fcac-4d5f-40b8-9019-a6b7cab41d53"],
+ " of Uranium. In 100 days, the reactor produces 25000MW\[CenterDot]days of \
+energy. (There is no need to convert this to some more familiar unit like \
+kWh.) We are also told that 0.76g/(MW\[CenterDot]day) of Plutonium is \
+produced. So we get 25000*0.76g=25*0.76kg=19kg of plutonium in 100 days.\n\n\
+So we got \n\n",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"19", "kg", " ", "of", " ", "Plutonium"}], 
+    RowBox[{"256000", "kg", " ", "of", " ", "Uranium"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d9f91cdf-f2a2-4cd3-aad9-12e3fdf6afd7"],
+ "\n\nPlutonium-239 and Uranium-238 (which is mostly what is in the reactor) \
+weigh almost the same, but if we really want the ratio of the number of \
+atoms, we should divide by the atomic weight of Plutonium and multiply by the \
+atomic weight of Uranium:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     FractionBox["19", "256000"], "\[CenterDot]", 
+     FractionBox["238.05", "239.05"]}], "=", "0.000074"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8b8b9312-1665-441a-8726-7d603cea1d83"],
+ "\n\nExpressed as a ratio, this is about ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["1", "13530"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "74c79f96-aad9-4b13-a5c9-c6ce9fca3be7"],
+ ".\n\nIf you don\[CloseCurlyQuote]t put in the ratio ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["238.05", "239.05"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "73c2dc42-dfcd-4bc1-b912-f8e181c29630"],
+ " in the equation above, you still get an answer (13473) that rounds to what \
+Reed got (13500). The ratio would matter a lot more if Plutonium-239 and \
+Uranium-238 didn\[CloseCurlyQuote]t have such similar masses.\n\n"
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdzTtIAgEAxvErpCnRUQpCscEakloCtwPBRyISJIRYYQQOiYYUJVJhJtWV
+BUoYBQYihD3oCVFmoGRLQ4mQhNwQZQ+uQaOilOq+Gz5+ywd/icXeOVBNEEQd
+OzhImiYkRYa8EvBD8E1Bh+FW+SwC38O7mzD/Gt2Dy6drKZhO8WloVF9+y1gT
+Vl0ZauudRBNrPKKsghW/rRbasod8mHg0kFBfHOK8e6A1ML0u64BC31FIix5P
+vwr9UkqqYx0Tqxqh2dXfB/0BB6dy9M8Lf7WxOSiwa4JQYejhNImoFe7/eX8M
+408L7V3oN+eGYb5Bc5MsMaT15SALJ5XbvBTrbPKCU01SMRgrGHego1LjsX8x
+pKV73AevS7eFlh+GjAQ2GPiRy7TJWYUelQtmKGIKnrhaKfgsdy7C6RnzEuyl
+54Mw7HVHoWjEnYDifc05/AeTIev8
+  "],ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1409, 1209},
+WindowMargins->{{417, Automatic}, {Automatic, 19}},
+PrintingCopies->4,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"78579266-2f5c-440a-8945-57c76b5f4b2e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 865, 13, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1470, 39, 762, 11, 81, "Subsection",ExpressionUUID->"d2e42290-811b-4bfa-a5a0-eb93facc8998"],
+Cell[2235, 52, 5709, 157, 747, "Text",ExpressionUUID->"34765f28-11f4-4ed9-b219-233c58fce275"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7981, 214, 900, 13, 81, "Subsection",ExpressionUUID->"38071384-d2b2-4828-94fc-177fc5f563e4"],
+Cell[8884, 229, 6891, 178, 1084, "Text",ExpressionUUID->"4bde2fe5-db15-451e-b813-95ac11a6d755"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15812, 412, 941, 13, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
+Cell[16756, 427, 2667, 59, 698, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
