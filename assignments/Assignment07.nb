@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11862,        264]
-NotebookOptionsPosition[     10620,        232]
-NotebookOutlinePosition[     11103,        251]
-CellTagsIndexPosition[     11060,        248]
+NotebookDataLength[     12504,        271]
+NotebookOptionsPosition[     11260,        239]
+NotebookOutlinePosition[     11743,        258]
+CellTagsIndexPosition[     11700,        255]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -124,7 +124,8 @@ Cell["2. Reed Problem 6.2", "Subsection",
 177fc5f563e4"],
 
 Cell[TextData[{
- "The basic formula is ",
+ "The basic formula is this rearrangement of the definition of specific heat, \
+C: \n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -134,7 +135,7 @@ Cell[TextData[{
       RowBox[{"C", " ", "M"}]],
      FontSize->16]}], TraditionalForm]],ExpressionUUID->
   "c67cc1fc-702f-411d-8f11-e4f8ec6292e4"],
- ", where ",
+ ".\n\n",
  Cell[BoxData[
   FormBox[
    RowBox[{"\[CapitalDelta]", "\[VeryThinSpace]", "T"}], TraditionalForm]],
@@ -146,14 +147,12 @@ Cell[TextData[{
  " is the energy absorbed by the water. But the water is flowing by at a rate \
 of ",
  Cell[BoxData[
-  FormBox["r", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["r", TraditionalForm]],ExpressionUUID->
   "1fbd5c24-f5f7-4ea4-9817-b978cc58cedc"],
  " of 30,000 gallons per minute. And the energy that is being absorbed is \
 specified as a power, ",
  Cell[BoxData[
-  FormBox["P", TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+  FormBox["P", TraditionalForm]],ExpressionUUID->
   "450a8886-4384-4376-b137-bac105aba05b"],
  " of 250MW which is 250MJ per second.\n\nSo divide numerator and denominator \
 of the formula by some time.\n\nSo, ",
@@ -193,8 +192,9 @@ of the formula by some time.\n\nSo, ",
    3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
    3.8853726532127237`*^9, 3.885372943081229*^9}, {3.885372984531086*^9, 
    3.885373008592703*^9}, {3.885373041871557*^9, 3.885373055303978*^9}, 
-   3.8878234931389713`*^9, {3.887823620234806*^9, 
-   3.887823863705482*^9}},ExpressionUUID->"4bde2fe5-db15-451e-b813-\
+   3.8878234931389713`*^9, {3.887823620234806*^9, 3.887823863705482*^9}, {
+   3.889266616938064*^9, 
+   3.88926665291497*^9}},ExpressionUUID->"4bde2fe5-db15-451e-b813-\
 95ac11a6d755"]
 }, Open  ]],
 
@@ -216,17 +216,24 @@ Cell["3. Reed Problem 6.3", "Subsection",
 e23011e66efa"],
 
 Cell["\<\
-Lots of units conversions in this one. The idea is to find out how much \
-plutonium is produced in a Hanford reactor.\
+The idea is to find out how much plutonium is produced in a Hanford reactor.\
 \>", "Text",
- CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGAQAWIQneMYXa/48Y3jGX7eGSD6rdW9+SB6ze+9i0H05/kb
-VoPoO6+WbgTR03bPOQyijx3mvQeiwzyO/9QA0vsyfH6DaC/pYgZNIL1nsQsj
-iP7Tl8sDonOvbOEF0fueBjiCaL+PhWD61pN7niD62AINbxAt0LZ1hhfIPha/
-2SC6T7lb2QdIVyq4q4Do2KrkBBDdN7kATLtU/G8B0f+8VnWBaP58zykg2iog
-DkxHS3TPBKv/9mgHiN7zvNc8FGS/1o1SEH1HzvPioU9vHDNebr4Cohtc1rIc
-BtKdh46CaQ/H7lUgetWzsHUguuAPW1P+9zeOSZF1bSAaAMiotV0=
-  "],ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+ CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
+   3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
+   3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
+   3.88453371022758*^9, 3.884533722387786*^9}, {3.884533763597081*^9, 
+   3.884533770144987*^9}, {3.884533859423704*^9, 3.884533869650931*^9}, {
+   3.8845342825280447`*^9, 3.884534283560706*^9}, {3.884534350965436*^9, 
+   3.8845343612696257`*^9}, {3.884602565672615*^9, 3.884602586438093*^9}, {
+   3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
+   3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
+   3.884606626294807*^9, 3.8846066269472933`*^9}, {3.884606668346723*^9, 
+   3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
+   3.885373066285017*^9, 3.885373093622242*^9}, {3.885373477414612*^9, 
+   3.885373478179997*^9}, {3.885374804351719*^9, 3.885374834715657*^9}, {
+   3.887823888218315*^9, 3.887823923948411*^9}, 
+   3.889266609458008*^9},ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-\
+b897677095ad"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -259,11 +266,11 @@ Cell[4381, 92, 696, 13, 88, "Text",ExpressionUUID->"34765f28-11f4-4ed9-b219-233c
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[5114, 110, 900, 13, 81, "Subsection",ExpressionUUID->"38071384-d2b2-4828-94fc-177fc5f563e4"],
-Cell[6017, 125, 2997, 72, 277, "Text",ExpressionUUID->"4bde2fe5-db15-451e-b813-95ac11a6d755"]
+Cell[6017, 125, 3045, 72, 382, "Text",ExpressionUUID->"4bde2fe5-db15-451e-b813-95ac11a6d755"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9051, 202, 941, 13, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
-Cell[9995, 217, 597, 11, 53, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+Cell[9099, 202, 941, 13, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
+Cell[10043, 217, 1189, 18, 53, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
 }, Open  ]]
 }, Open  ]]
 }

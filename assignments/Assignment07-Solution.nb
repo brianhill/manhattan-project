@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     20604,        521]
-NotebookOptionsPosition[     19451,        490]
-NotebookOutlinePosition[     19934,        509]
-CellTagsIndexPosition[     19891,        506]
+NotebookDataLength[     20173,        513]
+NotebookOptionsPosition[     19020,        482]
+NotebookOutlinePosition[     19503,        501]
+CellTagsIndexPosition[     19460,        498]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -465,25 +465,17 @@ atomic weight of Uranium:\n\n",
    FractionBox["1", "13530"], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "74c79f96-aad9-4b13-a5c9-c6ce9fca3be7"],
- ".\n\nIf you don\[CloseCurlyQuote]t put in the ratio ",
- Cell[BoxData[
-  FormBox[
-   FractionBox["238.05", "239.05"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "73c2dc42-dfcd-4bc1-b912-f8e181c29630"],
- " in the equation above, you still get an answer (13473) that rounds to what \
-Reed got (13500). The ratio would matter a lot more if Plutonium-239 and \
-Uranium-238 didn\[CloseCurlyQuote]t have such similar masses.\n\n"
+ ".\n"
 }], "Text",
  CellChangeTimes->CompressedData["
-1:eJwdzTtIAgEAxvErpCnRUQpCscEakloCtwPBRyISJIRYYQQOiYYUJVJhJtWV
-BUoYBQYihD3oCVFmoGRLQ4mQhNwQZQ+uQaOilOq+Gz5+ywd/icXeOVBNEEQd
-OzhImiYkRYa8EvBD8E1Bh+FW+SwC38O7mzD/Gt2Dy6drKZhO8WloVF9+y1gT
-Vl0ZauudRBNrPKKsghW/rRbasod8mHg0kFBfHOK8e6A1ML0u64BC31FIix5P
-vwr9UkqqYx0Tqxqh2dXfB/0BB6dy9M8Lf7WxOSiwa4JQYejhNImoFe7/eX8M
-408L7V3oN+eGYb5Bc5MsMaT15SALJ5XbvBTrbPKCU01SMRgrGHego1LjsX8x
-pKV73AevS7eFlh+GjAQ2GPiRy7TJWYUelQtmKGIKnrhaKfgsdy7C6RnzEuyl
-54Mw7HVHoWjEnYDifc05/AeTIev8
+1:eJwdzTtIAgEAxvErpCnRURBCsaEakmoI2g4EPRORICHECiNwSDSiKJGeJtWV
+BUoYBQYihFb0hCgzUNKloURIShyi7ME1aFRUUt13w8dv+eAvNVnbessJghCz
+g32kYUxaYMgLAd8HX1tyfrj5cxqAb/6dMMy+BHfh8slaHCbi/BzUq5JfNaxR
+s+YHqsUDRC1rJKAogyW3pRJa0gd8GH3QkVBb6Oe8uc9RMLFe0wqFrkOfGj2e
+dhW6ZbRMwzoiUVZDo72nG7o9Nk7F8J8T/qpDc1BgpbywRdfJaRDRK9z/4+4I
+Rh4XmtvRr8sMwmwVdRUrMqT5eT8NxxVbvDjrbOycU0XSIRjK67ehrVQxaf1k
+SFPHqAteFq/z9d8MGfBsMPA9k2qUswonlXaYookpeGxvoOGTfGARTs8Yl2BX
+bt4L/U5HEIqGHFEo2aPO4ITBmYS3TWHOf6KK9VA=
   "],ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
 }, Open  ]]
 }, Open  ]]
@@ -520,7 +512,7 @@ Cell[8884, 229, 6891, 178, 1084, "Text",ExpressionUUID->"4bde2fe5-db15-451e-b813
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[15812, 412, 941, 13, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
-Cell[16756, 427, 2667, 59, 698, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+Cell[16756, 427, 2236, 51, 553, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
 }, Open  ]]
 }, Open  ]]
 }
