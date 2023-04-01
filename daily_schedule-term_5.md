@@ -27,6 +27,8 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 ### Week 11 (Apr. 2-8)
 
+* Preparation for Tuesday, Apr. 4 &mdash; Continue in Reed through Section 8.3 &mdash; Instead of separate presentations, Trey and Mac will take opposing sides on the same issue: Trey will argue that using atomic bombs on two cities was inhumane and unjustified, because the war in the Pacific was already near an end; Mac will argue that the use of two atomic bombs was in fact decisive and that Truman's primary duty, both on moral grounds and as Commander in Chief was to swiftly end the war &mdash; my understanding of the status of the war in the Pacific tilts me toward the latter position, but the more time that goes by, the more people are lining up on the side that using an atomic bomb on a city under any circumstances is an atrocities, so it is certainly the case that both sides can be compellingly argued, at least with nearly eighty years of hindsight
+
 ### Week 12 (Apr. 9-15)
 
 ### Week 13 (Apr. 16-22)
