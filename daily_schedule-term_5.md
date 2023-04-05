@@ -18,19 +18,21 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Preparation for Friday, Mar. 23 &mdash; Continue reading Chapter 7 through Section 7.7.2, p. 312 &mdash; Prepare to discuss or present a solution of Problem 7.4 on p. 376 (which is directly related to the fizzle problem) &mdash; Look at my copy of Richard Rhodes, *The Making of the Atomic Bomb,* and decide if you want to read selections from it (I filed my copy on the library shelves at call number 539.71) &mdash; You have hard-copy [*Los Alamos from Below*](./resources/LosAlamosFromBelow.pdf) by Richard Feynman that you can get started on, but I am not imagining that we discuss it until Tuesday, Mar. 27 &mdash; Here is soft-copy of [*The Los Alamos Primer*](./resources/LosAlamosPrimer.pdf) in case you are curious what scientists arriving at the project were given as a starting point
 * Friday, Mar. 23 &mdash; Approximations for computing annuli volumes &mdash; How half-lives for different decay modes combine &mdash; Mean free paths &mdash; Causes of premature detonation in U-235 (mostly alpha decays and impurities) &mdash; Causes of premature detonation in Pu-239 (mostly spontaneous fissions of Pu-240)
 
-### Week 10 (Mar. 26-Apr. 1)
+### Week 10 &mdash; Diffusion Theory Results &mdash; The Implosion Bomb
 
 * Preparation for Tuesday, Mar. 27 &mdash; Continue reading Chapter 7 to the start of Section 7.11 (through p. 326) &mdash; Pick a chapter (or two!) from the Richard Rhodes classic (I filed my copy on the library shelves at call number 539.71) &mdash; Finish  [*Los Alamos from Below*](./resources/LosAlamosFromBelow.pdf) by Richard Feynman
 * Tuesday, Mar. 27 &mdash; Continue discussion of mean free paths and the formulae for critical mass
 * Preparation for Friday, Mar. 30 &mdash; Finish Chapter 7 (but not the optional section on other fissile materials)
 * Friday, Mar. 30 &mdash; Trey takes us further into [random walks (only go as far as the blue plot that looks like a downward-opening parabola)](https://galileo.phys.virginia.edu/classes/152.mf1i.spring02/RandomWalk.htm) &mdash; Random walks and transport theory, in a material that is expanding due to the pressure increase of the liberated energy is what the neutrons are doing as they scatter and cause additional fissions &mdash; Mac takes us further into nuclear proliferation in South Africa and former Soviet Union states &mdash; I would like to watch a several minutes of [lecture version by Feynman of *Los Alamos from Below*](https://youtu.be/uY-u1qyRM5w?t=2592) (we start with some levity about the stuck valves, and then where he recounts the beginnings of the entire field of computational physics)
  
-### Week 11 (Apr. 2-8)
+### Week 11 &mdash; Bombing and Aftermath of Hiroshima and Nagasaki
 
 * Preparation for Tuesday, Apr. 4 &mdash; Continue in Reed through Section 8.3 &mdash; Instead of presentations on distinct topics, Trey and Mac will take opposing sides on the same issue: Trey will argue that using atomic bombs on two cities was inhumane and unjustified, because the war in the Pacific was already near an end; Mac will argue that the use of two atomic bombs was in fact decisive and that Truman's primary duty, both on moral grounds and as Commander in Chief was to swiftly end the war &mdash; My understanding of the status of the war in the Pacific tilts me toward the latter position, but the more time that goes by, the more people are lining up on the side that using an atomic bomb on a city under any circumstances is an atrocity, so it is certainly the case that both sides of this issue can be compellingly argued, at least with nearly eighty years of hindsight
-* Preparation for Friday, Apr. 7 &mdash; Problem set 8 will include Reed Problems 7.2 and 7.9, and a problem that builds some on Trey's presentation of random walks
+* Preparation for Friday, Apr. 7 &mdash; Finish Reed Chapter 8 &mdash; As Problem Set 8, read and do the three problems at the end of Reed's [CP1 Pile Analysis](./resources/CP1-Pile.pdf)
 
-### Week 12 (Apr. 9-15)
+### Week 12 &mdash; The German and Japanese Bomb-Making Efforts
+
+*Problem set 9 will include Reed Problems 7.2 and 7.9, and a problem that builds some on Trey's presentation of random walks.*
 
 ### Week 13 (Apr. 16-22)
 
