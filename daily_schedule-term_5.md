@@ -30,11 +30,17 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Preparation for Tuesday, Apr. 4 &mdash; Continue in Reed through Section 8.3 &mdash; Instead of presentations on distinct topics, Trey and Mac will take opposing sides on the same issue: Trey will argue that using atomic bombs on two cities was inhumane and unjustified, because the war in the Pacific was already near an end; Mac will argue that the use of two atomic bombs was in fact decisive and that Truman's primary duty, both on moral grounds and as Commander in Chief was to swiftly end the war &mdash; My understanding of the status of the war in the Pacific tilts me toward the latter position, but the more time that goes by, the more people are lining up on the side that using an atomic bomb on a city under any circumstances is an atrocity, so it is certainly the case that both sides of this issue can be compellingly argued, at least with nearly eighty years of hindsight
 * Preparation for Friday, Apr. 7 &mdash; Finish Reed Chapter 8 &mdash; As Problem Set 8, read and do the three problems at the end of Reed's [CP1 Pile Analysis](./resources/CP1-Pile.pdf) &mdash; Note that Reed did not give the formula for n = (1 + m)/(1/n\_fuel+m/n\_mod) because for large m it is awfully close to just n\_mod &mdash; A [screenshot of my Problem Set 8 solution](./assignments/Assignment08-Solution.png) to help you organize and check your spreadsheet
 
-### Week 12 &mdash; The German and Japanese Bomb-Making Efforts
+### Week 12 &mdash; The German Nuclear Program &mdash; Postwar Developments (H-Bomb, Nuclear Stockpiles, Arms Limitation Treaties)
 
 * Preparation for Tuesday, Apr. 11 &mdash; Read the entirety of Reed Chapter 9 &mdash; Presentations: Trey, destruction of German heavy-water facility (Operation Gunnerside); Mac, sinking of the Norwegian ship *Hydro;* Brian, Germany's contaminated moderator problem
-*Problem set 9 (not yet written) will include two Reed Problems from Chapter 7 (one of which will be on radioactivity of fallout) and a problem that builds on Trey's presentation of random walks.*
+* Preparation for Friday, Apr. 14 &mdash; Problem Set 9 (FORTHCOMING) will include two Reed Problems from Chapter 7 (one of which will be on radioactivity of fallout) and a problem that builds on Trey's presentation of random walks.
 
-### Week 13 (Apr. 16-22)
+### Week 13 &mdash; Contemporary Questions
 
-### Week 14 (Apr. 23-29)
+* Preparation for Tuesday, Apr. 18
+* Preparation for Friday, Apr. 21
+
+### Week 14 &mdash; Contemporary Questions (Cont'd)
+
+* Preparation for Tuesday, Apr. 25
+* Preparation for Friday, Apr. 28
