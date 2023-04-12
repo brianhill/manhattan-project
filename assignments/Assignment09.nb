@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[      8104,        163]
-NotebookOptionsPosition[      6927,        128]
-NotebookOutlinePosition[      7410,        147]
-CellTagsIndexPosition[      7367,        144]
+NotebookDataLength[     19670,        473]
+NotebookOptionsPosition[     18128,        431]
+NotebookOutlinePosition[     18611,        450]
+CellTagsIndexPosition[     18568,        447]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,7 +30,7 @@ Cell[TextData[StyleBox["Manhattan Project \[LongDash] Assignment 9",
 
 Cell[CellGroupData[{
 
-Cell["1. Reed Problem 7.2", "Subsection",
+Cell["1. Reed Problem 7.5 \[LongDash] Trinity Test", "Subsection",
  CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
    3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
    3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
@@ -43,13 +43,91 @@ Cell["1. Reed Problem 7.2", "Subsection",
    3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
    3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
    3.8878235091420183`*^9}, {3.889608792027523*^9, 3.889608792094729*^9}, {
-   3.88964524972332*^9, 
-   3.889645250634721*^9}},ExpressionUUID->"3f13c8e1-873e-403b-a3f6-\
+   3.88964524972332*^9, 3.889645250634721*^9}, {3.890297956937798*^9, 
+   3.890297957039765*^9}, {3.890297996819118*^9, 
+   3.8902980002616673`*^9}},ExpressionUUID->"3f13c8e1-873e-403b-a3f6-\
 e23011e66efa"],
 
-Cell["\<\
-The idea is to find out how much plutonium is produced in a Hanford reactor.\
-\>", "Text",
+Cell[TextData[{
+ "For this problem, you need the height that the Trinity test was conducted \
+at was ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["d", "2"], "="}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ba0307f4-482c-4b94-aaf6-0038b3cfc2cb"],
+ "100 feet, the height that the calibration test was conducted at was ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["d", "1"], "="}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "6b68d55d-d394-44fa-87c8-e9ba7808e120"],
+ "28 feet, and the power of the Trinity test was expected to be equivalent to \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", "2"], "="}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "1b9448fe-399f-47bb-91e8-73a6ea2a69b6"],
+ "20,000 tons of TNT.\n\n",
+ StyleBox["Don\[CloseCurlyQuote]t plug these numbers in until the end!",
+  FontSlant->"Italic"],
+ "\n\nFirst write down the equation for the pressure twice:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["P", "1"], "=", 
+    RowBox[{"c", " ", 
+     FractionBox[
+      SuperscriptBox[
+       SubscriptBox["E", "1"], 
+       RowBox[{"2", "/", "3"}]], 
+      SuperscriptBox[
+       SubscriptBox["d", "1"], "2"]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "699ebd4d-db5c-47c3-972e-1d63039824a9"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["P", "2"], "=", 
+    RowBox[{"c", " ", 
+     FractionBox[
+      SuperscriptBox[
+       SubscriptBox["E", "2"], 
+       RowBox[{"2", "/", "3"}]], 
+      SuperscriptBox[
+       SubscriptBox["d", "2"], "2"]]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8d7b7335-d390-4640-b25b-b7ea0b63dcf4"],
+ "\n\nThen do what the problem asks which is to demand ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["P", "1"], "=", 
+    SubscriptBox["P", "2"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "4ffbd69a-c47b-4120-a9cd-314fbfc6ee7b"],
+ ". Simplify. Solve for the unknown ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9e18dafb-cc07-40c6-ba00-7ea4eeca7e39"],
+ ".\n\n",
+ StyleBox["Now plug the numbers into your equation for ",
+  FontSlant->"Italic"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "eb77f14a-4a13-40cd-a433-4cacec8a2ce3"],
+ StyleBox["!",
+  FontSlant->"Italic"]
+}], "Text",
  CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
    3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
    3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
@@ -63,14 +141,16 @@ The idea is to find out how much plutonium is produced in a Hanford reactor.\
    3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
    3.885373066285017*^9, 3.885373093622242*^9}, {3.885373477414612*^9, 
    3.885373478179997*^9}, {3.885374804351719*^9, 3.885374834715657*^9}, {
-   3.887823888218315*^9, 3.887823923948411*^9}, 
-   3.889266609458008*^9},ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-\
+   3.887823888218315*^9, 3.887823923948411*^9}, 3.889266609458008*^9, {
+   3.890297964262209*^9, 3.89029797380196*^9}, {3.890298023559898*^9, 
+   3.890298320603129*^9}},ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-\
 b897677095ad"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["2. Reed Problem 7.9", "Subsection",
+Cell["2. Reed Problem 7.9 \[LongDash] Fallout \[LongDash] Immediate \
+Radioactivity", "Subsection",
  CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
    3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
    3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
@@ -83,13 +163,43 @@ Cell["2. Reed Problem 7.9", "Subsection",
    3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
    3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
    3.8878235091420183`*^9}, {3.889608792027523*^9, 3.889608792094729*^9}, {
-   3.88964524972332*^9, 
-   3.889645277229096*^9}},ExpressionUUID->"301b10ea-a3cd-412d-986c-\
+   3.88964524972332*^9, 3.889645277229096*^9}, {3.890298380922688*^9, 
+   3.890298405628581*^9}},ExpressionUUID->"301b10ea-a3cd-412d-986c-\
 3d98bc4395a8"],
 
-Cell["\<\
-The idea is to find out how much plutonium is produced in a Hanford reactor.\
-\>", "Text",
+Cell[TextData[{
+ "You have two fission products with half-lives ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b24056f9-3f6b-492b-bec2-f7ddfc9ebef8"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["t", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "aa92573a-8be3-407a-bd05-cf9ad555fa14"],
+ ", and initial amounts ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "801008de-549c-4ec1-84d9-a98df25a67a7"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a0a33905-608b-48f8-b744-18be5c99c4cb"],
+ ".\n\nI think that Reed wants us to find the number of decays per second \
+using Eqs. 2.2 and 2.3 on p. 26.\n\nIt would be good to convert this to \
+Curies using Eq. 2.7.\n\nTo get a sense of how this is decreasing with time, \
+make a table of values for the times:\n\n1.08 seconds\n10.8 seconds\n1.8 \
+minutes\n18 minutes\n3 hours\n\nI chose these table values to each be 10x as \
+much as the previous values and to cover the range from less than the shorter \
+half-life to much longer than the longer half-life."
+}], "Text",
  CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
    3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
    3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
@@ -103,12 +213,18 @@ The idea is to find out how much plutonium is produced in a Hanford reactor.\
    3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
    3.885373066285017*^9, 3.885373093622242*^9}, {3.885373477414612*^9, 
    3.885373478179997*^9}, {3.885374804351719*^9, 3.885374834715657*^9}, {
-   3.887823888218315*^9, 3.887823923948411*^9}, 
-   3.889266609458008*^9},ExpressionUUID->"a3b612d1-4137-477a-aa64-\
+   3.887823888218315*^9, 3.887823923948411*^9}, 3.889266609458008*^9, {
+   3.890298373836207*^9, 3.890298377301056*^9}, {3.8902984100036993`*^9, 
+   3.890298497731153*^9}, {3.890298757242614*^9, 3.8902989450040607`*^9}, {
+   3.890298978415867*^9, 3.890299016283267*^9}, {3.890299071069693*^9, 
+   3.890299139773981*^9}, {3.890300299034181*^9, 
+   3.8903003233876123`*^9}},ExpressionUUID->"a3b612d1-4137-477a-aa64-\
 100854415ec9"]
 }, Open  ]],
 
-Cell["3. Random Walks", "Subsection",
+Cell[CellGroupData[{
+
+Cell["3. Random Walks \[LongDash] Mean and Standard Deviation", "Subsection",
  CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
    3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
    3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
@@ -122,12 +238,199 @@ Cell["3. Random Walks", "Subsection",
    3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
    3.8878235091420183`*^9}, {3.889608792027523*^9, 3.889608792094729*^9}, {
    3.88964524972332*^9, 3.889645277229096*^9}, {3.889645345436047*^9, 
-   3.8896453517810307`*^9}},ExpressionUUID->"916a4548-b756-472e-a9ec-\
-1ec96ca11cf1"]
+   3.8896453517810307`*^9}, {3.890299952955412*^9, 
+   3.890299959288992*^9}},ExpressionUUID->"916a4548-b756-472e-a9ec-\
+1ec96ca11cf1"],
+
+Cell[TextData[{
+ "Download the spreadsheet:\n\n\
+http://brianhill.github.io/manhattan-project/assignments/Assignment09.numbers\
+\n\nThe first rows give the probability of a random walk of 7 steps.\n\n(a) \
+Calculate the mean motion using the formula:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", "=", 
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"i", "=", 
+       RowBox[{"-", "7"}]}], 
+      RowBox[{"+", "7"}]], 
+     RowBox[{
+      SubscriptBox["p", "i"], 
+      SubscriptBox["x", "i"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "89dcf37e-1772-4b22-b540-f647c2b5444d"],
+ "\n\nSUGGESTION: First, make a new row that is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["p", "i"], 
+    SubscriptBox["x", "i"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bf548174-adf3-4a62-a697-8bd2b5e8f8b9"],
+ ". Second, apply the SUM function to all the values in this row.\n\n\
+DISCUSSION: Of course, this is going to come out to zero, but it is a good \
+first step.\n\n(b) Calculate the standard deviation using the formula:\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["\[Sigma]", "2"], "=", 
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"i", "=", 
+       RowBox[{"-", "7"}]}], 
+      RowBox[{"+", "7"}]], 
+     RowBox[{
+      SubscriptBox["p", "i"], "\[CenterDot]", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["x", "i"], "-", "m"}], ")"}], "2"]}]}]}], 
+   TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bedccc18-2f9c-4395-b306-8389b63837d7"],
+ "\n\nSUGGESTION: First, make a new row that is ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["x", "i"], "-", "m"}], ")"}], "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a94d6a3c-8e57-4a23-bc1b-f6477a294c7c"],
+ ". Of course, since ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", "=", "0"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "79c06b83-f7d5-420d-9605-26b87744a84f"],
+ ", you could simplify that to ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    SubscriptBox["x", "i"], "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "40019cf1-4f11-401f-bf15-421738dbc63d"],
+ ". Second, make a row that is ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "i"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "736ae9d8-9ae0-45f0-a66c-1f954a54d019"],
+ " times this row. Third, apply the SUM functions to all the values in this \
+row. Finally, take the square root to get \[Sigma].\n\nDISCUSSION: We are \
+only doing 7 steps, but the result for \[Sigma] should be about ",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox["7"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2e90d393-d5e4-4298-b68b-adb1ad993d6d"],
+ ". After ",
+ StyleBox["N",
+  FontSlant->"Italic"],
+ " steps, where ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9fd29638-36b1-4a0a-ac91-41b0a10a304c"],
+ " is large, you get ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Sigma]", "=", 
+    SqrtBox["N"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "c1e78af2-b0a6-4ef7-b3f5-974f1b543956"],
+ ". This is one of the first results of probability theory and diffusion \
+theory."
+}], "Text",
+ CellChangeTimes->{{3.890299159660386*^9, 3.890299188718869*^9}, {
+  3.89029929119378*^9, 3.8902997182173*^9}, {3.890299798091751*^9, 
+  3.890299856973152*^9}, {3.890299888877975*^9, 3.8902999463074427`*^9}, {
+  3.890300064004779*^9, 
+  3.8903000795274754`*^9}},ExpressionUUID->"f50402d2-1de2-4dd0-86f3-\
+ccc3f433afc8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Random Walks \[LongDash] Graphing", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+   3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+   3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
+   3.884606500326788*^9}, {3.884606555542246*^9, 3.884606614516095*^9}, {
+   3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
+   3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
+   3.8878235091420183`*^9}, {3.889608792027523*^9, 3.889608792094729*^9}, {
+   3.88964524972332*^9, 3.889645277229096*^9}, {3.889645345436047*^9, 
+   3.8896453517810307`*^9}, {3.890299952955412*^9, 
+   3.8902999708220997`*^9}},ExpressionUUID->"dfcbf998-8142-4217-9fac-\
+4b43f788f7ef"],
+
+Cell[TextData[{
+ "(a) Insert a graph into the spreadsheet that graphs ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["x", "i"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0dbd71cf-dae5-47bf-92a2-a7618a511baf"],
+ " on the horizontal axis and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "i"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "54122511-1776-4511-8f9e-4a1da55cd1c1"],
+ " on the vertical axis.\n\n(b) Insert another graph into the spreadsheet \
+that graphs ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["x", "i"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bb7a3dc6-20e5-46f0-aac6-a83724848014"],
+ " on the horizontal axis and ln ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "i"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a437f46f-59ef-4e1c-af87-96852111c72d"],
+ " on the vertical axis (ln is short for natural log).\n\nDISCUSSION: For \
+large ",
+ Cell[BoxData[
+  FormBox["N", TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f19b7826-d8b6-4728-870d-2a48a0eb24f1"],
+ " the probability is proportional to ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["e", 
+    RowBox[{
+     RowBox[{"-", 
+      SuperscriptBox[
+       SubscriptBox["x", "i"], "2"]}], "/", 
+     SuperscriptBox["\[Sigma]", "2"]}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "055dc14c-357d-4d05-8929-b24d7451855a"],
+ ". By taking the natural log, we should see the beginnings of a \
+downward-opening parabola, even though we only have ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"N", "=", "7"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "954e5214-f25c-49f7-b7bd-9b86f91ceb05"],
+ ".\n\nPHILOSOPHICAL QUESTION: Is 7 a large number?"
+}], "Text",
+ CellChangeTimes->{{3.890299986074481*^9, 
+  3.890300260966222*^9}},ExpressionUUID->"3b424d04-b0dc-4787-91d6-\
+a0eda3bb111f"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1409, 1209},
-WindowMargins->{{417, Automatic}, {Automatic, 19}},
+WindowMargins->{{304, Automatic}, {Automatic, 25}},
 PrintingCopies->4,
 PrintingPageRange->{1, Automatic},
 Magnification:>1.5 Inherited,
@@ -149,14 +452,21 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[422, 15, 864, 13, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
 Cell[CellGroupData[{
-Cell[1311, 32, 1040, 15, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
-Cell[2354, 49, 1189, 18, 53, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+Cell[1311, 32, 1163, 16, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
+Cell[2477, 50, 3711, 96, 535, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3580, 72, 1040, 15, 81, "Subsection",ExpressionUUID->"301b10ea-a3cd-412d-986c-3d98bc4395a8"],
-Cell[4623, 89, 1189, 18, 53, "Text",ExpressionUUID->"a3b612d1-4137-477a-aa64-100854415ec9"]
+Cell[6225, 151, 1144, 16, 81, "Subsection",ExpressionUUID->"301b10ea-a3cd-412d-986c-3d98bc4395a8"],
+Cell[7372, 169, 2676, 52, 572, "Text",ExpressionUUID->"a3b612d1-4137-477a-aa64-100854415ec9"]
 }, Open  ]],
-Cell[5827, 110, 1084, 15, 81, "Subsection",ExpressionUUID->"916a4548-b756-472e-a9ec-1ec96ca11cf1"]
+Cell[CellGroupData[{
+Cell[10085, 226, 1174, 16, 81, "Subsection",ExpressionUUID->"916a4548-b756-472e-a9ec-1ec96ca11cf1"],
+Cell[11262, 244, 3721, 106, 808, "Text",ExpressionUUID->"f50402d2-1de2-4dd0-86f3-ccc3f433afc8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15020, 355, 1157, 16, 81, "Subsection",ExpressionUUID->"dfcbf998-8142-4217-9fac-4b43f788f7ef"],
+Cell[16180, 373, 1920, 54, 338, "Text",ExpressionUUID->"3b424d04-b0dc-4787-91d6-a0eda3bb111f"]
+}, Open  ]]
 }, Open  ]]
 }
 ]

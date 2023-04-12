@@ -33,7 +33,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 12 &mdash; The German Nuclear Program &mdash; Postwar Developments (H-Bomb, Nuclear Stockpiles, Arms Limitation Treaties)
 
 * Preparation for Tuesday, Apr. 11 &mdash; Read the entirety of Reed Chapter 9 &mdash; Presentations: Trey, destruction of German heavy-water facility (Operation Gunnerside); Mac, sinking of the Norwegian ship *Hydro;* Brian, Germany's contaminated moderator problem
-* Preparation for Friday, Apr. 14 &mdash; Problem Set 9 (FORTHCOMING) will include two Reed Problems from Chapter 7 (one of which will be on radioactivity of fallout) and a problem that builds on Trey's presentation of random walks.
+* Preparation for Friday, Apr. 14 &mdash; [Problem Set 9](./assignments/Assigment09.pdf) (not due until Sunday 6pm) &mdash; Study the remainder of Reed (the entirety of Chapter 10)
 
 ### Week 13 &mdash; Contemporary Questions
 
