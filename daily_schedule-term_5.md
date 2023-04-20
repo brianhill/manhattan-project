@@ -35,12 +35,12 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Preparation for Tuesday, Apr. 11 &mdash; Read the entirety of Reed Chapter 9 &mdash; Presentations: Trey, destruction of German heavy-water facility (Operation Gunnerside); Mac, sinking of the Norwegian ship *Hydro;* Brian, Germany's contaminated moderator problem
 * Preparation for Friday, Apr. 14 &mdash; [Problem Set 9](./assignments/Assignment09.pdf) (not due until Sunday 6pm) &mdash; Study the remainder of Reed (the entirety of Chapter 10)
 
-### Week 13 &mdash; Contemporary Analyses &mdash; Mutually Assured Destruction &mdash; South Africa
+### Week 13 &mdash; Contemporary Analyses
 
-* Preparation for Tuesday, Apr. 18
-* Preparation for Friday, Apr. 21
+* Preparation for Tuesday, Apr. 18 &mdash; : Proliferation to South Africa &mdash; Stability or Instability in India and Pakistan 
+* Preparation for Friday, Apr. 21 &mdash; Nuclear Terrorism &mdash; Israel and Iran
 
-### Week 14 &mdash; Contemporary Analyses &mdash; Israel and Iran &mdash; India and Pakistan
+### Week 14 &mdash; Contemporary Analyses
 
 * Preparation for Tuesday, Apr. 25
-* Preparation for Friday, Apr. 28
+* Preparation for Friday, Apr. 28 &mdash; Mutually Assured Destruction
