@@ -37,7 +37,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 ### Week 13 &mdash; Contemporary Analyses
 
-* Preparation for Tuesday, Apr. 18 &mdash; : Proliferation to South Africa &mdash; Stability or Instability in India and Pakistan 
+* Preparation for Tuesday, Apr. 18 &mdash; The Rise and Fall of the South African Bomb by Peter Liberman &mdash; Nuclear Stability in South Asia by Sumit Ganguly &mdash; Ten Years of Instability in a Nuclear South Asia by S. Paul Kapur
 * Preparation for Friday, Apr. 21 &mdash; Nuclear Terrorism &mdash; Israel and Iran
 
 ### Week 14 &mdash; Contemporary Analyses
