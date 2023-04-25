@@ -33,7 +33,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 12 &mdash; The German Nuclear Program &mdash; Postwar Developments (H-Bomb, Nuclear Stockpiles, Arms Limitation Treaties)
 
 * Preparation for Tuesday, Apr. 11 &mdash; Read the entirety of Reed Chapter 9 &mdash; Presentations: Trey, destruction of German heavy-water facility (Operation Gunnerside); Mac, sinking of the Norwegian ship *Hydro;* Brian, Germany's contaminated moderator problem
-* Preparation for Friday, Apr. 14 &mdash; [Problem Set 9](./assignments/Assignment09.pdf) (not due until Sunday 6pm) &mdash; Study the remainder of Reed (the entirety of Chapter 10)
+* Preparation for Friday, Apr. 14 &mdash; [Problem Set 9](./assignments/Assignment09.pdf) &mdash; Study the remainder of Reed (the entirety of Chapter 10)
 
 ### Week 13 &mdash; Contemporary Analyses
 
@@ -42,5 +42,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 ### Week 14 &mdash; Contemporary Analyses
 
-* Preparation for Tuesday, Apr. 25
-* Preparation for Friday, Apr. 28 &mdash; Mutually Assured Destruction
+* Preparation for Tuesday, Apr. 25 &mdash; Mutually Assured Desctruction vs. CNE (coercive nuclear escalation) aka escalation dominance
+* Tuesday, Apr. 25 &mdash; Stability-Instability Paradox discussion &mdash; Expansionism and defense of spheres of influence discussion
+* Preparation for Friday, Apr. 28 &mdash; Mutually Assured Destruction vs. CNE (continued) &mdash; Taiwan as a possible flashpoint &mdash; [Problem Set 10](./assignments/Assignment10.pdf)
+* Friday, Apr. 28 &mdash; Paper discussion &mdash; Discussion of final three problem sets &mdash; Stability-Instability Paradox discussion (continued) &mdash; Taiwan flashpoint
