@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[     93274,       1637]
-NotebookOptionsPosition[     91853,       1598]
-NotebookOutlinePosition[     92338,       1617]
-CellTagsIndexPosition[     92295,       1614]
+NotebookDataLength[     93469,       1641]
+NotebookOptionsPosition[     92048,       1602]
+NotebookOutlinePosition[     92533,       1621]
+CellTagsIndexPosition[     92490,       1618]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -115,7 +115,9 @@ average <velocity squared>. Anyway, what is ",
       StyleBox["J",
        FontSlant->"Plain"], 
       StyleBox["/",
-       FontSlant->"Italic"], "K"}]}]}], TraditionalForm]],
+       FontSlant->"Italic"], 
+      StyleBox["K",
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "237a9645-93a4-47c8-9314-0192a43c4079"],
  " and ",
@@ -1440,7 +1442,7 @@ Cell[TextData[{
   FormatType->TraditionalForm,ExpressionUUID->
   "f9692ae2-39c3-4add-9985-fd707663a30e"],
  ".\n\n(a) 1 kg of coal releases 30MJ when burnt. If the Sun were made \
-entirely of coal, how many Joules would be released by burning it all.\n\n(b) \
+entirely of coal, how many Joules would be released by burning it all?\n\n(b) \
 The Sun produces energy at the rate of ",
  Cell[BoxData[
   FormBox[
@@ -1449,9 +1451,9 @@ The Sun produces energy at the rate of ",
   FormatType->TraditionalForm,ExpressionUUID->
   "3c2e9ee9-cbc7-44fc-8d93-b9b06002a309"],
  " Watts. At this rate of energy production, if it were burning coal, how \
-many seconds will it take to burn all of its coal.\n\n(c) Convert your answer \
-to (b) to years.\n\nDISCUSSION: This is actually quite close to estimate in \
-Genesis!"
+many seconds will it take to burn all of its coal?\n\n(c) Convert your answer \
+to (b) to years.\n\nDISCUSSION: This is actually quite close to the estimate \
+in Genesis!"
 }], "Text",
  CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
    3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
@@ -1472,8 +1474,9 @@ Genesis!"
    3.890298978415867*^9, 3.890299016283267*^9}, {3.890299071069693*^9, 
    3.890299139773981*^9}, {3.890300299034181*^9, 3.8903003233876123`*^9}, {
    3.891448220416738*^9, 3.891448311382972*^9}, {3.8914483727625217`*^9, 
-   3.891448470502611*^9}, {3.891450130266408*^9, 
-   3.891450152527277*^9}},ExpressionUUID->"a3b612d1-4137-477a-aa64-\
+   3.891448470502611*^9}, {3.891450130266408*^9, 3.891450152527277*^9}, {
+   3.891456248167177*^9, 3.891456255589662*^9}, {3.891456315417157*^9, 
+   3.8914563156310577`*^9}},ExpressionUUID->"a3b612d1-4137-477a-aa64-\
 100854415ec9"]
 }, Open  ]],
 
@@ -1568,7 +1571,7 @@ can produce in its lifetime. (As a checkpoint, I got ",
     SuperscriptBox["10", "44"]}], TraditionalForm]],
   FormatType->TraditionalForm,ExpressionUUID->
   "e05ee58b-a592-4159-851d-f746b9c568c7"],
- "J).\n\n(f) Again using that the Sun is producing energy at the rate of ",
+ "J.)\n\n(f) Again using that the Sun is producing energy at the rate of ",
  Cell[BoxData[
   FormBox[
    RowBox[{"3.8", " ", 
@@ -1590,8 +1593,9 @@ Sun runs out of fuel?"
   3.8914505474419003`*^9, 3.891450614220571*^9}, {3.891450666758089*^9, 
   3.891450703952915*^9}, {3.8914508019044123`*^9, 3.8914508056052647`*^9}, {
   3.891450948075975*^9, 3.8914509506163054`*^9}, {3.891451046621817*^9, 
-  3.891451154329309*^9}, {3.8914554850092583`*^9, 
-  3.891455514932495*^9}},ExpressionUUID->"f50402d2-1de2-4dd0-86f3-\
+  3.891451154329309*^9}, {3.8914554850092583`*^9, 3.891455514932495*^9}, {
+  3.891456238671379*^9, 
+  3.891456239534416*^9}},ExpressionUUID->"f50402d2-1de2-4dd0-86f3-\
 ccc3f433afc8"]
 }, Open  ]]
 }, Open  ]]
@@ -1621,15 +1625,15 @@ Cell[CellGroupData[{
 Cell[1373, 31, 1559, 22, 422, "Subtitle",ExpressionUUID->"e536fa6d-0ec4-43bc-a0a7-7fb323e6957a"],
 Cell[CellGroupData[{
 Cell[2957, 57, 1209, 17, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
-Cell[4169, 76, 78651, 1333, 1819, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+Cell[4169, 76, 78695, 1335, 1819, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[82857, 1414, 1256, 17, 81, "Subsection",ExpressionUUID->"b1dfe00d-c2e4-493c-81ce-f01c0286152a"],
-Cell[84116, 1433, 2411, 43, 366, "Text",ExpressionUUID->"a3b612d1-4137-477a-aa64-100854415ec9"]
+Cell[82901, 1416, 1256, 17, 81, "Subsection",ExpressionUUID->"b1dfe00d-c2e4-493c-81ce-f01c0286152a"],
+Cell[84160, 1435, 2513, 44, 366, "Text",ExpressionUUID->"a3b612d1-4137-477a-aa64-100854415ec9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[86564, 1481, 1193, 17, 81, "Subsection",ExpressionUUID->"916a4548-b756-472e-a9ec-1ec96ca11cf1"],
-Cell[87760, 1500, 4065, 94, 813, "Text",ExpressionUUID->"f50402d2-1de2-4dd0-86f3-ccc3f433afc8"]
+Cell[86710, 1484, 1193, 17, 81, "Subsection",ExpressionUUID->"916a4548-b756-472e-a9ec-1ec96ca11cf1"],
+Cell[87906, 1503, 4114, 95, 813, "Text",ExpressionUUID->"f50402d2-1de2-4dd0-86f3-ccc3f433afc8"]
 }, Open  ]]
 }, Open  ]]
 }
