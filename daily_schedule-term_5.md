@@ -44,5 +44,5 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 
 * Preparation for Tuesday, Apr. 25 &mdash; Mutually Assured Desctruction vs. CNE (coercive nuclear escalation) aka escalation dominance
 * Tuesday, Apr. 25 &mdash; Stability-Instability Paradox discussion &mdash; Expansionism and defense of spheres of influence discussion
-* Preparation for Friday, Apr. 28 &mdash; Mutually Assured Destruction vs. CNE (continued) &mdash; Taiwan as a possible flashpoint &mdash; [Problem Set 10](./assignments/Assignment10.pdf)
+* Preparation for Friday, Apr. 28 &mdash; Mutually Assured Destruction vs. CNE (continued) &mdash; Taiwan as a possible flashpoint &mdash; [Problem Set 10](./assignments/Assignment10.pdf) &mdash; [Problem Set 10 Solution](./assignments/Assignment10-Solution.pdf)
 * Friday, Apr. 28 &mdash; Final paper discussion prior to submission &mdash; Discussion of Stability-Instability Paradox (continued) &mdash; Taiwan as a possible flashpoint

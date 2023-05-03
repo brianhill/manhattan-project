@@ -1,0 +1,511 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[     19937,        510]
+NotebookOptionsPosition[     18622,        472]
+NotebookOutlinePosition[     19107,        491]
+CellTagsIndexPosition[     19064,        488]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Manhattan Project \[LongDash] Assignment 10 \
+\[LongDash] Solution",
+ FontSize->24]], "Section",
+ CellChangeTimes->{{3.882955710110738*^9, 3.8829557582920647`*^9}, {
+  3.883181587844302*^9, 3.883181602277795*^9}, {3.883184314975912*^9, 
+  3.8831843177446947`*^9}, {3.8841887766699266`*^9, 3.884188788354083*^9}, {
+  3.884188850341049*^9, 3.8841888531195707`*^9}, {3.8841889066918297`*^9, 
+  3.884188911067999*^9}, {3.884189020676065*^9, 3.8841890240735207`*^9}, {
+  3.884194323489108*^9, 3.884194332680498*^9}, {3.884195154470296*^9, 
+  3.8841951592285633`*^9}, {3.884448116289482*^9, 3.884448164001893*^9}, {
+  3.885371984178865*^9, 3.885371990207759*^9}, {3.88782312736489*^9, 
+  3.887823153947419*^9}, {3.889608749048978*^9, 3.8896087559618053`*^9}, {
+  3.889645244707251*^9, 3.8896452449424057`*^9}, {3.8910822156857643`*^9, 
+  3.891082225128233*^9}, {3.892088961469666*^9, 
+  3.892088962292592*^9}},ExpressionUUID->"b93cb9b9-680f-4923-8ec9-\
+77e0e173d37d"],
+
+Cell[CellGroupData[{
+
+Cell["1. Kinetic Energy at the Core of the Sun", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+   3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+   3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
+   3.884606500326788*^9}, {3.884606555542246*^9, 3.884606614516095*^9}, {
+   3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
+   3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
+   3.8878235091420183`*^9}, {3.889608792027523*^9, 3.889608792094729*^9}, {
+   3.88964524972332*^9, 3.889645250634721*^9}, {3.890297956937798*^9, 
+   3.890297957039765*^9}, {3.890297996819118*^9, 3.8902980002616673`*^9}, {
+   3.891082234411249*^9, 
+   3.891082255503661*^9}},ExpressionUUID->"3f13c8e1-873e-403b-a3f6-\
+e23011e66efa"],
+
+Cell[TextData[{
+ "(a) There is a formula that relates average kinetic energy to temperature \
+and it is\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["k", "B"], "T"}], "=", 
+    RowBox[{
+     FractionBox["3", "2"], "m", "\[VeryThinSpace]", 
+     SuperscriptBox["v", "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "f6980095-fe20-4386-a017-f4e61b4e3f9f"],
+ "\n\nWhat appears as ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["v", "2"], TraditionalForm]],ExpressionUUID->
+  "308c49fc-888e-4d75-a322-10e84fa6cbc2"],
+ " on the right-hand side is not the <average velocity> squared, but the \
+average <velocity squared>. Anyway, what is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["k", "B"], "T"}], TraditionalForm]],ExpressionUUID->
+  "6c894336-3c33-4972-bbd0-1c20e0ef22fe"],
+ " in the interior of the Sun? Use ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["k", "B"], "=", 
+    RowBox[{"1.4", "\[Times]", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "23"}]], " ", 
+     RowBox[{
+      StyleBox["J",
+       FontSlant->"Plain"], 
+      StyleBox["/",
+       FontSlant->"Italic"], 
+      StyleBox["K",
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],ExpressionUUID->
+  "237a9645-93a4-47c8-9314-0192a43c4079"],
+ " and ",
+ Cell[BoxData[
+  FormBox["T", TraditionalForm]],ExpressionUUID->
+  "42a42eca-bb55-4b18-a9de-698608fbb3de"],
+ " at the center of the sun of 15,000,000K.\n\nANSWER: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      SubscriptBox["k", "B"], "T"}], "=", 
+     RowBox[{"1.4", " ", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "23"}]], 
+      RowBox[{
+       StyleBox["J",
+        FontSlant->"Plain"], "/", 
+       StyleBox["K",
+        FontSlant->"Plain"]}], "*", " ", "15"}]}], ",", "000", ",", 
+    RowBox[{
+     RowBox[{"000", 
+      StyleBox["K",
+       FontSlant->"Plain"]}], "=", 
+     RowBox[{"2.1", " ", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "16"}]], 
+      StyleBox["J",
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e05405ce-bd59-4efe-a844-69a5835876b4"],
+ "\n\n(b)  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"ANSWER", ":", " ", 
+     SubscriptBox["E", 
+      RowBox[{"coulomb", " ", "barrier"}]]}], "=", 
+    RowBox[{
+     RowBox[{"k", 
+      FractionBox[
+       RowBox[{
+        SubscriptBox["q", "1"], 
+        SubscriptBox["q", "2"]}], "d"]}], "=", 
+     RowBox[{
+      RowBox[{"9", " ", 
+       SuperscriptBox["10", 
+        RowBox[{"9", " "}]], 
+       RowBox[{
+        StyleBox["J",
+         FontSlant->"Plain"], "\[CenterDot]", 
+        RowBox[{
+         StyleBox["m",
+          FontSlant->"Plain"], "/", 
+         SuperscriptBox[
+          StyleBox["C",
+           FontSlant->"Plain"], "2"]}]}], " ", "*", 
+       RowBox[{
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"1.6", " ", 
+           SuperscriptBox["10", 
+            RowBox[{"-", "19"}]], 
+           StyleBox["C",
+            FontSlant->"Plain"]}], ")"}], "2"], "/", 
+        RowBox[{"(", 
+         RowBox[{"2", " ", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "15"}]], 
+          StyleBox["m",
+           FontSlant->"Plain"]}], ")"}]}]}], "=", 
+      RowBox[{"1.15", " ", 
+       SuperscriptBox["10", 
+        RowBox[{"-", "13"}]]}]}]}]}], TraditionalForm]],
+  InitializationCell->True,ExpressionUUID->
+  "5ffb64d9-c482-49e1-a130-6051e38df770"],
+ "\n\nDISCUSSION: So the Coulomb barrier is about 500 times higher than the \
+average kinetic energy. However, only a small fraction of the collisions have \
+to result in a fusion."
+}], "Text",
+ CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
+   3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
+   3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
+   3.88453371022758*^9, 3.884533722387786*^9}, {3.884533763597081*^9, 
+   3.884533770144987*^9}, {3.884533859423704*^9, 3.884533869650931*^9}, {
+   3.8845342825280447`*^9, 3.884534283560706*^9}, {3.884534350965436*^9, 
+   3.8845343612696257`*^9}, {3.884602565672615*^9, 3.884602586438093*^9}, {
+   3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
+   3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
+   3.884606626294807*^9, 3.8846066269472933`*^9}, {3.884606668346723*^9, 
+   3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
+   3.885373066285017*^9, 3.885373093622242*^9}, {3.885373477414612*^9, 
+   3.885373478179997*^9}, {3.885374804351719*^9, 3.885374834715657*^9}, {
+   3.887823888218315*^9, 3.887823923948411*^9}, 3.889266609458008*^9, {
+   3.890297964262209*^9, 3.89029797380196*^9}, {3.890298023559898*^9, 
+   3.890298320603129*^9}, {3.891082241803371*^9, 3.891082633095291*^9}, {
+   3.891447122926442*^9, 3.8914472998069077`*^9}, {3.891447350297203*^9, 
+   3.891447559440672*^9}, {3.8914475949857693`*^9, 3.89144773135233*^9}, {
+   3.8914480332532988`*^9, 3.891448167814678*^9}, {3.891449836976359*^9, 
+   3.891449841262669*^9}, {3.892087682468083*^9, 3.8920877322477293`*^9}, {
+   3.8920877654987907`*^9, 3.89208790936642*^9}, {3.892087959688636*^9, 
+   3.892087970454206*^9}, {3.892088019243413*^9, 
+   3.892088080319022*^9}},ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-\
+b897677095ad"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Coal Powers the Sun \[LongDash] Not!", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+   3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+   3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
+   3.884606500326788*^9}, {3.884606555542246*^9, 3.884606614516095*^9}, {
+   3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
+   3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
+   3.8878235091420183`*^9}, {3.889608792027523*^9, 3.889608792094729*^9}, {
+   3.88964524972332*^9, 3.889645250634721*^9}, {3.890297956937798*^9, 
+   3.890297957039765*^9}, {3.890297996819118*^9, 3.8902980002616673`*^9}, {
+   3.891082234411249*^9, 3.891082255503661*^9}, {3.891448185857336*^9, 
+   3.8914481959826603`*^9}},ExpressionUUID->"b1dfe00d-c2e4-493c-81ce-\
+f01c0286152a"],
+
+Cell[TextData[{
+ "The Sun weighs ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"2", " ", 
+    SuperscriptBox["10", "30"], "kg"}], TraditionalForm]],ExpressionUUID->
+  "f9692ae2-39c3-4add-9985-fd707663a30e"],
+ ".\n\n(a) 1 kg of coal releases 30MJ when burnt. If the Sun were made \
+entirely of coal, how many Joules would be released by burning it all?\n\n\
+ANSWER: 2 * ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["10", "30"], "*", "30", " ", "*", " ", 
+     SuperscriptBox["10", "6"], 
+     StyleBox["J",
+      FontSlant->"Plain"]}], "=", 
+    RowBox[{
+     RowBox[{"60", "*", 
+      SuperscriptBox["10", "36"], 
+      StyleBox["J",
+       FontSlant->"Plain"]}], " ", "=", " ", 
+     RowBox[{"6", "*", 
+      SuperscriptBox["10", "37"], 
+      StyleBox["J",
+       FontSlant->"Plain"]}]}]}], TraditionalForm]],
+  InitializationCell->True,
+  FormatType->TraditionalForm,ExpressionUUID->
+  "98f46def-9343-4c5a-b0ff-a28daca0c10f"],
+ "\n\n(b) The Sun produces energy at the rate of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"3.8", " ", 
+    SuperscriptBox["10", "26"]}], TraditionalForm]],ExpressionUUID->
+  "3c2e9ee9-cbc7-44fc-8d93-b9b06002a309"],
+ " Watts. At this rate of energy production, if it were burning coal, how \
+many seconds will it take to burn all of its coal?\n\nANSWER:  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"6", " ", 
+    SuperscriptBox["10", "37"], 
+    StyleBox["J",
+     FontSlant->"Plain"]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b277656c-1f09-4df1-bcbc-a909e7bb988e"],
+ " / ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"3.8", " ", 
+     SuperscriptBox["10", "26"]}]}], TraditionalForm]],ExpressionUUID->
+  "e44aabd5-c98f-4079-96f1-a9b3ae71b218"],
+ " J/s) = 1.6 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "11"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "f2adc1de-c9d0-4e4f-8523-a32f1958ac55"],
+ "s\n\n(c) Convert your answer to (b) to years.\n\nANSWER: 1.6 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "11"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "87ade6b2-954d-444f-8aac-05df17e0039f"],
+ "s / (24 * 60 * 60 * 365 seconds / year)=5100 years.\n\nDISCUSSION: This is \
+actually quite close to the estimate in Genesis!"
+}], "Text",
+ CellChangeTimes->{{3.884518394851736*^9, 3.8845185924081783`*^9}, {
+   3.884518654944693*^9, 3.8845186859369717`*^9}, {3.884518749519525*^9, 
+   3.8845187971849194`*^9}, {3.8845189408978987`*^9, 3.884519152430148*^9}, {
+   3.88453371022758*^9, 3.884533722387786*^9}, {3.884533763597081*^9, 
+   3.884533770144987*^9}, {3.884533859423704*^9, 3.884533869650931*^9}, {
+   3.8845342825280447`*^9, 3.884534283560706*^9}, {3.884534350965436*^9, 
+   3.8845343612696257`*^9}, {3.884602565672615*^9, 3.884602586438093*^9}, {
+   3.88460572434809*^9, 3.884605730222714*^9}, {3.884606211108687*^9, 
+   3.884606211518012*^9}, {3.884606503983431*^9, 3.8846065493216543`*^9}, {
+   3.884606626294807*^9, 3.8846066269472933`*^9}, {3.884606668346723*^9, 
+   3.884606919092597*^9}, {3.884624316434538*^9, 3.884624814755164*^9}, {
+   3.885373066285017*^9, 3.885373093622242*^9}, {3.885373477414612*^9, 
+   3.885373478179997*^9}, {3.885374804351719*^9, 3.885374834715657*^9}, {
+   3.887823888218315*^9, 3.887823923948411*^9}, 3.889266609458008*^9, {
+   3.890298373836207*^9, 3.890298377301056*^9}, {3.8902984100036993`*^9, 
+   3.890298497731153*^9}, {3.890298757242614*^9, 3.8902989450040607`*^9}, {
+   3.890298978415867*^9, 3.890299016283267*^9}, {3.890299071069693*^9, 
+   3.890299139773981*^9}, {3.890300299034181*^9, 3.8903003233876123`*^9}, {
+   3.891448220416738*^9, 3.891448311382972*^9}, {3.8914483727625217`*^9, 
+   3.891448470502611*^9}, {3.891450130266408*^9, 3.891450152527277*^9}, {
+   3.891456248167177*^9, 3.891456255589662*^9}, {3.891456315417157*^9, 
+   3.8914563156310577`*^9}, {3.892088064870803*^9, 
+   3.892088287745593*^9}},ExpressionUUID->"a3b612d1-4137-477a-aa64-\
+100854415ec9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. Fusion Powers the Sun", "Subsection",
+ CellChangeTimes->{{3.882955807148587*^9, 3.8829558313243103`*^9}, {
+   3.8831837809732523`*^9, 3.8831837965915813`*^9}, {3.883184402401054*^9, 
+   3.883184412536605*^9}, {3.8831847458583727`*^9, 3.883184745914975*^9}, {
+   3.8831853995415077`*^9, 3.883185425933666*^9}, {3.884195175752652*^9, 
+   3.8841951805909767`*^9}, {3.884196695659255*^9, 3.884196696840188*^9}, {
+   3.8844481886167297`*^9, 3.884448191743743*^9}, {3.88444824629467*^9, 
+   3.884448246339707*^9}, {3.884518359798297*^9, 3.88451837129591*^9}, {
+   3.8846062215264597`*^9, 3.884606221593958*^9}, {3.8846064703790503`*^9, 
+   3.884606500326788*^9}, {3.884606555542246*^9, 3.884606614516095*^9}, {
+   3.8853725336613894`*^9, 3.885372571301579*^9}, 3.885373060051463*^9, {
+   3.885374934446911*^9, 3.88537493565075*^9}, {3.8878235009522667`*^9, 
+   3.8878235091420183`*^9}, {3.889608792027523*^9, 3.889608792094729*^9}, {
+   3.88964524972332*^9, 3.889645277229096*^9}, {3.889645345436047*^9, 
+   3.8896453517810307`*^9}, {3.890299952955412*^9, 3.890299959288992*^9}, {
+   3.891448475204214*^9, 
+   3.891448478603652*^9}},ExpressionUUID->"916a4548-b756-472e-a9ec-\
+1ec96ca11cf1"],
+
+Cell[TextData[{
+ "(a) ANSWER: 10% * 2 * ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["10", "30"], "*", " ", "1000", " ", "*", " ", "6.02", " ",
+      "*", " ", 
+     SuperscriptBox["10", "23"]}], "=", 
+    RowBox[{"1.2", "*", 
+     SuperscriptBox["10", "56"], "Hydrogens"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "30bf172f-4b78-427c-a5e0-713e9634dbbe"],
+ "\n\n(b) ANSWER: 3 * ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", "55"], "Heliums", " ", "will", " ", "be", " ", 
+    "produced"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "3c58b258-bdd8-46a6-8cee-7642ba20f29d"],
+ "\n\n(c) ANSWER: 4 * 1.00784 - 4.00260 = 0.02876 u\n\n(d) ANSWER: 0.02876 u \
+* 1.66 x ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "27"}]], TraditionalForm]],ExpressionUUID->
+  "83c4c113-dbc1-44a2-b203-a30eeaa8a50e"],
+ " kg/u * ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"3.00", " ", 
+       SuperscriptBox["10", "8"], " ", 
+       RowBox[{
+        StyleBox["m",
+         FontSlant->"Plain"], "/", 
+        StyleBox["s",
+         FontSlant->"Plain"]}]}], ")"}], "2"], "=", 
+    RowBox[{"4.3", "*", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "12"}]], 
+     StyleBox["J",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b0d1d2e6-ecc9-4e5a-8c69-91c8789400db"],
+ "\n\n(e) 3 * ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", "55"], "Heliums", " ", "*", " "}], TraditionalForm]],
+  
+  FormatType->TraditionalForm,ExpressionUUID->
+  "af55b28e-04d4-478c-989d-c2a34f36f0ac"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"4.3", "*", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "12"}]], 
+    StyleBox["J",
+     FontSlant->"Plain"]}], TraditionalForm]],ExpressionUUID->
+  "6b2bacaf-55eb-4e91-aa00-8532cc2c9028"],
+ " / Helium = 13 * ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["10", "43"], 
+     StyleBox["J",
+      FontSlant->"Plain"]}], "=", 
+    RowBox[{"1.3", "*", 
+     FormBox[
+      RowBox[{
+       SuperscriptBox["10", "44"], 
+       StyleBox["J",
+        FontSlant->"Plain"]}],
+      TraditionalForm]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a292c1e6-42f4-4fc0-adec-556867cb4438"],
+ "\n\n(f) 1.3 * ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", "44"], "/"}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "b5840d71-359d-4338-aad5-24573eb7219d"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{"3.8", " ", 
+     SuperscriptBox["10", "26"]}]}], TraditionalForm]],ExpressionUUID->
+  "edb2b5aa-7896-45d8-bd26-f54c859d0cbd"],
+ " J/s) = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"0.34", " ", "*", 
+     SuperscriptBox["10", "18"], 
+     StyleBox["s",
+      FontSlant->"Plain"]}], 
+    StyleBox["=",
+     FontSlant->"Plain"], 
+    RowBox[{
+     StyleBox["3.4",
+      FontSlant->"Plain"], 
+     StyleBox["*",
+      FontSlant->"Plain"], 
+     SuperscriptBox[
+      StyleBox["10",
+       FontSlant->"Plain"], "17"], 
+     StyleBox["s",
+      FontSlant->"Plain"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d012af4b-1938-4da3-b85a-e4edb7b54ae5"],
+ "\n\n(g)3.4 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "17"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "a60f3247-7f82-4f1e-b558-4ffe4b72ebe4"],
+ "s / (24 * 60 * 60 * 365 seconds / year) = 10,800,000,000 years\n\n\
+Subtracting 4.5 billion years from 10.8 billion years, we have 6.3 billion \
+years before the Sun runs out of fuel."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQ/Ujxq5LGnzeOvximq4HoIuM0YxAt/+VYBohe8P5Q
+EYgWUJGvAtHxEjJ1IHrSNc9WEK2mzjAFRIs8/DAVRD/yqgyJ/PfG0UXyYCaI
+LlCelAuil387sQBE18X7PgDR6Ulsn0F0mPcB7Sgg/WZ6iCmI3jJBxAdE7/3X
+GwSieVTywkD0a77jcSDaxSkiFUR71P3LBNGfPtiUgeiQuM1gOjmvqQNEH9tx
+GUy/fXp5Coje3Om1CETf8F6wPwZIM1yPPQyiP1RflY0F0ZIfwfQ3y8f7J/5/
+47iwdNI9EO2g/+cRiO4zquGfBKQB6FyseQ==
+  "],ExpressionUUID->"f50402d2-1de2-4dd0-86f3-ccc3f433afc8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1409, 1209},
+WindowMargins->{{-2238, Automatic}, {Automatic, 14}},
+PrintingCopies->4,
+PrintingPageRange->{1, Automatic},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"13.2 for Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c28f7a0a-4d7a-4c74-9f86-e4442d05846b"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[422, 15, 985, 15, 93, "Section",ExpressionUUID->"b93cb9b9-680f-4923-8ec9-77e0e173d37d"],
+Cell[CellGroupData[{
+Cell[1432, 34, 1209, 17, 81, "Subsection",ExpressionUUID->"3f13c8e1-873e-403b-a3f6-e23011e66efa"],
+Cell[2644, 53, 5305, 142, 478, "Text",ExpressionUUID->"f977f50d-c6c8-4fc3-9c10-b897677095ad"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7986, 200, 1256, 17, 81, "Subsection",ExpressionUUID->"b1dfe00d-c2e4-493c-81ce-f01c0286152a"],
+Cell[9245, 219, 3978, 91, 578, "Text",ExpressionUUID->"a3b612d1-4137-477a-aa64-100854415ec9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13260, 315, 1193, 17, 81, "Subsection",ExpressionUUID->"916a4548-b756-472e-a9ec-1ec96ca11cf1"],
+Cell[14456, 334, 4138, 134, 546, "Text",ExpressionUUID->"f50402d2-1de2-4dd0-86f3-ccc3f433afc8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
