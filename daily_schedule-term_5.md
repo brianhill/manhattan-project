@@ -33,7 +33,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 12 &mdash; The German Nuclear Program &mdash; Postwar Developments (H-Bomb, Nuclear Stockpiles, Arms Limitation Treaties)
 
 * Preparation for Tuesday, Apr. 11 &mdash; Read the entirety of Reed Chapter 9 &mdash; Presentations: Trey, destruction of German heavy-water facility (Operation Gunnerside); Mac, sinking of the Norwegian ship *Hydro;* Brian, Germany's contaminated moderator problem
-* Preparation for Friday, Apr. 14 &mdash; [Problem Set 9](./assignments/Assignment09.pdf) &mdash; Study the remainder of Reed (the entirety of Chapter 10)
+* Preparation for Friday, Apr. 14 &mdash; [Problem Set 9](./assignments/Assignment09.pdf) &mdash; [Problem Set 9 Solution](./assignments/Assignment09-Solution.pdf) &mdash; Study the remainder of Reed (the entirety of Chapter 10)
 
 ### Week 13 &mdash; Contemporary Analyses
 
