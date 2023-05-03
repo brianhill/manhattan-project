@@ -28,7 +28,7 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 ### Week 11 &mdash; Bombing and Aftermath of Hiroshima and Nagasaki
 
 * Preparation for Tuesday, Apr. 4 &mdash; Continue in Reed through Section 8.3 &mdash; Instead of presentations on distinct topics, Trey and Mac will take opposing sides on the same issue: Trey will argue that using atomic bombs on two cities was inhumane and unjustified, because the war in the Pacific was already near an end; Mac will argue that the use of two atomic bombs was in fact decisive and that Truman's primary duty, both on moral grounds and as Commander in Chief was to swiftly end the war &mdash; My understanding of the status of the war in the Pacific tilts me toward the latter position, but the more time that goes by, the more people are lining up on the side that using an atomic bomb on a city under any circumstances is an atrocity, so it is certainly the case that both sides of this issue can be compellingly argued, at least with nearly eighty years of hindsight
-* Preparation for Friday, Apr. 7 &mdash; Finish Reed Chapter 8 &mdash; As Problem Set 8, read and do the three problems at the end of Reed's [CP1 Pile Analysis](./resources/CP1-Pile.pdf) &mdash; Note that Reed did not give the formula for n = (1 + m)/(1/n\_fuel+m/n\_mod) because for large m it is awfully close to just n\_mod &mdash; A [screenshot of my Problem Set 8 solution](./assignments/Assignment08-Solution.png) to help you organize and check your spreadsheet
+* Preparation for Friday, Apr. 7 &mdash; Finish Reed Chapter 8 &mdash; As Problem Set 8, read and do the [three problems](./assignments/Assignment08.png) at the end of Reed's [CP1 Pile Analysis](./resources/CP1-Pile.pdf) &mdash; Note that Reed did not give the formula for n = (1 + m)/(1/n\_fuel+m/n\_mod) because for large m it is awfully close to just n\_mod &mdash; A [Problem Set 8 Solution Screenshots](./assignments/Assignment08-SolutionScreenshots.pdf)
 
 ### Week 12 &mdash; The German Nuclear Program &mdash; Postwar Developments (H-Bomb, Nuclear Stockpiles, Arms Limitation Treaties)
 
@@ -40,9 +40,9 @@ Continued from [Daily Schedule-Term 4](./daily_schedule-term_4.html)
 * Preparation for Tuesday, Apr. 18 &mdash; The Rise and Fall of the South African Bomb by Peter Liberman &mdash; Nuclear Stability in South Asia by Sumit Ganguly &mdash; Ten Years of Instability in a Nuclear South Asia by S. Paul Kapur
 * Preparation for Friday, Apr. 21 &mdash; Nuclear Terrorism &mdash; Israel and Iran
 
-### Week 14 &mdash; Contemporary Analyses
+### Week 14 &mdash; Contemporary Analyses (Continued)
 
 * Preparation for Tuesday, Apr. 25 &mdash; Mutually Assured Desctruction vs. CNE (coercive nuclear escalation) aka escalation dominance
 * Tuesday, Apr. 25 &mdash; Stability-Instability Paradox discussion &mdash; Expansionism and defense of spheres of influence discussion
 * Preparation for Friday, Apr. 28 &mdash; Mutually Assured Destruction vs. CNE (continued) &mdash; Taiwan as a possible flashpoint &mdash; [Problem Set 10](./assignments/Assignment10.pdf)
-* Friday, Apr. 28 &mdash; Paper discussion &mdash; Discussion of final three problem sets &mdash; Stability-Instability Paradox discussion (continued) &mdash; Taiwan flashpoint
+* Friday, Apr. 28 &mdash; Final paper discussion prior to submission &mdash; Discussion of Stability-Instability Paradox (continued) &mdash; Taiwan as a possible flashpoint

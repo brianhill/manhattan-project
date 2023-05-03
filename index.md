@@ -42,9 +42,9 @@ XI. The Destruction of Hiroshima and Nagasaki
 
 XII. The Fusion Bomb (H-Bomb)
 
-XIII. The Arms Race and The Beginning of the Cold War
+XIII. The Arms Race and The Beginning of the Cold War, Mutually Assured Destruction, Arms Control
 
-XIV. Mutually Assured Destruction and Arms Control
+XIV. Contemporary Problems and Analyses, Nuclear Proliferation, Nuclear Terrorism, Stability-Instability Paradox, Superpower Behavior
 
 ## Daily Schedules
 
@@ -59,15 +59,12 @@ Detailed daily schedules will be kept retrospectively:
 
 ## Other Resources
 
-* Robert Serber: *The Los Alamos Primer* &mdash; The physics of the atomic bomb as it was presented to scientists as they arrived in Los Alamos in the early 1940s &mdash; Advanced (something I look at occasionally)
-* "Eyewitness Accounts of the Bombings of Hiroshima and Nagasaki," by Meilan Solly
-* By popular request, *Oppenheimer,* Universal Pictures, but not expected until July, 2023! Maybe The Watchmen or Dr. Strangelove instead?
+* *To Win A Nuclear War: The Pentagon’s Secret War Plans,* Michio Kaku and Daniel Axelrod, Black Rose Books, 1987
+* *Going Nuclear: Nuclear Proliferation and International Security in the 21st Century,* Ed. Michael E. Brown, Owen R. Cot&eacute; Jr., Sean M. Lynn-Jones and Steven E. Miller, MIT Press, 2010
 
 ## Grading
 
-* A one-hour exam covering the science toward the end of each term, worth 20% of the grade (x2 for the two terms). Homework problems on the science, 40%. A paper 1500-1800 words on a topic of your choice at the end of the second term, 10%. Consistent preparation for and participation in class discussion, 10%.
-* Regarding the two exams: since we will cover a very wide variety of scientific topics, and as a result, it may not be clear what you might be expected to do on an exam, practice exams will be provided. Problems on the actual exam will cover the same topics at approximately the same difficulty level. However, the actual problems will require you to come at some of the concepts from new directions.
-* Regarding the paper: share a draft for peer-editing (post-outlining method). Final draft to be circulated to peers and professor. Read all of the each others' papers as the final reading and discussion.
+* A one-hour exam covering the science toward the end of Term 4, worth 25% of the grade. Homework problems on the science, 45%. A paper 1500-1800 words on a topic of your choice at the end of the second term, 10%. Consistent preparation for and participation in class discussion, 20%.
 
 ## Miscellaneous Policies
 
